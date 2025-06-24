@@ -1,0 +1,1045 @@
+{
+  "algorithms": [
+    {
+      "question": "Rekurencja jest w niektórych sytuacjach naturalnym sposobem budowy algorytmu.",
+      "answers": ["Prawda", "Fałsz"],
+      "correct": 0,
+      "explanation": "Rekurencja to technika programowania, w której funkcja wywołuje samą siebie. Jest szczególnie użyteczna do rozwiązywania problemów o strukturze fraktalnej, co czyni ją naturalnym i eleganckim podejściem w takich przypadkach."
+    },
+    {
+      "question": "Sortowanie przez wybieranie jest bardzo szybkim algorytmem.",
+      "answers": ["Prawda", "Fałsz"],
+      "correct": 1,
+      "explanation": "Sortowanie przez wybieranie nie jest szybkim algorytmem. Należy do prostych metod sortowania o złożoności czasowej O(n²), co czyni go nieefektywnym dla dużych zbiorów danych. Algorytm ten w każdej iteracji znajduje najmniejszy element w nieposortowanej części i zamienia go z pierwszym elementem tej części."
+    },
+    {
+      "question": "Największe standardowe liczby całkowite w C++ mają 18 cyfr.",
+      "answers": ["Prawda", "Fałsz"],
+      "correct": 1,
+      "explanation": "Największe standardowe liczby całkowite w C++ (typ `unsigned long long`) mogą przechowywać wartości do około 1.8 x 10¹⁹, co daje 19-20 cyfr. Standard nie narzuca dokładnej liczby cyfr, ale gwarantuje minimalny zakres, który jest zazwyczaj większy niż 18 cyfr."
+    },
+    {
+      "question": "Jeśli program implementujący dany algorytm nie zatrzymuje się, to prawdopodobnie jest to błąd programisty.",
+      "answers": ["Prawda", "Fałsz"],
+      "correct": 0,
+      "explanation": "Gdy program wpada w nieskończoną pętlę lub ulega zawieszeniu, najczęściej wskazuje to na błąd w jego logice. Obowiązkiem programisty jest zapewnienie, że algorytm zakończy swoje działanie dla każdego dopuszczalnego zestawu danych wejściowych."
+    },
+    {
+      "question": "Wydajność algorytmów sortowania porównuje się za pomocą testów wykorzystujących generatory liczb pseudolosowych.",
+      "answers": ["Prawda", "Fałsz"],
+      "correct": 0,
+      "explanation": "Tak, testy wydajnościowe często używają danych generowanych pseudolosowo, aby symulować typowe przypadki użycia. Oprócz tego, używa się też danych o specyficznych właściwościach (np. już posortowanych, posortowanych odwrotnie), aby sprawdzić, jak algorytm radzi sobie w przypadkach skrajnych."
+    },
+    {
+      "question": "Dla danych losowych algorytm QuickSort (sortowanie szybkie) zwykle okazuje się najszybszy.",
+      "answers": ["Prawda", "Fałsz"],
+      "correct": 0,
+      "explanation": "QuickSort, ze względu na swoją średnią złożoność czasową O(n log n) i niskie stałe czynniki, jest w praktyce jednym z najszybszych algorytmów sortowania opartych na porównaniach dla dużych, nieuporządkowanych zbiorów danych."
+    },
+    {
+      "question": "Jeśli w trakcie działania programu liczba typu `int` przekroczy swój zakres, zostanie wyświetlony komunikat o błędzie.",
+      "answers": ["Prawda", "Fałsz"],
+      "correct": 1,
+      "explanation": "W językach takich jak C++ czy Java, przekroczenie zakresu typu `int` (tzw. 'integer overflow') nie powoduje wyświetlenia błędu. Zazwyczaj liczba 'zawija się', czyli zaczyna liczyć od minimalnej wartości dla danego typu, co prowadzi do nieoczekiwanych i błędnych wyników."
+    },
+    {
+      "question": "Ograniczeniem rekurencji jest wielkość pamięci stosu systemowego.",
+      "answers": ["Prawda", "Fałsz"],
+      "correct": 0,
+      "explanation": "To prawda. Każde rekurencyjne wywołanie funkcji odkłada na stosie jej kontekst (zmienne lokalne, adres powrotu). Zbyt głęboka rekurencja może prowadzić do przepełnienia stosu (stack overflow) i awarii programu."
+    },
+    {
+      "question": "W większości języków programowania `string` jest tablicą znaków.",
+      "answers": ["Prawda", "Fałsz"],
+      "correct": 0,
+      "explanation": "Tak, fundamentalnie `string` (ciąg znaków) jest implementowany jako sekwencja lub tablica znaków. Wiele języków programowania pozwala na dostęp do poszczególnych znaków w stringu za pomocą indeksu, podobnie jak w tablicy."
+    },
+    {
+      "question": "Tablica, jako struktura danych, ma tyle zalet, że jest najczęściej używanym sposobem przechowywania danych.",
+      "answers": ["Prawda", "Fałsz"],
+      "correct": 0,
+      "explanation": "Tablica jest jedną z najbardziej fundamentalnych i często używanych struktur danych dzięki prostocie i szybkiemu dostępowi do elementów przez indeks (złożoność O(1)). Jest podstawą dla wielu bardziej złożonych struktur."
+    },
+    {
+      "question": "Dokładność obliczeń dla liczby typu `double` to 6 cyfr znaczących.",
+      "answers": ["Prawda", "Fałsz"],
+      "correct": 1,
+      "explanation": "Liczba typu `double` (podwójnej precyzji) ma dokładność rzędu 15–17 cyfr znaczących. Typ `float` (pojedynczej precyzji) ma precyzję około 6–7 cyfr."
+    },
+    {
+      "question": "Algorytm sortowania przez kopcowanie ma złożoność czasową O(n²).",
+      "answers": ["Prawda", "Fałsz"],
+      "correct": 1,
+      "explanation": "Sortowanie przez kopcowanie (Heapsort) ma złożoność czasową O(n log n) zarówno w przypadku średnim, jak i najgorszym, co czyni go znacznie wydajniejszym niż algorytmy o złożoności O(n²)."
+    },
+    {
+      "question": "W notacji Big O, O(n²) + O(n log n) upraszcza się do O(n²).",
+      "answers": ["Prawda", "Fałsz"],
+      "correct": 0, 
+      "explanation": "W analizie złożoności obliczeniowej zachowujemy tylko składnik, który rośnie najszybciej. Ponieważ n² rośnie znacznie szybciej niż n*log(n), dominuje on całe wyrażenie. Dlatego to stwierdzenie jest prawdziwe."
+    },
+    {
+      "question": "Stos jest typem listy.",
+      "answers": ["Prawda", "Fałsz"],
+      "correct": 0,
+      "explanation": "Stos jest abstrakcyjnym typem danych, który można zaimplementować przy użyciu listy (lub tablicy). Działa on zgodnie z zasadą LIFO (Last-In, First-Out), co oznacza, że jest to lista z ograniczonymi operacjami."
+    },
+    {
+      "question": "Sortowanie przez zliczanie wymaga utworzenia dodatkowej tablicy do zapisania posortowanych danych.",
+      "answers": ["Prawda", "Fałsz"],
+      "correct": 0,
+      "explanation": "Tak, sortowanie przez zliczanie jest algorytmem, który nie sortuje 'w miejscu'. Wymaga on co najmniej jednej dodatkowej tablicy (tablicy zliczeń) do przechowywania liczby wystąpień poszczególnych elementów, a często też osobnej tablicy wynikowej."
+    },
+    {
+      "question": "Algorytm sortowania przez scalanie może być użyty, gdy dane nie mieszczą się w pamięci operacyjnej.",
+      "answers": ["Prawda", "Fałsz"],
+      "correct": 0,
+      "explanation": "Tak, algorytm sortowania przez scalanie (Merge Sort) jest podstawą dla tzw. sortowania zewnętrznego. Dane można podzielić na bloki mieszczące się w pamięci, posortować je, a następnie scalać w większe, posortowane bloki na dysku."
+    },
+    {
+      "question": "Do sortowania danych tekstowych dobrym wyborem będzie algorytm sortowania kubełkowego.",
+      "answers": ["Prawda", "Fałsz"],
+      "correct": 0,
+      "explanation": "Tak, sortowanie kubełkowe (Bucket Sort) może być bardzo efektywne dla danych tekstowych, jeśli można je równomiernie rozłożyć na 'kubełki', np. na podstawie pierwszej litery słowa. Jest to szczególnie przydatne, gdy dane mają znany, ograniczony rozkład."
+    },
+    {
+      "question": "Sortowanie stabilne zachowuje względną kolejność równych sobie elementów.",
+      "answers": ["Prawda", "Fałsz"],
+      "correct": 0,
+      "explanation": "To jest definicja sortowania stabilnego. Jeśli dwa elementy mają tę samą wartość (klucz sortowania), to po posortowaniu pojawią się w tej samej kolejności, w jakiej były w zbiorze wejściowym."
+    },
+    {
+      "question": "Tablica jest strukturą danych rozproszoną w pamięci komputera.",
+      "answers": ["Prawda", "Fałsz"],
+      "correct": 1,
+      "explanation": "Wręcz przeciwnie, tablica jest strukturą danych, której elementy są przechowywane w ciągłym bloku pamięci, jeden obok drugiego. Strukturami rozproszonymi są np. listy wiązane czy drzewa."
+    },
+    {
+      "question": "Dwa algorytmy o tej samej złożoności O(n²) będą miały identyczny czas działania.",
+      "answers": ["Prawda", "Fałsz"],
+      "correct": 1,
+      "explanation": "Notacja Big O opisuje tempo wzrostu czasu działania w zależności od rozmiaru danych, ignorując stałe czynniki. Dwa algorytmy o złożoności O(n²) mogą mieć różne stałe i w praktyce ich czasy działania będą się różnić, choć oba będą rosły kwadratowo."
+    },
+    {
+      "question": "Istnieje algorytm sortowania o liniowej złożoności, ale wymaga on spełnienia dodatkowych warunków.",
+      "answers": ["Prawda", "Fałsz"],
+      "correct": 0,
+      "explanation": "Tak, przykładami są sortowanie przez zliczanie (Counting Sort) lub sortowanie pozycyjne (Radix Sort). Działają one w czasie liniowym O(n), ale zakładają pewne właściwości danych, np. że są to liczby całkowite z ograniczonego zakresu."
+    },
+    {
+      "question": "Przyjmuje się, że program jest poprawny, jeśli przechodzi wszystkie zaplanowane testy.",
+      "answers": ["Prawda", "Fałsz"],
+      "correct": 1,
+      "explanation": "Przejście zaplanowanych testów jedynie zwiększa pewność, że program działa poprawnie, ale nie daje 100% gwarancji. Testy mogą nie pokrywać wszystkich przypadków brzegowych i nietypowych scenariuszy."
+    },
+    {
+      "question": "Obliczenie n-tego wyrazu ciągu Fibonacciego metodą rekurencyjną ma złożoność O(n²).",
+      "answers": ["Prawda", "Fałsz"],
+      "correct": 1,
+      "explanation": "Naiwna implementacja rekurencyjna ma złożoność wykładniczą, około O(2ⁿ), a nie kwadratową. Wynika to z faktu, że wiele wartości jest obliczanych wielokrotnie. Złożoność kwadratową można osiągnąć np. metodą iteracyjną."
+    },
+    {
+      "question": "Lista jest abstrakcyjnym modelem struktury danych i może być implementowana na różne sposoby.",
+      "answers": ["Prawda", "Fałsz"],
+      "correct": 0,
+      "explanation": "Dokładnie tak. Lista jako typ abstrakcyjny definiuje operacje (np. dodaj, usuń, znajdź), a jej konkretna implementacja może być oparta na tablicy (ArrayList) lub na wskaźnikach (LinkedList)."
+    },
+    {
+      "question": "Kolejka nie jest listą.",
+      "answers": ["Prawda", "Fałsz"],
+      "correct": 0,
+      "explanation": "Kolejka, podobnie jak stos, jest abstrakcyjnym typem danych, który można zaimplementować za pomocą listy. Działa ona zgodnie z zasadą FIFO (First-In, First-Out). Jest to więc wyspecjalizowana forma listy z ograniczonymi operacjami."
+    },
+    {
+      "question": "Najszybszy algorytm sortowania oparty na porównaniach ma złożoność O(n log n).",
+      "answers": ["Prawda", "Fałsz"],
+      "correct": 0, 
+      "explanation": "Tak, udowodniono, że żaden algorytm sortowania oparty na porównaniach nie może mieć w najgorszym przypadku złożoności lepszej niż O(n log n). Algorytmy takie jak Merge Sort czy Heapsort osiągają ten limit."
+    },
+    {
+      "question": "Jeśli algorytm ma złożoność O(n²), to gdy 'n' wzrośnie dwukrotnie, czas działania również wzrośnie dwukrotnie.",
+      "answers": ["Prawda", "Fałsz"],
+      "correct": 1,
+      "explanation": "Jeśli 'n' wzrośnie dwukrotnie, czas działania algorytmu o złożoności O(n²) wzrośnie czterokrotnie (2² = 4). Zależność jest kwadratowa, a nie liniowa."
+    },
+    {
+      "question": "Problem stopu, czyli rozstrzygnięcie, czy dowolny program zatrzyma się dla dowolnych danych, jest nierozstrzygalny.",
+      "answers": ["Prawda", "Fałsz"],
+      "correct": 0, 
+      "explanation": "To prawda. Alan Turing udowodnił w 1936 roku, że nie istnieje uniwersalny algorytm, który byłby w stanie rozstrzygnąć dla każdego możliwego programu i jego danych wejściowych, czy ten program zakończy swoje działanie."
+    },
+    {
+      "question": "Jeśli jeden algorytm ma złożoność O(n²), a inny O(n log n), to dla małych 'n' ten pierwszy może być szybszy.",
+      "answers": ["Prawda", "Fałsz"],
+      "correct": 0, 
+      "explanation": "To prawda. Algorytm o złożoności O(n²) może mieć mniejszy stały czynnik, co sprawia, że dla małych zbiorów danych (małych 'n') może działać szybciej niż algorytm O(n log n), którego narzut na bardziej skomplikowaną logikę jest większy."
+    }
+  ],
+
+
+
+
+
+
+  "macroeconomics": [
+     {
+      "question": "Wartość dodaną oblicza się przez odjęcie od wartości dóbr wyprodukowanych w przedsiębiorstwie sumy kosztów rzeczowych czynników wytwórczych zużytych do produkcji tych dóbr.",
+      "answers": ["Prawda", "Fałsz"],
+      "correct": 0, 
+      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
+    },
+    {
+      "question": "Jeżeli kupujesz używany rower, zostaje to uwzględnione w PKB.",
+      "answers": ["Prawda", "Fałsz"],
+      "correct": 1, 
+      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
+    },
+    {
+      "question": "Do PKB nie wlicza się przelewów finansowych pomiędzy filiami korporacji międzynarodowej.",
+      "answers": ["Prawda", "Fałsz"],
+      "correct": 0, 
+      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
+    },
+    {
+      "question": "Wydatki firmy X na długopisy, meble i olej napędowy należą do wydatków konsumpcyjnych.",
+      "answers": ["Prawda", "Fałsz"],
+      "correct": 1, 
+      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
+    },
+    {
+      "question": "Dochód narodowy oblicza się przez odjęcie amortyzacji od PNB w cenach czynników produkcji.",
+      "answers": ["Prawda", "Fałsz"],
+      "correct": 0, 
+      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
+    },
+    {
+      "question": "Dobra konsumpcyjne zakupione przez gospodarstwa domowe to dobra finalne.",
+      "answers": ["Prawda", "Fałsz"],
+      "correct": 0, 
+      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
+    },
+    {
+      "question": "W PKB uwzględnia się przepływy związane z nabywaniem lub sprzedażą papierów wartościowych.",
+      "answers": ["Prawda", "Fałsz"],
+      "correct": 1, 
+      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
+    },
+    {
+      "question": "PKB w cenach stałych jest skorygowany o zmiany poziomu cen.",
+      "answers": ["Prawda", "Fałsz"],
+      "correct": 0, 
+      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
+    },
+    {
+      "question": "PNB jest równy PKB skorygowanemu o dochody netto z tytułu własności i pracy za granicą.",
+      "answers": ["Prawda", "Fałsz"],
+      "correct": 0, 
+      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
+    },
+    {
+      "question": "PKB obejmuje inwestycje brutto.",
+      "answers": ["Prawda", "Fałsz"],
+      "correct": 0, 
+      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
+    },
+    {
+      "question": "Jeżeli kupiony komputer wykorzystujesz wyłącznie w celach służbowych, jest on dobrem finalnym",
+      "answers": ["Prawda", "Fałsz"],
+      "correct": 1, 
+      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
+    },
+    {
+      "question": "PKB określa łączną pieniężną wartość wszystkich produktów i usług pośrednich wyprodukowanych przez gospodarkę danego kraju w danym okresie.",
+      "answers": ["Prawda", "Fałsz"],
+      "correct": 1, 
+      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
+    },
+    {
+      "question": "Eksport netto przyjmuje zawsze wartość dodatnią.",
+      "answers": ["Prawda", "Fałsz"],
+      "correct": 1, 
+      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
+    },
+    {
+      "question": "Jednym ze sposobów uniknięcia wielokrotnego liczenia tych samychwielkości w rachunku PKB jest sumowanie tylko dóbr finalnych",
+      "answers": ["Prawda", "Fałsz"],
+      "correct": 0, 
+      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
+    },
+    {
+      "question": "W metodzie sumowania dochodów ważną pozycję stanowią dochody z tytułu emerytur.",
+      "answers": ["Prawda", "Fałsz"],
+      "correct": 1, 
+      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
+    },
+    {
+      "question": "Wartość PKB jest taka sama niezależnie od tego, czy jest on liczony jako suma produktów, wydatków, czy też suma dochodów.",
+      "answers": ["Prawda", "Fałsz"],
+      "correct": 0, 
+      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
+    },
+    {
+      "question": "Wartość eksportu netto będzie równa zero tylko dla gospodarki zamkniętej.",
+      "answers": ["Prawda", "Fałsz"],
+      "correct": 1, 
+      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
+    },
+    {
+      "question": "Gdy wartość importu maleje, a eksportu rośnie, wartość PKB maleje",
+      "answers": ["Prawda", "Fałsz"],
+      "correct": 0, 
+      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
+    },
+    {
+      "question": "Wartość dochodu narodowego jest równa wartości PNB, gdy eksport netto jest równy 0.",
+      "answers": ["Prawda", "Fałsz"],
+      "correct": 0, 
+      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
+    },
+    {
+      "question": "Wydatki gospodarstw domowych na produkty i usługi, podobnie jak płatności transferowe, nie są wliczane do rachunku PKB.",
+      "answers": ["Prawda", "Fałsz"],
+      "correct": 1, 
+      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
+    },
+    {
+      "question": "Iloraz krańcowej skłonności do konsumpcji i krańcowej skłonności do oszczędzania jest równy 1.",
+      "answers": ["Prawda", "Fałsz"],
+      "correct": 1, 
+      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
+    },
+    {
+      "question": "Nachylenie krzywej popytu globalnego nie zależy od krańcowej skłonności do konsumpcji",
+      "answers": ["Prawda", "Fałsz"],
+      "correct": 1, 
+      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
+    },
+    {
+      "question": "W sytuacji braku równowagi w przedsiębiorstwie pojawiają się nieplanowane zmiany stanu zapasów.",
+      "answers": ["Prawda", "Fałsz"],
+      "correct": 0, 
+      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
+    },
+    {
+      "question": "Wzrost stopy opodatkowania zmniejsza zagregowany popyt.",
+      "answers": ["Prawda", "Fałsz"],
+      "correct": 0, 
+      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
+    },
+    {
+      "question": "Im niższa jest krańcowa skłonność do konsumpcji, tym bardziej stroma jest krzywa agregatowego popytu.",
+      "answers": ["Prawda", "Fałsz"],
+      "correct": 1, 
+      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
+    },
+    {
+      "question": "Wzrost krańcowej skłonności do oszczędzania zwiększa konsumpcję.",
+      "answers": ["Prawda", "Fałsz"],
+      "correct": 1, 
+      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
+    },
+    {
+      "question": "Poziomkonsumpcji autonomicznej zależy odwysokościstopyprocentowej",
+      "answers": ["Prawda", "Fałsz"],
+      "correct": 1, 
+      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
+    },
+    {
+      "question": "Równowaga krótkookresowa występuje, gdy planowany popyt globalny jest równy faktycznej podaży",
+      "answers": ["Prawda", "Fałsz"],
+      "correct": 0, 
+      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
+    },
+    {
+      "question": "Zwiększenie poziomu planowanych wydatków konsumpcyjnych spowoduje przesunięcie krzywej zagregowanego popytu w górę",
+      "answers": ["Prawda", "Fałsz"],
+      "correct": 0, 
+      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
+    },
+    {
+      "question": "Funkcja konsumpcji nie opisuje, jak zmieni się ogólny poziom spożycia pod wpływem zmian dochodu rozporządzalnego",
+      "answers": ["Prawda", "Fałsz"],
+      "correct": 1, 
+      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
+    },
+    {
+      "question": "Położenie krzywej popytu globalnego zależy od rozmiaru wydatków na konsumpcję autonomiczną, lecz nie zależy od poziomu inwestycji.",
+      "answers": ["Prawda", "Fałsz"],
+      "correct": 1, 
+      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
+    },
+    {
+      "question": "Popyt inwestycyjny nie zależy od poziomu bieżącej produkcji, ale od przewidywanego tempa wzrostu popytu na wytwarzane dobra i usługi w przyszłych okresach.",
+      "answers": ["Prawda", "Fałsz"],
+      "correct": 0, 
+      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
+    },
+    {
+      "question": "Wzrost popytu inwestycyjnego zmieni nachylenie krzywej zagregowanego popytu.",
+      "answers": ["Prawda", "Fałsz"],
+      "correct": 1, 
+      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
+    },
+    {
+      "question": "W sytuacji równowagi krótkookresowej planowane oszczędności równe są planowanym inwestycjom.",
+      "answers": ["Prawda", "Fałsz"],
+      "correct": 0, 
+      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
+    },
+    {
+      "question": "Mnożnik inwestycyjny jest ściśle skorelowany z krańcową skłonnością do konsumpcji.",
+      "answers": ["Prawda", "Fałsz"],
+      "correct": 0, 
+      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
+    },
+    {
+      "question": "Efekt mnożnika inwestycyjnego polega na tym, że wzrost/spadek poziomu popytu inwestycyjnego przekłada się na większy co do wartości wzrost/spadek dochodu narodowego.",
+      "answers": ["Prawda", "Fałsz"],
+      "correct": 0, 
+      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
+    },
+    {
+      "question": "Zmiana oszczędności autonomicznych powoduje zmianę dochodu narodowego w punkcie równowagi, a tym samym poziom oszczędności i inwestycji automatycznie ulega zmianie.",
+      "answers": ["Prawda", "Fałsz"],
+      "correct": 1, 
+      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
+    },
+    {
+      "question": "Wydatki rządowe w danym okresie rosną w miarę wzrostu bieżącej produkcji.",
+      "answers": ["Prawda", "Fałsz"],
+      "correct": 1, 
+      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
+    },
+    {
+      "question": "Spadek wydatków rządowych powoduje równoległe przesunięcie krzywej zagregowanego popytu w górę.",
+      "answers": ["Prawda", "Fałsz"],
+      "correct": 1, 
+      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
+    },
+    {
+      "question": "W przypadku równowagi długookresowej wartość eksportu jest równa wartości importu.",
+      "answers": ["Prawda", "Fałsz"],
+      "correct": 0, 
+      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
+    },
+    {
+      "question": "Podatek VAT należy do grupy podatków pośrednich.",
+      "answers": ["Prawda", "Fałsz"],
+      "correct": 0, 
+      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
+    },
+    {
+      "question": "Najpoważniejszym źródłem dochodów budżetu państwa w Polsce w 2005 r. były podatki dochodowe od osób fizycznych.",
+      "answers": ["Prawda", "Fałsz"],
+      "correct": 1, 
+      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
+    },
+    {
+      "question": "Źródłem dochodów budżetu państwa mogą być dochody ze sprzedaży prywatyzowanych przedsiębiorstw.",
+      "answers": ["Prawda", "Fałsz"],
+      "correct": 0, 
+      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
+    },
+    {
+      "question": "Do podstawowych funkcji budżetu państwa zalicza się funkcję redystrybucyjną.",
+      "answers": ["Prawda", "Fałsz"],
+      "correct": 0, 
+      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
+    },
+    {
+      "question": "Krzywa Laffera przedstawia zależność między wpływami do budżetu państwa z tytułu podatków a długiem publicznym.",
+      "answers": ["Prawda", "Fałsz"],
+      "correct": 1, 
+      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
+    },
+    {
+      "question": "Wydatki budżetowe w Polsce charakteryzują się wysokim stopniem sztywności.",
+      "answers": ["Prawda", "Fałsz"],
+      "correct": 0, 
+      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
+    },
+    {
+      "question": "J.M. Keynes uważał, że państwo powinnowjak najmniejszym stopniu interweniować w procesy rynkowe.",
+      "answers": ["Prawda", "Fałsz"],
+      "correct": 1, 
+      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
+    },
+    {
+      "question": "Przykładem automatycznego stabilizatora koniunktury są zasiłki dla bezrobotnych",
+      "answers": ["Prawda", "Fałsz"],
+      "correct": 0, 
+      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
+    },
+    {
+      "question": "Dług publiczny w Polsce systematycznie wzrasta.",
+      "answers": ["Prawda", "Fałsz"],
+      "correct": 0, 
+      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
+    },
+    {
+      "question": "Narzędzia polityki fiskalnej nie są jedynymi, które wykorzystywać może państwo w celu stabilizacji koniunktury.",
+      "answers": ["Prawda", "Fałsz"],
+      "correct": 0, 
+      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
+    },
+    {
+      "question": "Ograniczenie poziomu wydatków budżetowych jest najlepszym sposobem na obniżenie deficytu budżetowego.",
+      "answers": ["Prawda", "Fałsz"],
+      "correct": 1, 
+      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
+    },
+    {
+      "question": "Deficyt budżetowy może prowadzić do zmniejszenia stóp procentowych w gospodarce.",
+      "answers": ["Prawda", "Fałsz"],
+      "correct": 1, 
+      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
+    },
+    {
+      "question": "Cła są istotnym źródłem dochodów budżetowych w Polsce.",
+      "answers": ["Prawda", "Fałsz"],
+      "correct": 1, 
+      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
+    },
+    {
+      "question": "Do instrumentów aktywnej polityki fiskalnej w Polsce zaliczyć można podatki od nieruchomości.",
+      "answers": ["Prawda", "Fałsz"],
+      "correct": 1, 
+      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
+    },
+    {
+      "question": "Podatki pośrednie zawarte są w cenach produktów i usług.",
+      "answers": ["Prawda", "Fałsz"],
+      "correct": 0, 
+      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
+    },
+    {
+      "question": "Podatki bezpośrednie to podatki, w przypadku których istnieje precyzyjnie określona zależnośćmiędzy płaconympodatkiem, tzn. rodzajem podatku, jego wysokością, trybem płacenia a podatnikiem",
+      "answers": ["Prawda", "Fałsz"],
+      "correct": 0, 
+      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
+    },
+    {
+      "question": "Podmiot opodatkowania to rzecz lub zdarzenie, które wywołuje obowiązek podatkowy",
+      "answers": ["Prawda", "Fałsz"],
+      "correct": 1, 
+      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
+    },
+    {
+      "question": "W przypadku stawek progresywnych podatek rośnie szybciej niż podstawa opodatkowania.",
+      "answers": ["Prawda", "Fałsz"],
+      "correct": 0, 
+      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
+    },
+    {
+      "question": "Działanie automatycznych stabilizatorów koniunktury polega na hamowaniu wzrostu gospodarczego w okresie ekspansji.",
+      "answers": ["Prawda", "Fałsz"],
+      "correct": 0, 
+      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
+    },
+    {
+      "question": "Wzrostwydatkówpaństwa przyjednoczesnymwzroście sumy ściąganych podatków o tę samą wartość powoduje zwiększenie produkcji",
+      "answers": ["Prawda", "Fałsz"],
+      "correct": 0, 
+      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
+    },
+    {
+      "question": "O wartości pieniądza papierowego decyduje przede wszystkim możliwość zamienienia go w każdej chwili na złoto.",
+      "answers": ["Prawda", "Fałsz"],
+      "correct": 1, 
+      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
+    },
+    {
+      "question": "Bank centralny może zwiększyć podaż pieniądza skupując papiery wartościowe",
+      "answers": ["Prawda", "Fałsz"],
+      "correct": 0, 
+      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
+    },
+    {
+      "question": "Oprócz rezerw obowiązkowych banki komercyjne utrzymują zazwyczaj rezerwy dobrowolne",
+      "answers": ["Prawda", "Fałsz"],
+      "correct": 0, 
+      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
+    },
+    {
+      "question": "Stopa redyskontowa pełni funkcję stopy maksymalnej, określającej krańcowy koszt pozyskania pieniądza w banku centralnym na rynku międzybankowym.",
+      "answers": ["Prawda", "Fałsz"],
+      "correct": 1, 
+      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
+    },
+    {
+      "question": "Jedynym motywem zgłaszania popytu na pieniądz jest konieczność posiadania pieniądza w celu realizacji przewidywanych zakupów produktów i usług.",
+      "answers": ["Prawda", "Fałsz"],
+      "correct": 1, 
+      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
+    },
+    {
+      "question": "Pieniądz pełni bezpośrednio funkcję środka przechowywania bogactwa.",
+      "answers": ["Prawda", "Fałsz"],
+      "correct": 0, 
+      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
+    },
+    {
+      "question": "Popyt spekulacyjny na pieniądz wynika głównie z funkcji pieniądza jako środka wymiany.",
+      "answers": ["Prawda", "Fałsz"],
+      "correct": 1, 
+      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
+    },
+    {
+      "question": "Wzrost nominalnej stopy procentowej powoduje wzrost kosztu posiadania pieniądza.",
+      "answers": ["Prawda", "Fałsz"],
+      "correct": 0, 
+      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
+    },
+    {
+      "question": "Baza monetarna obejmuje zasób pieniądza o największym stopniu płynności.",
+      "answers": ["Prawda", "Fałsz"],
+      "correct": 0, 
+      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
+    },
+    {
+      "question": "Mnożnik kreacji pieniądza to iloczyn podaży pieniądza i bazy monetarnej",
+      "answers": ["Prawda", "Fałsz"],
+      "correct": 1, 
+      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
+    },
+    {
+      "question": "Za politykę monetarną państwa odpowiada w Polsce Rada Ministrów",
+      "answers": ["Prawda", "Fałsz"],
+      "correct": 1, 
+      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
+    },
+    {
+      "question": "Bank centralny nie jest jedynym legalnym emitentem pieniądza gotówkowego (banknotów i bilonu).",
+      "answers": ["Prawda", "Fałsz"],
+      "correct": 1, 
+      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
+    },
+    {
+      "question": "Wzrost poziomu stopy rezerwwbanku komercyjnympowyżej stopy rezerw obowiązkowych, ustalonej przez bank centralny, spowoduje zmniejszenie się wartości współczynnika kreacji depozytów.",
+      "answers": ["Prawda", "Fałsz"],
+      "correct": 0, 
+      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
+    },
+    {
+      "question": "Im wyższa jest płynność jakiegoś aktywu, tym niższa jego zyskowność",
+      "answers": ["Prawda", "Fałsz"],
+      "correct": 0, 
+      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
+    },
+    {
+      "question": "Złoto jest obecnie powszechnym środkiem wymiany.",
+      "answers": ["Prawda", "Fałsz"],
+      "correct": 1, 
+      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
+    },
+    {
+      "question": "Podstawowym źródłem kreacji pieniądza jest udzielanie kredytów przez banki komercyjne.",
+      "answers": ["Prawda", "Fałsz"],
+      "correct": 0, 
+      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
+    },
+    {
+      "question": "Bank centralny nie może udzielać kredytów osobom fizycznym.",
+      "answers": ["Prawda", "Fałsz"],
+      "correct": 0, 
+      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
+    },
+    {
+      "question": "Pojęcia kredyt i pożyczka oznaczają to samo.",
+      "answers": ["Prawda", "Fałsz"],
+      "correct": 1, 
+      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
+    },
+    {
+      "question": "Mnożnik kreacji pieniądza jest tym większy, im niższy jest zamierzony stosunek gotówki w obiegu do wkładów utrzymywanych przez sektor pozabankowy.",
+      "answers": ["Prawda", "Fałsz"],
+      "correct": 0, 
+      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
+    },
+    {
+      "question": "Agregat M2 to agregat Ml pomniejszony o depozyty długoterminowe.",
+      "answers": ["Prawda", "Fałsz"],
+      "correct": 1, 
+      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
+    },
+    {
+      "question": "Obniżenie stopy podatkowej powoduje przesunięcie krzywej LM w prawo",
+      "answers": ["Prawda", "Fałsz"],
+      "correct": 1, 
+      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
+    },
+    {
+      "question": "Bezpośrednie inwestycje zagraniczne ujmowane są w bilansie obrotów kapitałowych państwa.",
+      "answers": ["Prawda", "Fałsz"],
+      "correct": 0, 
+      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
+    },
+    {
+      "question": "Krzywa IS ma nachylenie ujemne",
+      "answers": ["Prawda", "Fałsz"],
+      "correct": 0, 
+      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
+    },
+    {
+      "question": "Dewaluacja waluty to inaczej deprecjacja dokonana decyzjąwładz krajowych",
+      "answers": ["Prawda", "Fałsz"],
+      "correct": 0, 
+      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
+    },
+    {
+      "question": "Polityka pieniężna przesuwa zarówno krzywą LM, jak i IS.",
+      "answers": ["Prawda", "Fałsz"],
+      "correct": 1, 
+      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
+    },
+    {
+      "question": "Położenie krzywej LM nie zależy od poziomu cen.",
+      "answers": ["Prawda", "Fałsz"],
+      "correct": 1, 
+      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
+    },
+    {
+      "question": "Ekspansywna polityka fiskalna rządumoże przejawiać sięwe wzroście wydatków rządowych.",
+      "answers": ["Prawda", "Fałsz"],
+      "correct": 0, 
+      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
+    },
+    {
+      "question": "Restrykcyjna polityka fiskalna związana jest z jednoczesnym obniżeniem podatków i dodrukiem pieniądza.",
+      "answers": ["Prawda", "Fałsz"],
+      "correct": 1, 
+      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
+    },
+    {
+      "question": "Ekspansywna polityka pieniężna rządu powoduje przesunięcie krzywej LM w prawo w wyniku obniżenia podaży pieniądza",
+      "answers": ["Prawda", "Fałsz"],
+      "correct": 1, 
+      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
+    },
+    {
+      "question": "Podwyższenie stopy rezerw obowiązkowych przez bank centralny to przejaw restrykcyjnej polityki monetarnej rządu.",
+      "answers": ["Prawda", "Fałsz"],
+      "correct": 0, 
+      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
+    },
+    {
+      "question": "Nachylenie krzywej IS zależy bezpośrednio od wrażliwości popytu inwestycyjnego na poziom stopy procentowej",
+      "answers": ["Prawda", "Fałsz"],
+      "correct": 0, 
+      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
+    },
+    {
+      "question": "Rewaluacja waluty ma miejsce w systemie zmiennych kursów.",
+      "answers": ["Prawda", "Fałsz"],
+      "correct": 1, 
+      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
+    },
+    {
+      "question": "Krzywa LM będzie bardziej stroma, gdy popyt na pieniądz jest bardzo elastyczny względem stopy procentowej.",
+      "answers": ["Prawda", "Fałsz"],
+      "correct": 1, 
+      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
+    },
+    {
+      "question": "Przykładem instrumentów pasywnej polityki fiskalnej są automatyczne stabilizatory koniunktury",
+      "answers": ["Prawda", "Fałsz"],
+      "correct": 0, 
+      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
+    },
+    {
+      "question": "Podstawowymi instrumentami polityki pieniężnej są m.in. operacje otwartego rynku.",
+      "answers": ["Prawda", "Fałsz"],
+      "correct": 0, 
+      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
+    },
+    {
+      "question": "Jedyną skuteczną polityką rządu prowadzącą do wzrostu produkcji jest manipulacja podażą pieniądza.",
+      "answers": ["Prawda", "Fałsz"],
+      "correct": 1, 
+      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
+    },
+    {
+      "question": "Doskonała mobilność kapitału w wymianie międzynarodowej jest zagwarantowana w sytuacji, gdy krajowa stopa procentowa równa jest zagranicznej.",
+      "answers": ["Prawda", "Fałsz"],
+      "correct": 0, 
+      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
+    },
+    {
+      "question": "Równowaga w gospodarce otwartej oznacza równowagę bilansu płatniczego, połączoną z równowagą na krajowym rynku dóbr i usług.",
+      "answers": ["Prawda", "Fałsz"],
+      "correct": 1, 
+      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
+    },
+    {
+      "question": "Ekspansywna polityka fiskalna w systemie kursów stałych może prowadzić do napływu do kraju kapitału spekulacyjnego.",
+      "answers": ["Prawda", "Fałsz"],
+      "correct": 0, 
+      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
+    },
+    {
+      "question": "Ekspansywna polityka monetarna w systemie kursów zmiennych wpływa na poprawę konkurencyjności gospodarki danego kraju względem gospodarek innych państw.",
+      "answers": ["Prawda", "Fałsz"],
+      "correct": 0, 
+      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
+    },
+    {
+      "question": "Gospodarka otwarta to taka, w której zawsze istnieje nadmierne bezrobocie.",
+      "answers": ["Prawda", "Fałsz"],
+      "correct": 1, 
+      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
+    },
+    {
+      "question": "Wśród krajów Unii Europejskiej najwyższą stopę bezrobocia w 2006 r. odnotowano w Polsce",
+      "answers": ["Prawda", "Fałsz"],
+      "correct": 0, 
+      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
+    },
+    {
+      "question": "Jeżeli wykwalifikowany pracownik przemysłu spożywczego straci pracę w wyniku zakupu nowoczesnej linii produkcyjnej, a jego umiejętności nie pozwolą mu znaleźć zatrudnienia gdzie indziej, będzie to przykład bezrobocia strukturalnego.",
+      "answers": ["Prawda", "Fałsz"],
+      "correct": 0, 
+      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
+    },
+    {
+      "question": "Każde bezrobocie jest zawsze zjawiskiem niepożądanym w gospodarce",
+      "answers": ["Prawda", "Fałsz"],
+      "correct": 1, 
+      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
+    },
+    {
+      "question": "Bezrobocie frykcyjne występuje w każdej rozwijającej się gospodarce",
+      "answers": ["Prawda", "Fałsz"],
+      "correct": 0, 
+      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
+    },
+    {
+      "question": "Osoby niepełnosprawne, niezdolne do pracy zawodowej tworzą bezrobocie frykcyjne.",
+      "answers": ["Prawda", "Fałsz"],
+      "correct": 0, 
+      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
+    },
+    {
+      "question": "Bezrobocie wynikające z faktu, że poziom płac realnych jest wyższy od poziomu zapewniającego równowagę rynku pracy to bezrobocie dobrowolne.",
+      "answers": ["Prawda", "Fałsz"],
+      "correct": 1, 
+      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
+    },
+    {
+      "question": "Stopa bezrobocia to stosunek liczby bezrobotnych do liczby poszukujących pracy",
+      "answers": ["Prawda", "Fałsz"],
+      "correct": 1, 
+      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
+    },
+    {
+      "question": "Osoby w wieku produkcyjnym oraz pracujące osoby w wieku nieprodukcyjnym wchodzą w skład zasobów siły roboczej.",
+      "answers": ["Prawda", "Fałsz"],
+      "correct": 1, 
+      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
+    },
+    {
+      "question": "Bezrobotni absolwenci tworzą bezrobocie sezonowe.",
+      "answers": ["Prawda", "Fałsz"],
+      "correct": 1, 
+      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
+    },
+    {
+      "question": "Naturalna stopa bezrobocia to stosunek liczby bezrobotnych do liczby osób pracujących",
+      "answers": ["Prawda", "Fałsz"],
+      "correct": 1, 
+      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
+    },
+    {
+      "question": "Jeżeliwwyniku recesjispadnie sprzedażmateriałów budowlanych i sprzedawca zostanie zwolniony to będzie to przykład bezrobocia koniunkturalnego.",
+      "answers": ["Prawda", "Fałsz"],
+      "correct": 0, 
+      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
+    },
+    {
+      "question": "Pan X pokłócił się z szefem i porzucił pracę w nadziei na lepsze zatrudnienie. Jest to przykład bezrobocia frykcyjnego.",
+      "answers": ["Prawda", "Fałsz"],
+      "correct": 0, 
+      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
+    },
+    {
+      "question": "Bezrobocie frykcyjne jest przykładem bezrobocia naturalnego",
+      "answers": ["Prawda", "Fałsz"],
+      "correct": 0, 
+      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
+    },
+    {
+      "question": "Pracownicy branży budowlanej są szczególnie narażeni na bezrobocie sezonowe.",
+      "answers": ["Prawda", "Fałsz"],
+      "correct": 0, 
+      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
+    },
+    {
+      "question": "Każdy, kto nie, pracuje jest bezrobotnym.",
+      "answers": ["Prawda", "Fałsz"],
+      "correct": 1, 
+      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
+    },
+    {
+      "question": "Aktywna polityka państwa w walce z bezrobociem przejawia się np. wypłatą zasiłków dla bezrobotnych",
+      "answers": ["Prawda", "Fałsz"],
+      "correct": 1, 
+      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
+    },
+    {
+      "question": "Keynes twierdził, że przyczyną bezrobocia jest niedostateczna wielkość popytu globalnego",
+      "answers": ["Prawda", "Fałsz"],
+      "correct": 0, 
+      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
+    },
+    {
+      "question": "Redukcje zatrudnienia w kopalniach węgla w Polsce są przykładem bezrobocia strukturalnego.",
+      "answers": ["Prawda", "Fałsz"],
+      "correct": 0, 
+      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
+    },
+    {
+      "question": "Od 1 maja 2004 r. Polacy mogą bez żadnych ograniczeń pracować we wszystkich krajach Unii Europejskiej.",
+      "answers": ["Prawda", "Fałsz"],
+      "correct": 1, 
+      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
+    },
+    {
+      "question": "Inflacja pojawia się dopiero wtedy, gdy w dłuższym okresie wzrośnie ogólny poziom cen.",
+      "answers": ["Prawda", "Fałsz"],
+      "correct": 0, 
+      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
+    },
+    {
+      "question": "Stosując deflator PKB można obliczyć stopę inflacji.",
+      "answers": ["Prawda", "Fałsz"],
+      "correct": 0, 
+      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
+    },
+    {
+      "question": "Inflacja bazowa obrazuje długookresowy trend kształtowania się wskaźnika cen towarów i usług konsumpcyjnych, będącego miarą inflacji.",
+      "answers": ["Prawda", "Fałsz"],
+      "correct": 0, 
+      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
+    },
+    {
+      "question": "Banki udzielające kredytów zabezpieczają się na wypadek inflacji podwyższając odpowiednio stopy oprocentowania",
+      "answers": ["Prawda", "Fałsz"],
+      "correct": 0, 
+      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
+    },
+    {
+      "question": "Gdy ceny rosną w tempie 350% rocznie, to w gospodarce występuje hiperinflacja.",
+      "answers": ["Prawda", "Fałsz"],
+      "correct": 0, 
+      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
+    },
+    {
+      "question": "W gospodarce rynkowej wysokiej stopie bezrobocia zawsze towarzyszy niska stopa inflacji.",
+      "answers": ["Prawda", "Fałsz"],
+      "correct": 1, 
+      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
+    },
+    {
+      "question": "Inflacja popytowa jest efektem nadwyżki podaży globalnej nad popytem zagregowanym",
+      "answers": ["Prawda", "Fałsz"],
+      "correct": 1, 
+      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
+    },
+    {
+      "question": "W gospodarce centralnie planowanej nie występuje zjawisko inflacji.",
+      "answers": ["Prawda", "Fałsz"],
+      "correct": 1, 
+      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
+    },
+    {
+      "question": "Stagflacja polega na równoczesnym występowaniu wysokiej inflacji i wysokiego bezrobocia.",
+      "answers": ["Prawda", "Fałsz"],
+      "correct": 0, 
+      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
+    },
+    {
+      "question": "Na inflacji tracą kredytobiorcy, którzy zaciągnęli kredyty o stałej stopie oprocentowania.",
+      "answers": ["Prawda", "Fałsz"],
+      "correct": 1, 
+      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
+    },
+    {
+      "question": "Philips dowodził, że zmniejszenie inflacji prowadzi do wzrostu bezrobocia",
+      "answers": ["Prawda", "Fałsz"],
+      "correct": 0, 
+      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
+    },
+    {
+      "question": "Z inflacją pełzającą mamy do czynienia, gdy miesięczna stopa inflacji wynosi 5%.",
+      "answers": ["Prawda", "Fałsz"],
+      "correct": 1, 
+      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
+    },
+    {
+      "question": "W Polsce indeks CPI ustalany jest przez Narodowy Bank Polski.",
+      "answers": ["Prawda", "Fałsz"],
+      "correct": 0, 
+      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
+    },
+    {
+      "question": "Płaca nominalna podzielona przez poziom cen to płaca realna.",
+      "answers": ["Prawda", "Fałsz"],
+      "correct": 0, 
+      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
+    },
+    {
+      "question": "Termin inflacja pełzająca jest tożsamy z inflacją ukrytą.",
+      "answers": ["Prawda", "Fałsz"],
+      "correct": 1, 
+      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
+    },
+    {
+      "question": "Zawsze, gdy stopa inflacji spada, spadają również ceny.",
+      "answers": ["Prawda", "Fałsz"],
+      "correct": 1, 
+      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
+    },
+    {
+      "question": "Indeks cen produkcyjnych służy do mierzenia cen płaconych przez producentów w różnych fazach procesu produkcji.",
+      "answers": ["Prawda", "Fałsz"],
+      "correct": 0, 
+      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
+    },
+    {
+      "question": "Luka inflacyjna to nie zrealizowana nadwyżka zagregowanego popytu nad zagregowaną podażą, która jest likwidowana przez podwyżkę cen.",
+      "answers": ["Prawda", "Fałsz"],
+      "correct": 1, 
+      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
+    },
+    {
+      "question": "Inflacja kosztowa jest wynikiem wzrostu kosztów produkcji w gospodarce",
+      "answers": ["Prawda", "Fałsz"],
+      "correct": 0, 
+      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
+    },
+    {
+      "question": "Inflacja osłabia skłonność do oszczędzania.",
+      "answers": ["Prawda", "Fałsz"],
+      "correct": 0, 
+      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
+    }
+  ],
+
+
+
+
+
+  "databases": [
+    {
+      "question": "Za autoryzację dostępu do bazy danych odpowiada",
+      "answers": ["tabela users w bazie danych", "System Zarządzania Bazą danych","system operacyjny serwera","aplikacja kliencka"],
+      "correct": [1],
+      "explanation": "System Zarządzania Bazą Danych (SZBD/DBMS), taki jak np. MySQL, PostgreSQL czy Oracle, jest oprogramowaniem, które ma wbudowane mechanizmy do uwierzytelniania (sprawdzania, kim jest użytkownik) i autoryzacji (sprawdzania, co dany użytkownik może robić). To on, po otrzymaniu zapytania, weryfikuje uprawnienia użytkownika i decyduje, czy zezwolić na dostęp do danych, czy go zablokować. ---Tabela users w bazie danych przechowuje jedynie informacje o użytkownikach i ich uprawnieniach. SZBD korzysta z tej tabeli, ale to on jest aktywnym systemem, który egzekwuje te reguły.---System operacyjny serwera kontroluje dostęp do samego serwera i plików, ale nie zarządza uprawnieniami wewnątrz bazy danych.---Aplikacja kliencka jest tylko pośrednikiem; wysyła żądania do bazy danych, ale ostateczną decyzję o autoryzacji podejmuje SZBD."
+    },
+    {
+      "question": "Postać normalna, w której wymaga się tylko aby żaden atrybut w tabeli nie był podzielny dalej to:",
+      "answers": ["druga postać normalna", "postać normalna Beyoce'a-Codda","trzecia postać normalna","pierwsza postać normalna"],
+      "correct": [3],
+      "explanation": "Pierwsza postać normalna (1NF) to podstawowy poziom normalizacji bazy danych. Jej jedynym wymogiem jest to, aby wszystkie atrybuty (wartości w kolumnach) były atomowe, czyli niepodzielne. Oznacza to, że pojedyncza komórka w tabeli nie może zawierać wielokrotnych wartości (np. listy czy zbioru)."
+    }
+  ]
+}

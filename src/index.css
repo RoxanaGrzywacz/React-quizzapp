@@ -1,0 +1,174 @@
+/* Globalny reset box-sizing */
+*, *::before, *::after { box-sizing: border-box; }
+
+/* Ukrycie poziomego scrolla */
+html, body { overflow-x: hidden; }
+
+html, body, #root {
+    color: #333 !important;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Główna zawartość wypychająca footer */
+main {
+    flex: 1;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to bottom, #20053d, #034dcc);
+    text-align: center;
+    padding: 2rem;
+}
+
+header {
+    background-color: #20053d;
+    padding: 1rem;
+    text-align: center;
+    font-size: 0.9rem;
+    color: #ccc;
+}
+
+h2 { color: #ccc; margin-bottom: 20px; }
+p { color: #ccc; }
+
+/* Kontener quizu */
+#quiz-container, .category-selector, .results-container {
+    background-color: transparent;
+    padding: 20px;
+    border-radius: 10px;
+    display: inline-block;
+    max-width: 400px;
+    width: 100%;
+}
+
+button {
+  position: relative;
+  z-index: 1;
+  display: block;
+  max-width: 400px;
+  width: 100%;
+  padding: 10px;
+  margin: 5px auto;
+  font-size: 16px;
+  background: transparent;
+  color: #ccc;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: transform 0.1s ease;
+  appearance: none;
+  -webkit-appearance: none;
+}
+
+button::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 30px;
+  padding: 1px;
+  background: linear-gradient(to top, #471083, #0c58db);
+  -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0); 
+  -webkit-mask-composite: xor;
+     mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+  mask-composite: exclude;
+  pointer-events: none;
+  z-index: -1;
+}
+
+.next_button {
+    margin-top: 30px;
+    border: 1px solid #034dcc;
+}
+
+button:hover { transform: scale(1.05); }
+.correct { background-color: #2dc92d94; }
+.incorrect { background-color: #e24b4bbb; }
+button:disabled { opacity: 0.7; }
+
+/* Styl dla poprawnych odpowiedzi, które zostały pominięte */
+.checkbox-label.missed {
+  border-color: #ff9800; /* Pomarańczowa ramka */
+  background-color: rgba(255, 152, 0, 0.1); /* Delikatne pomarańczowe tło */
+}
+
+/* Możemy też dostosować istniejące style dla spójności */
+.checkbox-label.correct {
+  border-color: #2dc92d;
+  background-color: rgba(45, 201, 45, 0.1);
+}
+
+.checkbox-label.incorrect {
+  border-color: #e24bbb;
+  background-color: rgba(226, 75, 187, 0.1);
+}
+
+footer {
+    background-color: #034dcc;
+    padding: 1rem;
+    text-align: center;
+    font-size: 0.9rem;
+    color: #ccc;
+}
+
+.explanation {
+    margin-top: 15px;
+    padding: 10px;
+    color: #ccc;
+    background: rgba(114, 108, 184, 0.05);
+    border-left: 4px solid #ccc;
+    font-style: italic;
+    border-radius: 4px;
+}
+
+/* src/index.css - dodaj na końcu */
+
+.checkbox-container {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.checkbox-label {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  color: #ccc;
+  padding: 10px;
+  border-radius: 30px;
+  border: 1px solid #471083;
+  transition: background-color 0.2s;
+}
+
+.checkbox-label:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+/* Ukrywamy domyślny checkbox */
+.checkbox-label input[type="checkbox"] {
+  display: none;
+}
+
+/* Tworzymy własny wygląd checkboxa */
+.checkbox-custom {
+  width: 20px;
+  height: 20px;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  margin-right: 15px;
+  display: inline-block;
+  position: relative;
+}
+
+/* "Ptaszek" w zaznaczonym checkboxie */
+.checkbox-label input[type="checkbox"]:checked + .checkbox-custom::after {
+  content: '✔';
+  font-size: 16px;
+  color: #2dc92d;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
