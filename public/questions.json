@@ -1,5 +1,5 @@
 {
-  "algorithms": [
+  "algorytmy": [
     {
       "question": "Rekurencja jest w niektórych sytuacjach naturalnym sposobem budowy algorytmu.",
       "answers": ["Prawda", "Fałsz"],
@@ -607,7 +607,7 @@
 
 
 
-  "macroeconomics": [
+  "makroekonomia": [
      {
       "question": "Wartość dodaną oblicza się przez odjęcie od wartości dóbr wyprodukowanych w przedsiębiorstwie sumy kosztów rzeczowych czynników wytwórczych zużytych do produkcji tych dóbr.",
       "answers": ["Prawda", "Fałsz"],
@@ -1454,7 +1454,7 @@
 
 
 
-  "databases": [
+  "bazy danych": [
     {
       "question": "Za autoryzację dostępu do bazy danych odpowiada",
       "answers": ["tabela users w bazie danych", "System Zarządzania Bazą danych","system operacyjny serwera","aplikacja kliencka"],
@@ -1467,5 +1467,349 @@
       "correct": [3],
       "explanation": "Pierwsza postać normalna (1NF) to podstawowy poziom normalizacji bazy danych. Jej jedynym wymogiem jest to, aby wszystkie atrybuty (wartości w kolumnach) były atomowe, czyli niepodzielne. Oznacza to, że pojedyncza komórka w tabeli nie może zawierać wielokrotnych wartości (np. listy czy zbioru)."
     }
+  ],
+
+
+  "angielski": [
+    {
+    "question":"Translate: get carried away",
+    "answers":["dać się ponieśc emocjom","działać komuś na nerwy","mieć wrażenie","zwrócić czyjąś uwagę"],
+    "correct":0,
+    "explanation":""
+    },
+    {
+    "question":"Translate: get in touch",
+    "answers":["zwrócić czyjąś uwagę","dotknąć kogoś","skontaktować się","spotkać się z kimś"],
+    "correct":2,
+    "explanation":""
+    },
+    {
+    "question":"Translate: get it (understand)",
+    "answers":["Dać do zrozumienia","zrozumieć (coś)","porozumienie","wpaść na jakiś pomysł"],
+    "correct":1,
+    "explanation":""
+    },
+    {
+    "question":"Translate: get on someone's nerves",
+    "answers":["działać komuś na nerwy","być zdenerowoanym","wchodzić komus na glowę","ogólnie zdenerwowanie"],
+    "correct":0,
+    "explanation":""
+    },
+    {
+    "question":"Translate: get someone's attention",
+    "answers":["lubić kogoś","zwrócić czyjąś uwagę","poświęcić komuś uwagę","ostrzec kogoś"],
+    "correct":1,
+    "explanation":""
+    },
+    {
+    "question":"Translate: get some rest",
+    "answers":["iść spać","wynająć pokój","rozbić namiot","odpocząć"],
+    "correct":3,
+    "explanation":""
+    },
+    {
+    "question":"Translate: get straight to the point",
+    "answers":["prosto przed siebie","dążyć do celu","przejść do sedna","dotrzeć do jakiegoś punktu"],
+    "correct":2,
+    "explanation":""
+    },
+    {
+    "question":"Translate: get the feeling",
+    "answers":["czuć się jakoś","mieć wrażenie","mieć przeczucie","zastanawiać się"],
+    "correct":[1, 2],
+    "explanation":""
+    },
+    {
+    "question":"Translate: get to do something",
+    "answers":["mieć okazję / możliwość coś zrobić","mieć coś do zrobienia","mieć obowiązek do wykonania","zrobić coś"],
+    "correct":0,
+    "explanation":""
+    },
+    {
+    "question":"Translate: get together",
+    "answers":["zebrać się (np. w grupę ludzi)", "poznać się","spotkać się","zabawić się"],
+    "correct":[0, 2],
+    "explanation":""
+    },
+    {
+    "question":"Translate: Zająć sie problemem",
+    "answers":["Warn about the dangers","tackle the problem","take action","do more to"],
+    "correct":1,
+    "explanation":""
+    },
+    {
+    "question":"Translate: zwiększyć finansowanie",
+    "answers":["offer alternatives","increase funding","take actions","do more to"],
+    "correct":1,
+    "explanation":""
+    },
+    {
+    "question":"Translate: przeprowadzić badania",
+    "answers":["crack down on","enforce a law","carry out research","research something"],
+    "correct":2,
+    "explanation":""
+    },
+    {
+    "question":"Translate: zakazać stosowania czegoś",
+    "answers":["ban the use of","crack down on","offer alternatives","get carried away"],
+    "correct":0,
+    "explanation":""
+    },
+    {
+    "question":"Translate: take action",
+    "answers":["podjąć wyzwanie","podjąć działanie","zrobić coś z czymś","zrobić więcej aby..."],
+    "correct":1,
+    "explanation":""
+    },
+    {
+    "question":"Translate: do more to",
+    "answers":["stworzyć więcej czegoś","zrobić więcej aby","poprawić coś","żadne z powyższych"],
+    "correct":1,
+    "explanation":""
+    },
+    {
+    "question":"Translate: ostrzegać przed niebezpieczeństwem",
+    "answers":["warn about dangers","crack on dawn","ban the use of","tackle the problem"],
+    "correct":0,
+    "explanation":""
+    },
+    {
+    "question":"Translate: crack down on",
+    "answers":["zniszczyć coś","rozprawić się z czymś","oferować alternatywy","ostro się za coś zabrać"],
+    "correct":[1, 3],
+    "explanation":""
+    },
+    {
+    "question":"Translate: offer alternatives",
+    "answers":["zaoferować zupełnie co innego","oferowac alternatywy","zaoferowac pomoc","żadne z powyższych"],
+    "correct":1,
+    "explanation":""
+    },
+    {
+    "question":"Translate: egzekwować prawo",
+    "answers":["enforce a law","be a lawyer","breaking the law","respect the law"],
+    "correct":0,
+    "explanation":""
+    },
+    {
+    "question":"Translate: slow delivery",
+    "answers":["opóźniona dostawa","opóźniony pociąg","trudności w komunikacji","żadne z powyższych"],
+    "correct":0,
+    "explanation":""
+    },
+    {
+    "question":"Translate: faulty product",
+    "answers":["produkt z promocji","wadliwy produkt","produkt z przeceny","wyjątkowy produkt"],
+    "correct":1,
+    "explanation":""
+    },
+    {
+    "question":"Translate: broken promises",
+    "answers":["złamane obietnice","złamane serce","załamanie","żadne z powyższych"],
+    "correct":0,
+    "explanation":""
+    },
+    {
+    "question":"Translate: poor customer service",
+    "answers":["dobra obsługa klienta","słaba obsluga klienta","obsługa klienta"],
+    "correct":1,
+    "explanation":""
+    },
+    {
+    "question":"Translate: lack of communication",
+    "answers":["szczęśliwa komunikacja","brak porozumienia","brak komunikacji","dobra komunikacja"],
+    "correct":[1, 2],
+    "explanation":""
+    },
+    {
+    "question":"Translate: rude staff",
+    "answers":["nieuprzejmy personel","nieładne rzeczy","nieuprzejmy klient","żadne z powyższych"],
+    "correct":0,
+    "explanation":""
+    },
+    {
+    "question":"Translate: aggressive salespeople",
+    "answers":["agresywni klienci","agresywni sprzedawcy","agresywni ludzie","agresywne korporacje"],
+    "correct":1,
+    "explanation":""
+    },
+    {
+    "question":"Translate: billing disputes",
+    "answers":["wysokie rachunki","podatki","spory dotyczące racunków / faktur","żadne z powyższych"],
+    "correct":2,
+    "explanation":""
+    },
+    {
+    "question":"Translate: cold callers",
+    "answers":["akwizytorzy telefoniczni","telefoniczna obsługa reklamacji","ozmowy telefoniczne","żadne z powyższych"],
+    "correct":0,
+    "explanation":""
+    },
+    {
+    "question":"Translate: false advertising",
+    "answers":["reklama o promocjach","reklama wprowadzająca w błąd","fałszywa reklama","reklama na bilboardzie"],
+    "correct":[1, 2],
+    "explanation":""
+    },
+    {
+    "question":"Translate: delighted",
+    "answers":["uszczęśliwiony","zachwycony","zabawny","miły"],
+    "correct":[0, 1],
+    "explanation":""
+    },
+    {
+    "question":"Translate: depressed",
+    "answers":["przygnębiony","wściekły","zdołowany","zaniepokojony"],
+    "correct":[0, 2],
+    "explanation":""
+    },
+    {
+    "question":"Translate: rozbawiony",
+    "answers":["delighted","entertained","happy","infuriated"],
+    "correct":1,
+    "explanation":""
+    },
+    {
+    "question":"Translate: wściekły, rozwścieczony",
+    "answers":["infuriated","overwhelmed","depressed","scared"],
+    "correct":0,
+    "explanation":""
+    },
+    {
+    "question":"Translate: przytłoczony",
+    "answers":["scared","upset","overwhelmed","depressed"],
+    "correct":2,
+    "explanation":""
+    },
+    {
+    "question":"Translate: scared",
+    "answers":["zlękniony","przestraszony","smutny","wściekły"],
+    "correct":[0,1],
+    "explanation":""
+    },
+    {
+    "question":"Translate: astonished",
+    "answers":["przekonany","przestraszony","zaskoczony","wściekły"],
+    "correct":2,
+    "explanation":""
+    },
+    {
+    "question":"Translate: convinced",
+    "answers":["przekonany","smutny","niedowiarek","wściekły"],
+    "correct":0,
+    "explanation":""
+    }
+    
+  ],
+
+
+  "negocjacje i etykieta w biznesie":[
+
+    {
+    "question":"Jakie są reguły aktywnego słuchania?",
+    "answers":["słuchanie z empatią","słuchanie zorientowane na działanie","słuchanie zorientowanie na interes mówiącego","Parafrazowanie"],
+    "correct":[0, 1, 2],
+    "explanation":""
+    },
+    {
+    "question":"Komponenty aktywnego słuchania",
+    "answers":["Wypowiedzi otwierające","Parafrazowanie","Precyzowanie / zadawanie pytań","odnoszenie się do emocji"],
+    "correct":0,
+    "explanation":"Oraz dowartościowywanie i podsumowanie"
+    },
+    {
+    "question":"Dlaczego warto zajmowac się konfliktami?",
+    "answers":["Np. pracownik może się nauczyć, jak ułożyć sobie dobre stosunki z kolegami, menedżerem, innymi osobami","Przełożony może zacząć dostrzegać zbliżające się konflikty","Przełożony może uzyskać większą współpracę ze strony pracowników","Pracownik może ugrać coś dla siebie"],
+    "correct":[0, 1, 2],
+    "explanation":"Pracownik może się nauczyć, jak ułożyć sobie dobre stosunki z: kolegami, menedżerem, innymi osobami. • Przełożony może zacząć: dostrzegać zbliżające się konflikty, nauczyć się produktywnych reakcji, uzyskać większą współpracę ze strony pracowników, pomóc pracownikom w rozwiązywaniu sporów, zahamować rozprzestrzenianie się konfliktu w innych częściach przedsiębiorstwa."
+    },
+    {
+    "question":"Czym jest konflikt?",
+    "answers":["Konflikt to spór przynajmniej dwóch współzależnych stron, które dają mu wyraz. Owe strony uznają, że ich cele są niezgodne, a zasoby ograniczone, oraz stwierdzają, że wzajemnie przeszkadzają sobie w realizacji swoich celów.","Polega na ignorowaniu różnic i zawsze jest negatywny","Należy się go bać i nie wchodzić w konflikt nigdy","Jest tylko kłótnią lub sprzeczką"],
+    "correct":0,
+    "explanation":""
+    },
+    {
+    "question":"Czym jest konflikt destruktywny?",
+    "answers":["Konflikty oscylują od epizodu do epizodu w nieustannie rozwijającym się wzorze interakcji między głównymi stronami. Posunięcia i interpretacje dokonywane przez jedną stronę wpływają na posunięcia i interpretacje dokonywane przez pozostałych. Najlepszą ilustracją zazębiania się owych działań jest konflikt o charakterze destruktywnym.","Krytykowanie->Defensywność->Zamykanie się w sobie->Pogarda","Żadne z powyższych"],
+    "correct":[0, 1],
+    "explanation":""
+    },
+    {
+    "question":"Które z wymienionych konfliktów koła Moore'a należą do konfliktów relacji?",
+    "answers":["błędne spostrzeganie","brak informacji","stereotypy","silne emocje"],
+    "correct":[0, 2, 3],
+    "explanation":"KONFLIKT RELACJI: błędne spostrzeganie, zła komunikacja, silne emocje, stereotypy, negatywne/odwetowe działania"
+    },
+    {
+    "question":"Które z wymienionych konfliktów koła Moore'a należą do konfliktu danych?",
+    "answers":["brak informacji","różne procedury zbierania danych","nierówna kontrola zasobów","nierówny rozklad sił"],
+    "correct":[0, 1],
+    "explanation":"KONFLIKT DANYCH: brak informacji, błędne zrozumienie danych, różne interpretacje danych, różne procedury zbierania danych"
+    },
+    {
+    "question":"Które z wymienionych konfliktów koła Moore'a należą do konfliktu interesów",
+    "answers":["interesy rzeczowe np pieniądze, czas, podział pracy","interesy proceduralne np sposób prowadzenia rozmowy","interesy psychologiczne (poczucie własnej wartości, godności, szacunku, zaufania"],
+    "correct":[0, 1, 2],
+    "explanation":""
+    },
+    {
+    "question":"Które z wymienionych konfliktów koła Moore'a należą do konfliktu strukturalnego?",
+    "answers":["nierówna kontrola zasobów","wartości dnia codziennego","nierówny rozkład sił","negatywne działania"],
+    "correct":[0, 2],
+    "explanation":"KONFLIKT STRUKTURALNY: nierówna kontrola zasobów, nierówny rozkla sił, rozmieszczenie przestrzenne, ograniczenia czasowe, nadmiar zadań, różne role spoleczne"
+    },
+    {
+    "question":"Które z wymienionych konfliktów koła Moore'a należą do konfliktu wartości?",
+    "answers":["różnice religii, ideologii, tradycji","błędne spostrzeganie","wartości związane z własnym ja(tożsamością osoby)","wartości dnia codziennego(zwyczaje, konwenanse)"],
+    "correct":[0, 2, 3],
+    "explanation":""
+    },
+    {
+    "question":"Sytle konfliktu mogą być:",
+    "answers":["konfrontacyjny","unikający","atakujący","perswazyjny"],
+    "correct":[0, 3],
+    "explanation":"Konfrontacyjny, Perswazyjny, Introspektywny, Reaktywny"
+    },
+    {
+    "question":"Style rozwiązywania konfliktów to:",
+    "answers":["Uleganie","Kompromis","Współpraca","Rywalizacja"],
+    "correct":[0,1,2,3],
+    "explanation":"Oraz unikanie"
+    },
+    {
+    "question":"Negocjacji nie należy traktować ani jako formy współpracy, ani tym bardziej jako bezpośredniego starcia.",
+    "answers":["Prawda","Fałsz"],
+    "correct":0,
+    "explanation":""
+    },
+    {
+    "question":"Uważane są one za połączenie kooperacji, czyli nastawienia na współdziałanie z asertywnością, która najogólniej rozumiana jest jako umiejętność stanowczego mówienia nie",
+    "answers":["Prawda","Fałsz"],
+    "correct":0,
+    "explanation":""
+    },
+    {
+    "question":"Sama świadomość naszych potrzeb może uchronić nas przed manipulacją",
+    "answers":["Prawda","Fałsz"],
+    "correct":0,
+    "explanation":""
+    },
+    {
+    "question":"Czym jest BATNA",
+    "answers":["BATNA – analiza alternatyw (The Best Alternative to a Negotiated Agreement)","Najlepsza Alternatywa dla Negocjowanego Porozumienia","BATNA wzmacnia twoją siłę jako negocjatora"],
+    "correct":[0,1,2],
+    "explanation":""
+    },
+    {
+    "question":"Style negocjacji to:",
+    "answers":["dostosowanie się","dominacja","brak negocjacji","żadne z powyższych"],
+    "correct":[0,1],
+    "explanation":"kompromis, sominacja, dostosowanie się, unikanie, negocjacje integratywne"
+    }
+
+
   ]
+
 }
+
