@@ -590,7 +590,7 @@
     },
       {
       "question": "Algorytm szybkiego sortowania, QuickSort, jest zawsze szybszy niż inne algorytmy sortowania elementów",
-      "answers": ["Nie, opinia, że jest to szybki algorytm nie znajduje potwierdzenia w eksperymentach", "Algorytm QuickSort ma złożoność O(n lg n) i bardzo podobny czas działania do innych algorytmów o takiej złożoności w przypadku danych losowych, jednak w najgorszym przypadku jego złożoność spada do O(n²), dlatego ważny jest odpowiedni wybór pivota.","Algorytm QuickSort ma złożoność O(n lg n) i bardzo podobny czas działania do innych algorytmów o takiej złożoności w przypadku danych losowych, jednak w najgorszym przypadku jego złożoność spada do O(n²), dlatego ważny jest odpowiedni wybór pivota.","Tak"],
+      "answers": ["Nie, opinia, że jest to szybki algorytm nie znajduje potwierdzenia w eksperymentach", "Algorytm QuickSort ma złożoność O(n lg n) i bardzo podobny czas działania do innych algorytmów o takiej złożoności w przypadku danych losowych, jednak w najgorszym przypadku jego złożoność spada do O(n²), dlatego ważny jest odpowiedni wybór pivota.","Często, ale znane są przyklady, że inne algorytmy są szybsze","Tak"],
       "correct": 1, 
       "explanation": ""
     },
