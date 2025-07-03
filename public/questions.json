@@ -594,12 +594,20 @@
       "correct": 1, 
       "explanation": ""
     },
-      {
+    {
       "question": "Liczby pierwsze są ważne ponieważ",
       "answers": ["Jako pierwsze są przed innymi liczbami", "Tak było kiedyś, ale w czasach komputerowych straciły na znaczeniu","Były pierwsze w historii i od nich zaczęła się matematyka i informatyka","Są używane w niektórych, bardzo ważnych algorytmach"],
       "correct": 3, 
       "explanation": ""
+    },
+
+    {
+      "question": "Czas rozwiązania problemu jest ważny, dlatego:",
+      "answers":["wszystkie znane algorytmy maja krótki czas wykonania","współczesne komputery są tak szybkie, że czas rozwiązania problemu...","zawsze zależy nam aby złozoność obliczeniowa algorytmu była jak najmniejsza","zwykle dążymy do tego aby złożoność była jak najmniejsza, ale istnieją ... największy"],
+      "correct":[2,3],
+      "explanation": ""
     }
+
   ],
 
 
