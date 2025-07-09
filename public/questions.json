@@ -1817,6 +1817,311 @@
     }
 
 
+  ],
+
+  "fiszki_bazy_danych":[
+
+    {
+      "term": "Baza danych",
+      "definition": "zbiór informacji opisujący wybrany fragment rzeczywistości. Np. dla sklepu: dane dotyczące klientów, towarów, faktur, dla banku: dane klientów, ich rachunków, operacji na rachunkach"
+    },
+    {
+      "term": "System zarządzania bazą danych (DBMS)",
+      "definition": "zbiór narzędzi pozwalający na dostęp oraz na zarządzanie jedną lub wieloma bazami danych."
+    },
+    {
+      "term": "System baz danych",
+      "definition": "baza danych + DBMS."
+    },
+    {
+      "term": "Schemat baz danych",
+      "definition": "określa w jaka powinna być struktura danych oraz w jaki sposób dane są powiązane"
+    },
+    {
+      "term": "Model danych",
+      "definition": "zbiór ogólnych zasad posługiwania się danymi."
+    },
+    {
+      "term": "DBMS - Procesor zapytań",
+      "definition": "Przekształca zapytanie lub operację na bazie danych w ciąg poleceń żądających określonych danych."
+    },
+    {
+      "term": "DBMS - Menedżer pamięci",
+      "definition": "steruje umieszczaniem danych na dysku oraz przesyłaniem danych między dyskiem i pamięcią. Ze względu na wydajność DBMS zazwyczaj zarządza pamięcią."
+    },
+    {
+      "term": "DBMS - Moduł zarządzania transakcjami",
+      "definition": "Gwarantuje poprawność i kompletność wykonania wszystkich transakcji (jedno lub więcej zapytań stanowiące grupę zadań do wykonania w jednym ciągu)."
+    },
+    {
+      "term": "Trwałość danych to",
+      "definition": "Długi czas życia – kilka, kilkadziesiąt, kilkaset lat***Niezależność od działania aplikacji"
+    },
+    {
+      "term": "Poprawne modelowanie świata rzeczywistego oznacza",
+      "definition": "że struktura bazy danych musi odzwierciedlać we właściwy/poprawny sposób obiekty świata rzeczywistego i powiązania pomiędzy tymi obiektami."
+    },
+    {
+      "term": "Autoryzacja dostępu do danych oznacza",
+      "definition": "że dostęp do bazy danych mają tylko jej użytkownicy identyfikowani unikalną nazwą i hasłem. Ponadto, każdy użytkownik posiada określone uprawnienia w bazie danych."
+    },
+    {
+      "term": "Współbieżność dostępu do danych to",
+      "definition": "zagwarantowanie możliwości równoczesnej pracy wielu użytkownikom tej samej bazy danych. Co więcej, użytkownicy ci mogą jednocześnie pracować z tym samym zbiorem danych."
+    },
+    {
+      "term": "Metadane to",
+      "definition": "dane o bazie danych. Dane te opisują m.in.: dane przechowywane w bazie, struktury danych, użytkowników i ich uprawnienia, relacje między obiektami, dane o archiwizacji itp."
+    },
+    {
+      "term": "Model danych czyli",
+      "definition": "Obiekty ze świata rzeczywistego są reprezentowane w bazie danych za pomocą tzw. modelu danych."
+    },
+    {
+      "term": "Wyróżnia się następujące modele danych:",
+      "definition": "hierarchiczny *** sieciowy *** relacyjny *** obiektowy *** obiektowo-relacyjny *** semistrukturalny"
+    },
+    {
+      "term": "Każdy model danych definiuje trzy podstawowe elementy:",
+      "definition": "struktura danych *** zbiór predefiniowanych operacji na danych *** umożliwia nałożenie ograniczeń integralnościowych na reprezentowane w nim dane."
+    },
+    {
+      "term": "Struktura danych",
+      "definition": "służy do reprezentowania w bazie danych obiektów ze świata rzeczywistego. Przykładowo, grupa studentów może być reprezentowana w modelu obiektowym jako klasa, lub w modelu relacyjnym jako relacja. Poszczególni pracownicy są reprezentowani odpowiednio jako wystąpienia klasy (w modelu obiektowym) lub krotki relacji (w modelu relacyjnym)."
+    },
+    {
+      "term": "w modelu relacyjnym operacje na danych oferowane przez model to:",
+      "definition": "selekcja *** projekcja *** połączenie *** operacje na zbiorach."
+    },
+    {
+      "term": "Użytkownicy SBD",
+      "definition": "analitycy systemowi *** projektanci baz danych *** programiści aplikacji *** użytkownicy końcowi *** administratorzy systemów baz danych"
+    },
+    {
+      "term": "SQL - Structured Query Language",
+      "definition": "SQL jest językiem deklaratywnym. Oznacza to, że posługując się nim specyfikujemy tylko co chcemy otrzymać, nie specyfikujemy sposobu (algorytmu) w jaki ma być zrealizowane zadanie."
+    },
+    {
+      "term": "Model związków encji zwany jest też",
+      "definition": "modelem ER (ang. Entity – Relationship Model)."
+    },
+    {
+      "term": "Diagram związków encji, zwany jest też",
+      "definition": "diagramem ERD (ang. Entity – Relationship Diagram). ERD pozwala na graficzne zamodelowanie struktur danych oraz relacji pomiędzy nimi."
+    },
+    {
+      "term": "Model danych w postaci diagramu związków encji zawiera trzy rodzaje elementów:",
+      "definition": "encje *** atrybuty *** związki"
+    },
+    {
+      "term": "Encja",
+      "definition": "(obiekt) – jest rzeczą lub obiektem, rzeczywistym lub wyobrażonym, czymś co ma znaczenie dla nas i jest odróżnialne od innych rzeczy i obiektów, czymś o czym informacje powinny być znane i przechowywane."
+    },
+    {
+      "term": "Własności encji",
+      "definition": "Nazwa encji musi dokładnie reprezentować typ lub klasę rzeczy – a nie jakąkolwiek jej instancję (tj. wystąpienie). Np. nazwy kin „Bałtyk”, czy „Silver-Screen” nie mogą być użyte jako nazwy encji, gdyż encją jest KINO, zaś wymienione nazwy kin są tylko instancjami tej encji."
+    },
+    {
+      "term": "Związki to",
+      "definition": "zbiór istotnych powiązań pomiędzy zbiorami encjami. A zatem związek to uporządkowana lista encji, przy czym poszczególne encje mogą występować wielokrotnie. Inaczej mówiąc, każdy związek określa pewną relację między zbiorami egzemplarzy encji wchodzącymi w skład związku. W szczególnym przypadku może być powiązaniem tej samej encji ze sobą."
+    },
+    {
+      "term": "Z(E1,…En) to",
+      "definition": "instancja związku, gdzie E1,…En – encje występujące w związku Z."
+    },
+    {
+      "term": "Atrybut – jest to",
+      "definition": "własność encji danego typu, mająca znaczenie dla encji reprezentowana pewną wartością, np. liczbą rzeczywistą, obrazem, napisem, zapachem, itp. Inaczej mówiąc, atrybut – jest dowolnym szczegółem służącym do kwalifikowania, identyfikowania, klasyfikowania, określania ilości lub wyrażania stanu encji."
+    },
+    {
+      "term": "Każdy związek ma:",
+      "definition": "przypisaną nazwę, stopień, opcjonalność (opcjoalny czy wymagany)"
+    },
+    {
+      "term": "Rodzaje atrybutów",
+      "definition": "atrybut jednowartościowy, atrybut wuelowartościowy, atrybut pochodny"
+    },
+    {
+      "term": "Atrybut jednowartościowy",
+      "definition": "przyjmuje tylko jedną wartość dla każdego wystąpienia encji, np. dla każdego wystąpienia encji KINO atrybut kodkina ma pojedynczą wartość np. SC001 i z tego powodu atrybut kodkina jest jednowartościowy"
+    },
+    {
+      "term": "Atrybut wielowartościowy",
+      "definition": "może przyjmować wiele wartości dla pojedynczego wystąpienia encji, np. dla każdego z wystąpień encji KLIENT atrybut telefonklienta może zawierać wiele wartości (gdyż klient może posiadać więcej niż jeden telefon). Atrybut wielowartościowy może zawierać zbiór o ograniczonej z dołu i z góry liczbie elementów (np. atrybut telefonklienta może zawierać minimalnie jeden, a maksymalnie trzy numery telefonów."
+    },
+    {
+      "term": "Atrybut pochodny",
+      "definition": "to atrybut reprezentujący wartość, która jest wyliczana z podobnego atrybutu lub ze zbioru atrybutów, niekoniecznie pochodzącego z tego samego zbioru encji, np. czas realizacji zamówienia (liczba dni) , jaki upłynął od złożenia zamówienia przez klienta do momentu wysyłki zamówienia może być wyliczony jako różnica tych dat."
+    },
+    {
+      "term": "Relacyjną bazą danych nazywamy",
+      "definition": "bazę danych w postaci tabel połączonych relacjami."
+    },
+    {
+      "term": "Tabela to",
+      "definition": "(encja – relacja – klasa) w bazie danych nazywamy zbiór rekordów opisujących obiekty np. pracownicy zawierających informacje o tych obiektach w sposób ujednolicony."
+    },
+    {
+      "term": "Pole to",
+      "definition": "(atrybut – kolumna) - pojedyncza dana wchodząca w skład krotki np. nazwisko studenta, nr ewidencyjny pracownika, wielkość zapasu czy rodzaj filmu."
+    },
+    {
+      "term": "Rekord to",
+      "definition": "(krotka – obiekt (instancja klasy) – wiersz)– zestaw wartości atrybutów opisujących jeden obiekt identyfikowany przez wyróżnione atrybuty lub nazwę (pojedynczy wiersz w tabeli)"
+    },
+    {
+      "term": "Związek to (w kontekscie relacyjnych baz danych)",
+      "definition": "więź – asocjacja - związek pomiędzy dwoma encjami (klasami) pokazujący jakie rekordy (obiekty) z jednej encji odpowiadają rekordom z drugiej i jaki jest charakter tej odpowiedniości."
+    },
+    {
+      "term": "Podstawową strukturą danych jest relacja ...",
+      "definition": "będąca podzbiorem iloczynu kartezjańskiego dwóch wybranych zbiorów reprezentujących dopuszczalne wartości. Niech A1 = [a,b,c], A2 =[x,y], Wtedy A1 × A2 = {(a,x), (a,y), (b,x), (b,y), (c,x), (c,y)}"
+    },
+    {
+      "term": "elementy relacji są nazywane",
+      "definition": "krotkami (rekordami) analogicznie do iloczynu kartezjańskiego"
+    },
+    {
+      "term": "Relacja",
+      "definition": "skończony zbiór krotek (rekordów)"
+    },
+    {
+      "term": "Klucz relacji",
+      "definition": "to taki zbiór identyfikujący relacji, którego żaden podzbiór nie jest zbiorem identyfikującym relacji."
+    },
+    {
+      "term": "Wyróżnia się klucze",
+      "definition": "proste i złożone"
+    },
+    {
+      "term": "Klucz jest kluczem prostym, jeśli",
+      "definition": "zbiór identyfikujący relacji jest zbiorem jednoelementowym, w przeciwnym razie klucz jest kluczem złożonym"
+    },
+    {
+      "term": "klucz podstawowy",
+      "definition": "pole za pomocą którego byłby jednoznacznie identyfikowany w bazie."
+    },
+    {
+      "term": "Postulaty Codd’a",
+      "definition": "Jest to zestaw 13 zasad stworzonych przez Edgara F. Codd. Każda relacyjna baza danych musi je spełniać"
+    },
+    {
+      "term": "Więź (relationship)(związki)",
+      "definition": "to powiązanie pomiędzy parą tabel (relacji). — Istnieje ona wtedy, gdy dwie tabele są połączone przez klucz podstawowy i klucz obcy. Każda więź jest opisywana przez typ więzi istniejący między dwoma tabelami, typ uczestnictwa oraz stopień uczestnictwa tych tabel."
+    },
+    {
+      "term": "3 rodzaje więzi",
+      "definition": "Więź jeden-do-jednego, Więź jeden-do-wielu, Więź wiele-do-wielu"
+    },
+    {
+      "term": "Związek jeden-do-jednego",
+      "definition": "W relacji jeden-do-jednego każdy rekord w tabeli A może mieć tylko jeden dopasowany rekord z tabeli B, i tak samo każdy rekord w tabeli B może mieć tylko jeden dopasowany rekord z tabeli A. Ten typ relacji spotyka się rzadko, ponieważ większość informacji powiązanych w ten sposób byłoby zawartych w jednej tabeli."
+    },
+    {
+      "term": "Związek jeden-do-wielu",
+      "definition": "Jest najbardziej powszechnym typem relacji. W relacji jeden-do-wielu rekord w tabeli A może mieć wiele dopasowanych do niego rekordów z tabeli B, ale rekord w tabeli B ma tylko jeden dopasowany rekord w tabeli A."
+    },
+    {
+      "term": "Związek wiele-do-wielu",
+      "definition": "W relacji wiele-do-wielu, rekord w tabeli A może mieć wiele dopasowanych do niego rekordów z tabeli B i tak samo rekord w tabeli B może mieć wiele dopasowanych do niego rekordów z tabeli A. Jest to możliwe tylko przez zdefiniowanie trzeciej tabeli (nazywanej tabelą łącza), której klucz podstawowy składa się z dwóch pól z kluczy obcych z tabel A i B."
+    },
+    {
+      "term": "typy danych",
+      "definition": "Typy danych w MySQL możemy podzielić na 3 kategorie: Numeric Types (numeryczne), Date and Time Types (związane z datą i/lub czasem) oraz String Types (tekstowe)."
+    },
+    {
+      "term": "Normalizacja to",
+      "definition": "proces organizacji danych w bazie danych. Polega on na tworzeniu tabel i ustanawianiu pomiędzy nimi powiazań według reguł obowiązujących zarówno przy ochronie danych, jak i uelastycznianiu bazy danych przez eliminowanie powtarzających się i niespójnych zależności."
+    },
+    {
+      "term": "Normalizując bazę danych",
+      "definition": "usuwamy z niej nadmiarowość tzw. redundancje. Nadmiarowość w bazie danych bywa szkodliwa. Jej istnienie powoduje niepotrzebny wzrost objętości bazy danych, oraz prowadzi do problemów z utrzymaniem spójności danych"
+    },
+    {
+      "term": "SQL (ang. Structured Query Language – Strukturalny Język Zapytań)",
+      "definition": "język umożliwiający dostęp i przetwarzanie danych w relacyjnej bazie danych. Jest międzynarodowym standardem, do którego stosują się wszyscy producenci relacyjnych baz danych."
+    },
+    {
+      "term": "Kiedy został opracowany SQL?",
+      "definition": "w latach 70. w firmie IBM (SEQUEL). Stał się standardem w komunikacji z serwerami relacyjnych baz danych."
+    },
+    {
+      "term": "Standardy SQL",
+      "definition": "Konkurencyjność rynku spowodowała konieczność ustandaryzowania języka SQL - 1986, opracowany przez ANSI standard określany jako SQL:86."
+    },
+    {
+      "term": "SQL DDL",
+      "definition": "(Data Definition Language) – „język definicji danych”"
+    },
+    {
+      "term": "SQL DML",
+      "definition": "(Data Manipulation Language) – „język manipulacji danymi”"
+    },
+    {
+      "term": "SQL DCL",
+      "definition": "(Data Control Language) – „język kontroli nad danymi”"
+    },
+    {
+      "term": "SQL DQL",
+      "definition": "(Data Query Language) – „język definiowania zapytań”,"
+    },
+    {
+      "term": "SQL TCL",
+      "definition": "(Transaction Control Language) – obsługa transakcji np.**BEGIN TRANSACTION, COMMIT, ROLLBACK**."
+    },
+    {
+      "term": "Transakcja",
+      "definition": "jest sekwencją logicznie powiązanych operacji na bazie danych, która przeprowadza bazę danych z jednego stanu spójnego w inny stan spójny. Typy operacji na bazie danych obejmują: odczyt i zapis danych oraz zakończenie i akceptację (zatwierdzenie), lub wycofanie transakcji"
+    },
+    {
+      "term": "Własności transakcji",
+      "definition": "A(tomicity) C(onsistency) I(solation) D(urability)"
+    },
+    {
+      "term": "Atomowość (A)",
+      "definition": "Zbiór operacji wchodzących w skład transakcji jest niepodzielny: albo zostaną wykonane wszystkie operacje transakcji albo żadna (niepodzielność). Dotyczy to również wszystkich operacji transakcji wykonywanych na obiektach rzeczywistych (tak zwane akcje rzeczywiste) – np. wypłata gotówki z bankomatu."
+    },
+    {
+      "term": "Spójność (C)",
+      "definition": "Transakcja przeprowadza bazę danych z jednego stanu spójnego do innego stanu spójnego. W trakcie wykonywania transakcji baza danych może być przejściowo niespójna. Transakcja nie może naruszać ograniczeń integralnościowych"
+    },
+    {
+      "term": "Izolacja (I)",
+      "definition": "Transakcje są od siebie logicznie odseparowane. Transakcje oddziałują na siebie poprzez dane. Mimo współbieżnego wykonywania, transakcje widzą stan bazy danych tak, jak gdyby były wykonywane w sposób sekwencyjny Jeśli transakcja modyfikuje dane, to te dane mogą być czasowo niespójne, dlatego muszą być niedostępne dla innych transakcji dopóki transakcja nie skończy ich używać."
+    },
+    {
+      "term": "Trwałość (D)",
+      "definition": "Wyniki zatwierdzonych transakcji nie mogą zostać utracone w wyniku wystąpienia awarii systemu. Zatwierdzone dane w bazie danych, w przypadku awarii, muszą być odtwarzalne."
+    },
+    {
+      "term": "Brudny odczyt (Dirty read)",
+      "definition": "pierwsza transakcja modyfikuje wiersz, a druga go czyta, zanim zmiana została zatwierdzona przez instrukcję COMMIT. Jeśli pierwsza transakcja została anulowana, zmiana nie miała miejsca i druga transakcja przeczytała wiersz, który naprawdę nigdy nie istniał"
+    },
+    {
+      "term": "Odczyt bez powtórzeń (Non-repeatable read)",
+      "definition": "pierwsza transakcja czyta wiersz. Druga go usuwa lub modyfikuje i wykonuje COMMIT przed pierwszą. Teraz pierwsza transakcja mogłaby przeczytać ten sam wiersz jeszcze raz i otrzymać inne wyniki"
+    },
+    {
+      "term": "Odczyt widmo (Phantom)",
+      "definition": "pierwsza transakcja odczytuje wiersze spełniające predykat. Druga wstawia wartości (instrukcja INSERT) lub je modyfikuje (instrukcja UPDATE) tak, że one również spełniają predykat. Następne wykonanie tego samego zapytania przez pierwszą transakcję da inne wyniki"
+    },
+    {
+      "term": "W języku SQL określono 4 poziomy izolacji transakcji",
+      "definition": "SERIALIZABLE, REPEATABLE READS, READ COMMITED, READ UNCOMMITED"
+    },
+    {
+      "term": "Metody usuwania konfliktów",
+      "definition": "Blokady, Szeregowalność"
+    },
+    {
+      "term": "Zakleszczenia",
+      "definition": "(ang. deadlock) jest to cykl transakcji oczekujących wzajemnie na zwolnienie blokady przez inną transakcję w cyklu. O zakleszczeniu mówimy wtedy, kiedy dwie lub więcej transakcji wzajemnie blokują sobie - potrzebne do kontynuowania swojego działania - obiekty"
+    },
+    {
+      "term": "Zakleszczenia - Metoda timeout",
+      "definition": "gdy transakcja czeka bezczynnie na zwolnienie blokady dłużej niż ustalony odcinek czasu timeout, transakcja zostaje wycofana przez system."
+    }
+
   ]
 
 }
