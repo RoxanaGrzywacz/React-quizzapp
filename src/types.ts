@@ -6,7 +6,13 @@ export interface Question {
   explanation: string;
 }
 
+// NOWY interfejs dla fiszki
+export interface Flashcard {
+  term: string;
+  definition: string;
+}
+
 // Opisuje, jak wygląda cały zbiór danych z quizami
 export interface QuizData {
-  [category: string]: Question[];
+  [category: string]: (Question | Flashcard)[];
 }
