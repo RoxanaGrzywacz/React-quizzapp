@@ -177,8 +177,8 @@ footer {
 
 /* Główny kontener, który tworzy perspektywę 3D */
 .flashcard {
-  width: 300px;
-  height: 200px;
+  width: 500px;
+  height: 250px;
   perspective: 1000px;
   background: transparent;
   cursor: pointer;
