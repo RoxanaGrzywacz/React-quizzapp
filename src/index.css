@@ -121,8 +121,7 @@ footer {
     font-style: italic;
     border-radius: 4px;
 }
-
-/* src/index.css - dodaj na końcu */
+/*Checkboxy*/
 
 .checkbox-container {
   text-align: left;
@@ -166,7 +165,7 @@ footer {
 .checkbox-label input[type="checkbox"]:checked + .checkbox-custom::after {
   content: '✔';
   font-size: 16px;
-  color: #2dc92d;
+  color: #2dc92d !important;
   position: absolute;
   top: 50%;
   left: 50%;
