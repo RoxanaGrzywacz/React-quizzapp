@@ -639,822 +639,6 @@
       "answers": ["Prawda", "Fałsz"],
       "correct": 1, 
       "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
-    },
-    {
-      "question": "Dochód narodowy oblicza się przez odjęcie amortyzacji od PNB w cenach czynników produkcji.",
-      "answers": ["Prawda", "Fałsz"],
-      "correct": 0, 
-      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
-    },
-    {
-      "question": "Dobra konsumpcyjne zakupione przez gospodarstwa domowe to dobra finalne.",
-      "answers": ["Prawda", "Fałsz"],
-      "correct": 0, 
-      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
-    },
-    {
-      "question": "W PKB uwzględnia się przepływy związane z nabywaniem lub sprzedażą papierów wartościowych.",
-      "answers": ["Prawda", "Fałsz"],
-      "correct": 1, 
-      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
-    },
-    {
-      "question": "PKB w cenach stałych jest skorygowany o zmiany poziomu cen.",
-      "answers": ["Prawda", "Fałsz"],
-      "correct": 0, 
-      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
-    },
-    {
-      "question": "PNB jest równy PKB skorygowanemu o dochody netto z tytułu własności i pracy za granicą.",
-      "answers": ["Prawda", "Fałsz"],
-      "correct": 0, 
-      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
-    },
-    {
-      "question": "PKB obejmuje inwestycje brutto.",
-      "answers": ["Prawda", "Fałsz"],
-      "correct": 0, 
-      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
-    },
-    {
-      "question": "Jeżeli kupiony komputer wykorzystujesz wyłącznie w celach służbowych, jest on dobrem finalnym",
-      "answers": ["Prawda", "Fałsz"],
-      "correct": 1, 
-      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
-    },
-    {
-      "question": "PKB określa łączną pieniężną wartość wszystkich produktów i usług pośrednich wyprodukowanych przez gospodarkę danego kraju w danym okresie.",
-      "answers": ["Prawda", "Fałsz"],
-      "correct": 1, 
-      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
-    },
-    {
-      "question": "Eksport netto przyjmuje zawsze wartość dodatnią.",
-      "answers": ["Prawda", "Fałsz"],
-      "correct": 1, 
-      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
-    },
-    {
-      "question": "Jednym ze sposobów uniknięcia wielokrotnego liczenia tych samychwielkości w rachunku PKB jest sumowanie tylko dóbr finalnych",
-      "answers": ["Prawda", "Fałsz"],
-      "correct": 0, 
-      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
-    },
-    {
-      "question": "W metodzie sumowania dochodów ważną pozycję stanowią dochody z tytułu emerytur.",
-      "answers": ["Prawda", "Fałsz"],
-      "correct": 1, 
-      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
-    },
-    {
-      "question": "Wartość PKB jest taka sama niezależnie od tego, czy jest on liczony jako suma produktów, wydatków, czy też suma dochodów.",
-      "answers": ["Prawda", "Fałsz"],
-      "correct": 0, 
-      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
-    },
-    {
-      "question": "Wartość eksportu netto będzie równa zero tylko dla gospodarki zamkniętej.",
-      "answers": ["Prawda", "Fałsz"],
-      "correct": 1, 
-      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
-    },
-    {
-      "question": "Gdy wartość importu maleje, a eksportu rośnie, wartość PKB maleje",
-      "answers": ["Prawda", "Fałsz"],
-      "correct": 0, 
-      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
-    },
-    {
-      "question": "Wartość dochodu narodowego jest równa wartości PNB, gdy eksport netto jest równy 0.",
-      "answers": ["Prawda", "Fałsz"],
-      "correct": 0, 
-      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
-    },
-    {
-      "question": "Wydatki gospodarstw domowych na produkty i usługi, podobnie jak płatności transferowe, nie są wliczane do rachunku PKB.",
-      "answers": ["Prawda", "Fałsz"],
-      "correct": 1, 
-      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
-    },
-    {
-      "question": "Iloraz krańcowej skłonności do konsumpcji i krańcowej skłonności do oszczędzania jest równy 1.",
-      "answers": ["Prawda", "Fałsz"],
-      "correct": 1, 
-      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
-    },
-    {
-      "question": "Nachylenie krzywej popytu globalnego nie zależy od krańcowej skłonności do konsumpcji",
-      "answers": ["Prawda", "Fałsz"],
-      "correct": 1, 
-      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
-    },
-    {
-      "question": "W sytuacji braku równowagi w przedsiębiorstwie pojawiają się nieplanowane zmiany stanu zapasów.",
-      "answers": ["Prawda", "Fałsz"],
-      "correct": 0, 
-      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
-    },
-    {
-      "question": "Wzrost stopy opodatkowania zmniejsza zagregowany popyt.",
-      "answers": ["Prawda", "Fałsz"],
-      "correct": 0, 
-      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
-    },
-    {
-      "question": "Im niższa jest krańcowa skłonność do konsumpcji, tym bardziej stroma jest krzywa agregatowego popytu.",
-      "answers": ["Prawda", "Fałsz"],
-      "correct": 1, 
-      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
-    },
-    {
-      "question": "Wzrost krańcowej skłonności do oszczędzania zwiększa konsumpcję.",
-      "answers": ["Prawda", "Fałsz"],
-      "correct": 1, 
-      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
-    },
-    {
-      "question": "Poziomkonsumpcji autonomicznej zależy odwysokościstopyprocentowej",
-      "answers": ["Prawda", "Fałsz"],
-      "correct": 1, 
-      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
-    },
-    {
-      "question": "Równowaga krótkookresowa występuje, gdy planowany popyt globalny jest równy faktycznej podaży",
-      "answers": ["Prawda", "Fałsz"],
-      "correct": 0, 
-      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
-    },
-    {
-      "question": "Zwiększenie poziomu planowanych wydatków konsumpcyjnych spowoduje przesunięcie krzywej zagregowanego popytu w górę",
-      "answers": ["Prawda", "Fałsz"],
-      "correct": 0, 
-      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
-    },
-    {
-      "question": "Funkcja konsumpcji nie opisuje, jak zmieni się ogólny poziom spożycia pod wpływem zmian dochodu rozporządzalnego",
-      "answers": ["Prawda", "Fałsz"],
-      "correct": 1, 
-      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
-    },
-    {
-      "question": "Położenie krzywej popytu globalnego zależy od rozmiaru wydatków na konsumpcję autonomiczną, lecz nie zależy od poziomu inwestycji.",
-      "answers": ["Prawda", "Fałsz"],
-      "correct": 1, 
-      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
-    },
-    {
-      "question": "Popyt inwestycyjny nie zależy od poziomu bieżącej produkcji, ale od przewidywanego tempa wzrostu popytu na wytwarzane dobra i usługi w przyszłych okresach.",
-      "answers": ["Prawda", "Fałsz"],
-      "correct": 0, 
-      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
-    },
-    {
-      "question": "Wzrost popytu inwestycyjnego zmieni nachylenie krzywej zagregowanego popytu.",
-      "answers": ["Prawda", "Fałsz"],
-      "correct": 1, 
-      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
-    },
-    {
-      "question": "W sytuacji równowagi krótkookresowej planowane oszczędności równe są planowanym inwestycjom.",
-      "answers": ["Prawda", "Fałsz"],
-      "correct": 0, 
-      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
-    },
-    {
-      "question": "Mnożnik inwestycyjny jest ściśle skorelowany z krańcową skłonnością do konsumpcji.",
-      "answers": ["Prawda", "Fałsz"],
-      "correct": 0, 
-      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
-    },
-    {
-      "question": "Efekt mnożnika inwestycyjnego polega na tym, że wzrost/spadek poziomu popytu inwestycyjnego przekłada się na większy co do wartości wzrost/spadek dochodu narodowego.",
-      "answers": ["Prawda", "Fałsz"],
-      "correct": 0, 
-      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
-    },
-    {
-      "question": "Zmiana oszczędności autonomicznych powoduje zmianę dochodu narodowego w punkcie równowagi, a tym samym poziom oszczędności i inwestycji automatycznie ulega zmianie.",
-      "answers": ["Prawda", "Fałsz"],
-      "correct": 1, 
-      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
-    },
-    {
-      "question": "Wydatki rządowe w danym okresie rosną w miarę wzrostu bieżącej produkcji.",
-      "answers": ["Prawda", "Fałsz"],
-      "correct": 1, 
-      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
-    },
-    {
-      "question": "Spadek wydatków rządowych powoduje równoległe przesunięcie krzywej zagregowanego popytu w górę.",
-      "answers": ["Prawda", "Fałsz"],
-      "correct": 1, 
-      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
-    },
-    {
-      "question": "W przypadku równowagi długookresowej wartość eksportu jest równa wartości importu.",
-      "answers": ["Prawda", "Fałsz"],
-      "correct": 0, 
-      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
-    },
-    {
-      "question": "Podatek VAT należy do grupy podatków pośrednich.",
-      "answers": ["Prawda", "Fałsz"],
-      "correct": 0, 
-      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
-    },
-    {
-      "question": "Najpoważniejszym źródłem dochodów budżetu państwa w Polsce w 2005 r. były podatki dochodowe od osób fizycznych.",
-      "answers": ["Prawda", "Fałsz"],
-      "correct": 1, 
-      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
-    },
-    {
-      "question": "Źródłem dochodów budżetu państwa mogą być dochody ze sprzedaży prywatyzowanych przedsiębiorstw.",
-      "answers": ["Prawda", "Fałsz"],
-      "correct": 0, 
-      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
-    },
-    {
-      "question": "Do podstawowych funkcji budżetu państwa zalicza się funkcję redystrybucyjną.",
-      "answers": ["Prawda", "Fałsz"],
-      "correct": 0, 
-      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
-    },
-    {
-      "question": "Krzywa Laffera przedstawia zależność między wpływami do budżetu państwa z tytułu podatków a długiem publicznym.",
-      "answers": ["Prawda", "Fałsz"],
-      "correct": 1, 
-      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
-    },
-    {
-      "question": "Wydatki budżetowe w Polsce charakteryzują się wysokim stopniem sztywności.",
-      "answers": ["Prawda", "Fałsz"],
-      "correct": 0, 
-      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
-    },
-    {
-      "question": "J.M. Keynes uważał, że państwo powinnowjak najmniejszym stopniu interweniować w procesy rynkowe.",
-      "answers": ["Prawda", "Fałsz"],
-      "correct": 1, 
-      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
-    },
-    {
-      "question": "Przykładem automatycznego stabilizatora koniunktury są zasiłki dla bezrobotnych",
-      "answers": ["Prawda", "Fałsz"],
-      "correct": 0, 
-      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
-    },
-    {
-      "question": "Dług publiczny w Polsce systematycznie wzrasta.",
-      "answers": ["Prawda", "Fałsz"],
-      "correct": 0, 
-      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
-    },
-    {
-      "question": "Narzędzia polityki fiskalnej nie są jedynymi, które wykorzystywać może państwo w celu stabilizacji koniunktury.",
-      "answers": ["Prawda", "Fałsz"],
-      "correct": 0, 
-      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
-    },
-    {
-      "question": "Ograniczenie poziomu wydatków budżetowych jest najlepszym sposobem na obniżenie deficytu budżetowego.",
-      "answers": ["Prawda", "Fałsz"],
-      "correct": 1, 
-      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
-    },
-    {
-      "question": "Deficyt budżetowy może prowadzić do zmniejszenia stóp procentowych w gospodarce.",
-      "answers": ["Prawda", "Fałsz"],
-      "correct": 1, 
-      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
-    },
-    {
-      "question": "Cła są istotnym źródłem dochodów budżetowych w Polsce.",
-      "answers": ["Prawda", "Fałsz"],
-      "correct": 1, 
-      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
-    },
-    {
-      "question": "Do instrumentów aktywnej polityki fiskalnej w Polsce zaliczyć można podatki od nieruchomości.",
-      "answers": ["Prawda", "Fałsz"],
-      "correct": 1, 
-      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
-    },
-    {
-      "question": "Podatki pośrednie zawarte są w cenach produktów i usług.",
-      "answers": ["Prawda", "Fałsz"],
-      "correct": 0, 
-      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
-    },
-    {
-      "question": "Podatki bezpośrednie to podatki, w przypadku których istnieje precyzyjnie określona zależnośćmiędzy płaconympodatkiem, tzn. rodzajem podatku, jego wysokością, trybem płacenia a podatnikiem",
-      "answers": ["Prawda", "Fałsz"],
-      "correct": 0, 
-      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
-    },
-    {
-      "question": "Podmiot opodatkowania to rzecz lub zdarzenie, które wywołuje obowiązek podatkowy",
-      "answers": ["Prawda", "Fałsz"],
-      "correct": 1, 
-      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
-    },
-    {
-      "question": "W przypadku stawek progresywnych podatek rośnie szybciej niż podstawa opodatkowania.",
-      "answers": ["Prawda", "Fałsz"],
-      "correct": 0, 
-      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
-    },
-    {
-      "question": "Działanie automatycznych stabilizatorów koniunktury polega na hamowaniu wzrostu gospodarczego w okresie ekspansji.",
-      "answers": ["Prawda", "Fałsz"],
-      "correct": 0, 
-      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
-    },
-    {
-      "question": "Wzrostwydatkówpaństwa przyjednoczesnymwzroście sumy ściąganych podatków o tę samą wartość powoduje zwiększenie produkcji",
-      "answers": ["Prawda", "Fałsz"],
-      "correct": 0, 
-      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
-    },
-    {
-      "question": "O wartości pieniądza papierowego decyduje przede wszystkim możliwość zamienienia go w każdej chwili na złoto.",
-      "answers": ["Prawda", "Fałsz"],
-      "correct": 1, 
-      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
-    },
-    {
-      "question": "Bank centralny może zwiększyć podaż pieniądza skupując papiery wartościowe",
-      "answers": ["Prawda", "Fałsz"],
-      "correct": 0, 
-      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
-    },
-    {
-      "question": "Oprócz rezerw obowiązkowych banki komercyjne utrzymują zazwyczaj rezerwy dobrowolne",
-      "answers": ["Prawda", "Fałsz"],
-      "correct": 0, 
-      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
-    },
-    {
-      "question": "Stopa redyskontowa pełni funkcję stopy maksymalnej, określającej krańcowy koszt pozyskania pieniądza w banku centralnym na rynku międzybankowym.",
-      "answers": ["Prawda", "Fałsz"],
-      "correct": 1, 
-      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
-    },
-    {
-      "question": "Jedynym motywem zgłaszania popytu na pieniądz jest konieczność posiadania pieniądza w celu realizacji przewidywanych zakupów produktów i usług.",
-      "answers": ["Prawda", "Fałsz"],
-      "correct": 1, 
-      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
-    },
-    {
-      "question": "Pieniądz pełni bezpośrednio funkcję środka przechowywania bogactwa.",
-      "answers": ["Prawda", "Fałsz"],
-      "correct": 0, 
-      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
-    },
-    {
-      "question": "Popyt spekulacyjny na pieniądz wynika głównie z funkcji pieniądza jako środka wymiany.",
-      "answers": ["Prawda", "Fałsz"],
-      "correct": 1, 
-      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
-    },
-    {
-      "question": "Wzrost nominalnej stopy procentowej powoduje wzrost kosztu posiadania pieniądza.",
-      "answers": ["Prawda", "Fałsz"],
-      "correct": 0, 
-      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
-    },
-    {
-      "question": "Baza monetarna obejmuje zasób pieniądza o największym stopniu płynności.",
-      "answers": ["Prawda", "Fałsz"],
-      "correct": 0, 
-      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
-    },
-    {
-      "question": "Mnożnik kreacji pieniądza to iloczyn podaży pieniądza i bazy monetarnej",
-      "answers": ["Prawda", "Fałsz"],
-      "correct": 1, 
-      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
-    },
-    {
-      "question": "Za politykę monetarną państwa odpowiada w Polsce Rada Ministrów",
-      "answers": ["Prawda", "Fałsz"],
-      "correct": 1, 
-      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
-    },
-    {
-      "question": "Bank centralny nie jest jedynym legalnym emitentem pieniądza gotówkowego (banknotów i bilonu).",
-      "answers": ["Prawda", "Fałsz"],
-      "correct": 1, 
-      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
-    },
-    {
-      "question": "Wzrost poziomu stopy rezerwwbanku komercyjnympowyżej stopy rezerw obowiązkowych, ustalonej przez bank centralny, spowoduje zmniejszenie się wartości współczynnika kreacji depozytów.",
-      "answers": ["Prawda", "Fałsz"],
-      "correct": 0, 
-      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
-    },
-    {
-      "question": "Im wyższa jest płynność jakiegoś aktywu, tym niższa jego zyskowność",
-      "answers": ["Prawda", "Fałsz"],
-      "correct": 0, 
-      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
-    },
-    {
-      "question": "Złoto jest obecnie powszechnym środkiem wymiany.",
-      "answers": ["Prawda", "Fałsz"],
-      "correct": 1, 
-      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
-    },
-    {
-      "question": "Podstawowym źródłem kreacji pieniądza jest udzielanie kredytów przez banki komercyjne.",
-      "answers": ["Prawda", "Fałsz"],
-      "correct": 0, 
-      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
-    },
-    {
-      "question": "Bank centralny nie może udzielać kredytów osobom fizycznym.",
-      "answers": ["Prawda", "Fałsz"],
-      "correct": 0, 
-      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
-    },
-    {
-      "question": "Pojęcia kredyt i pożyczka oznaczają to samo.",
-      "answers": ["Prawda", "Fałsz"],
-      "correct": 1, 
-      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
-    },
-    {
-      "question": "Mnożnik kreacji pieniądza jest tym większy, im niższy jest zamierzony stosunek gotówki w obiegu do wkładów utrzymywanych przez sektor pozabankowy.",
-      "answers": ["Prawda", "Fałsz"],
-      "correct": 0, 
-      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
-    },
-    {
-      "question": "Agregat M2 to agregat Ml pomniejszony o depozyty długoterminowe.",
-      "answers": ["Prawda", "Fałsz"],
-      "correct": 1, 
-      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
-    },
-    {
-      "question": "Obniżenie stopy podatkowej powoduje przesunięcie krzywej LM w prawo",
-      "answers": ["Prawda", "Fałsz"],
-      "correct": 1, 
-      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
-    },
-    {
-      "question": "Bezpośrednie inwestycje zagraniczne ujmowane są w bilansie obrotów kapitałowych państwa.",
-      "answers": ["Prawda", "Fałsz"],
-      "correct": 0, 
-      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
-    },
-    {
-      "question": "Krzywa IS ma nachylenie ujemne",
-      "answers": ["Prawda", "Fałsz"],
-      "correct": 0, 
-      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
-    },
-    {
-      "question": "Dewaluacja waluty to inaczej deprecjacja dokonana decyzjąwładz krajowych",
-      "answers": ["Prawda", "Fałsz"],
-      "correct": 0, 
-      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
-    },
-    {
-      "question": "Polityka pieniężna przesuwa zarówno krzywą LM, jak i IS.",
-      "answers": ["Prawda", "Fałsz"],
-      "correct": 1, 
-      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
-    },
-    {
-      "question": "Położenie krzywej LM nie zależy od poziomu cen.",
-      "answers": ["Prawda", "Fałsz"],
-      "correct": 1, 
-      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
-    },
-    {
-      "question": "Ekspansywna polityka fiskalna rządumoże przejawiać sięwe wzroście wydatków rządowych.",
-      "answers": ["Prawda", "Fałsz"],
-      "correct": 0, 
-      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
-    },
-    {
-      "question": "Restrykcyjna polityka fiskalna związana jest z jednoczesnym obniżeniem podatków i dodrukiem pieniądza.",
-      "answers": ["Prawda", "Fałsz"],
-      "correct": 1, 
-      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
-    },
-    {
-      "question": "Ekspansywna polityka pieniężna rządu powoduje przesunięcie krzywej LM w prawo w wyniku obniżenia podaży pieniądza",
-      "answers": ["Prawda", "Fałsz"],
-      "correct": 1, 
-      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
-    },
-    {
-      "question": "Podwyższenie stopy rezerw obowiązkowych przez bank centralny to przejaw restrykcyjnej polityki monetarnej rządu.",
-      "answers": ["Prawda", "Fałsz"],
-      "correct": 0, 
-      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
-    },
-    {
-      "question": "Nachylenie krzywej IS zależy bezpośrednio od wrażliwości popytu inwestycyjnego na poziom stopy procentowej",
-      "answers": ["Prawda", "Fałsz"],
-      "correct": 0, 
-      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
-    },
-    {
-      "question": "Rewaluacja waluty ma miejsce w systemie zmiennych kursów.",
-      "answers": ["Prawda", "Fałsz"],
-      "correct": 1, 
-      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
-    },
-    {
-      "question": "Krzywa LM będzie bardziej stroma, gdy popyt na pieniądz jest bardzo elastyczny względem stopy procentowej.",
-      "answers": ["Prawda", "Fałsz"],
-      "correct": 1, 
-      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
-    },
-    {
-      "question": "Przykładem instrumentów pasywnej polityki fiskalnej są automatyczne stabilizatory koniunktury",
-      "answers": ["Prawda", "Fałsz"],
-      "correct": 0, 
-      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
-    },
-    {
-      "question": "Podstawowymi instrumentami polityki pieniężnej są m.in. operacje otwartego rynku.",
-      "answers": ["Prawda", "Fałsz"],
-      "correct": 0, 
-      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
-    },
-    {
-      "question": "Jedyną skuteczną polityką rządu prowadzącą do wzrostu produkcji jest manipulacja podażą pieniądza.",
-      "answers": ["Prawda", "Fałsz"],
-      "correct": 1, 
-      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
-    },
-    {
-      "question": "Doskonała mobilność kapitału w wymianie międzynarodowej jest zagwarantowana w sytuacji, gdy krajowa stopa procentowa równa jest zagranicznej.",
-      "answers": ["Prawda", "Fałsz"],
-      "correct": 0, 
-      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
-    },
-    {
-      "question": "Równowaga w gospodarce otwartej oznacza równowagę bilansu płatniczego, połączoną z równowagą na krajowym rynku dóbr i usług.",
-      "answers": ["Prawda", "Fałsz"],
-      "correct": 1, 
-      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
-    },
-    {
-      "question": "Ekspansywna polityka fiskalna w systemie kursów stałych może prowadzić do napływu do kraju kapitału spekulacyjnego.",
-      "answers": ["Prawda", "Fałsz"],
-      "correct": 0, 
-      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
-    },
-    {
-      "question": "Ekspansywna polityka monetarna w systemie kursów zmiennych wpływa na poprawę konkurencyjności gospodarki danego kraju względem gospodarek innych państw.",
-      "answers": ["Prawda", "Fałsz"],
-      "correct": 0, 
-      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
-    },
-    {
-      "question": "Gospodarka otwarta to taka, w której zawsze istnieje nadmierne bezrobocie.",
-      "answers": ["Prawda", "Fałsz"],
-      "correct": 1, 
-      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
-    },
-    {
-      "question": "Wśród krajów Unii Europejskiej najwyższą stopę bezrobocia w 2006 r. odnotowano w Polsce",
-      "answers": ["Prawda", "Fałsz"],
-      "correct": 0, 
-      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
-    },
-    {
-      "question": "Jeżeli wykwalifikowany pracownik przemysłu spożywczego straci pracę w wyniku zakupu nowoczesnej linii produkcyjnej, a jego umiejętności nie pozwolą mu znaleźć zatrudnienia gdzie indziej, będzie to przykład bezrobocia strukturalnego.",
-      "answers": ["Prawda", "Fałsz"],
-      "correct": 0, 
-      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
-    },
-    {
-      "question": "Każde bezrobocie jest zawsze zjawiskiem niepożądanym w gospodarce",
-      "answers": ["Prawda", "Fałsz"],
-      "correct": 1, 
-      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
-    },
-    {
-      "question": "Bezrobocie frykcyjne występuje w każdej rozwijającej się gospodarce",
-      "answers": ["Prawda", "Fałsz"],
-      "correct": 0, 
-      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
-    },
-    {
-      "question": "Osoby niepełnosprawne, niezdolne do pracy zawodowej tworzą bezrobocie frykcyjne.",
-      "answers": ["Prawda", "Fałsz"],
-      "correct": 0, 
-      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
-    },
-    {
-      "question": "Bezrobocie wynikające z faktu, że poziom płac realnych jest wyższy od poziomu zapewniającego równowagę rynku pracy to bezrobocie dobrowolne.",
-      "answers": ["Prawda", "Fałsz"],
-      "correct": 1, 
-      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
-    },
-    {
-      "question": "Stopa bezrobocia to stosunek liczby bezrobotnych do liczby poszukujących pracy",
-      "answers": ["Prawda", "Fałsz"],
-      "correct": 1, 
-      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
-    },
-    {
-      "question": "Osoby w wieku produkcyjnym oraz pracujące osoby w wieku nieprodukcyjnym wchodzą w skład zasobów siły roboczej.",
-      "answers": ["Prawda", "Fałsz"],
-      "correct": 1, 
-      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
-    },
-    {
-      "question": "Bezrobotni absolwenci tworzą bezrobocie sezonowe.",
-      "answers": ["Prawda", "Fałsz"],
-      "correct": 1, 
-      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
-    },
-    {
-      "question": "Naturalna stopa bezrobocia to stosunek liczby bezrobotnych do liczby osób pracujących",
-      "answers": ["Prawda", "Fałsz"],
-      "correct": 1, 
-      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
-    },
-    {
-      "question": "Jeżeliwwyniku recesjispadnie sprzedażmateriałów budowlanych i sprzedawca zostanie zwolniony to będzie to przykład bezrobocia koniunkturalnego.",
-      "answers": ["Prawda", "Fałsz"],
-      "correct": 0, 
-      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
-    },
-    {
-      "question": "Pan X pokłócił się z szefem i porzucił pracę w nadziei na lepsze zatrudnienie. Jest to przykład bezrobocia frykcyjnego.",
-      "answers": ["Prawda", "Fałsz"],
-      "correct": 0, 
-      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
-    },
-    {
-      "question": "Bezrobocie frykcyjne jest przykładem bezrobocia naturalnego",
-      "answers": ["Prawda", "Fałsz"],
-      "correct": 0, 
-      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
-    },
-    {
-      "question": "Pracownicy branży budowlanej są szczególnie narażeni na bezrobocie sezonowe.",
-      "answers": ["Prawda", "Fałsz"],
-      "correct": 0, 
-      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
-    },
-    {
-      "question": "Każdy, kto nie, pracuje jest bezrobotnym.",
-      "answers": ["Prawda", "Fałsz"],
-      "correct": 1, 
-      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
-    },
-    {
-      "question": "Aktywna polityka państwa w walce z bezrobociem przejawia się np. wypłatą zasiłków dla bezrobotnych",
-      "answers": ["Prawda", "Fałsz"],
-      "correct": 1, 
-      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
-    },
-    {
-      "question": "Keynes twierdził, że przyczyną bezrobocia jest niedostateczna wielkość popytu globalnego",
-      "answers": ["Prawda", "Fałsz"],
-      "correct": 0, 
-      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
-    },
-    {
-      "question": "Redukcje zatrudnienia w kopalniach węgla w Polsce są przykładem bezrobocia strukturalnego.",
-      "answers": ["Prawda", "Fałsz"],
-      "correct": 0, 
-      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
-    },
-    {
-      "question": "Od 1 maja 2004 r. Polacy mogą bez żadnych ograniczeń pracować we wszystkich krajach Unii Europejskiej.",
-      "answers": ["Prawda", "Fałsz"],
-      "correct": 1, 
-      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
-    },
-    {
-      "question": "Inflacja pojawia się dopiero wtedy, gdy w dłuższym okresie wzrośnie ogólny poziom cen.",
-      "answers": ["Prawda", "Fałsz"],
-      "correct": 0, 
-      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
-    },
-    {
-      "question": "Stosując deflator PKB można obliczyć stopę inflacji.",
-      "answers": ["Prawda", "Fałsz"],
-      "correct": 0, 
-      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
-    },
-    {
-      "question": "Inflacja bazowa obrazuje długookresowy trend kształtowania się wskaźnika cen towarów i usług konsumpcyjnych, będącego miarą inflacji.",
-      "answers": ["Prawda", "Fałsz"],
-      "correct": 0, 
-      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
-    },
-    {
-      "question": "Banki udzielające kredytów zabezpieczają się na wypadek inflacji podwyższając odpowiednio stopy oprocentowania",
-      "answers": ["Prawda", "Fałsz"],
-      "correct": 0, 
-      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
-    },
-    {
-      "question": "Gdy ceny rosną w tempie 350% rocznie, to w gospodarce występuje hiperinflacja.",
-      "answers": ["Prawda", "Fałsz"],
-      "correct": 0, 
-      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
-    },
-    {
-      "question": "W gospodarce rynkowej wysokiej stopie bezrobocia zawsze towarzyszy niska stopa inflacji.",
-      "answers": ["Prawda", "Fałsz"],
-      "correct": 1, 
-      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
-    },
-    {
-      "question": "Inflacja popytowa jest efektem nadwyżki podaży globalnej nad popytem zagregowanym",
-      "answers": ["Prawda", "Fałsz"],
-      "correct": 1, 
-      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
-    },
-    {
-      "question": "W gospodarce centralnie planowanej nie występuje zjawisko inflacji.",
-      "answers": ["Prawda", "Fałsz"],
-      "correct": 1, 
-      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
-    },
-    {
-      "question": "Stagflacja polega na równoczesnym występowaniu wysokiej inflacji i wysokiego bezrobocia.",
-      "answers": ["Prawda", "Fałsz"],
-      "correct": 0, 
-      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
-    },
-    {
-      "question": "Na inflacji tracą kredytobiorcy, którzy zaciągnęli kredyty o stałej stopie oprocentowania.",
-      "answers": ["Prawda", "Fałsz"],
-      "correct": 1, 
-      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
-    },
-    {
-      "question": "Philips dowodził, że zmniejszenie inflacji prowadzi do wzrostu bezrobocia",
-      "answers": ["Prawda", "Fałsz"],
-      "correct": 0, 
-      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
-    },
-    {
-      "question": "Z inflacją pełzającą mamy do czynienia, gdy miesięczna stopa inflacji wynosi 5%.",
-      "answers": ["Prawda", "Fałsz"],
-      "correct": 1, 
-      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
-    },
-    {
-      "question": "W Polsce indeks CPI ustalany jest przez Narodowy Bank Polski.",
-      "answers": ["Prawda", "Fałsz"],
-      "correct": 0, 
-      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
-    },
-    {
-      "question": "Płaca nominalna podzielona przez poziom cen to płaca realna.",
-      "answers": ["Prawda", "Fałsz"],
-      "correct": 0, 
-      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
-    },
-    {
-      "question": "Termin inflacja pełzająca jest tożsamy z inflacją ukrytą.",
-      "answers": ["Prawda", "Fałsz"],
-      "correct": 1, 
-      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
-    },
-    {
-      "question": "Zawsze, gdy stopa inflacji spada, spadają również ceny.",
-      "answers": ["Prawda", "Fałsz"],
-      "correct": 1, 
-      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
-    },
-    {
-      "question": "Indeks cen produkcyjnych służy do mierzenia cen płaconych przez producentów w różnych fazach procesu produkcji.",
-      "answers": ["Prawda", "Fałsz"],
-      "correct": 0, 
-      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
-    },
-    {
-      "question": "Luka inflacyjna to nie zrealizowana nadwyżka zagregowanego popytu nad zagregowaną podażą, która jest likwidowana przez podwyżkę cen.",
-      "answers": ["Prawda", "Fałsz"],
-      "correct": 1, 
-      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
-    },
-    {
-      "question": "Inflacja kosztowa jest wynikiem wzrostu kosztów produkcji w gospodarce",
-      "answers": ["Prawda", "Fałsz"],
-      "correct": 0, 
-      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
-    },
-    {
-      "question": "Inflacja osłabia skłonność do oszczędzania.",
-      "answers": ["Prawda", "Fałsz"],
-      "correct": 0, 
-      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
     }
   ],
 
@@ -1474,8 +658,762 @@
       "answers": ["druga postać normalna", "postać normalna Beyoce'a-Codda","trzecia postać normalna","pierwsza postać normalna"],
       "correct": [3],
       "explanation": "Pierwsza postać normalna (1NF) to podstawowy poziom normalizacji bazy danych. Jej jedynym wymogiem jest to, aby wszystkie atrybuty (wartości w kolumnach) były atomowe, czyli niepodzielne. Oznacza to, że pojedyncza komórka w tabeli nie może zawierać wielokrotnych wartości (np. listy czy zbioru)."
-    }
-  ],
+    },
+  {
+    "question": "Co to jest baza danych?",
+    "answers": [
+      "Zbiór narzędzi do zarządzania aplikacjami.",
+      "Zbiór informacji opisujący wybrany fragment rzeczywistości.",
+      "System operacyjny do przechowywania plików.",
+      "Program do tworzenia dokumentów tekstowych."
+    ],
+    "correct": [1],
+    "explanation": "Baza danych to zbiór informacji opisujący wybrany fragment rzeczywistości. Np. dla sklepu: dane dotyczące klientów, towarów, faktur; dla banku: dane klientów, ich rachunków, operacji na rachunkach[cite: 6]."
+  },
+  {
+    "question": "Jaka jest podstawowa funkcjonalność Systemu Zarządzania Bazą Danych (SZBD)?",
+    "answers": [
+      "Tworzenie stron internetowych.",
+      "Zarządzanie całą bazą danych oraz realizowanie żądań aplikacji użytkowników.",
+      "Edycja zdjęć i grafik.",
+      "Wysyłanie wiadomości e-mail."
+    ],
+    "correct": [1],
+    "explanation": "Z technologicznego punktu widzenia SZBD jest to moduł programowy, którego zadaniem jest zarządzanie całą bazą danych oraz realizowanie żądań aplikacji użytkowników[cite: 22]."
+  },
+  {
+    "question": "Co oznacza 'trwałość danych' w kontekście baz danych?",
+    "answers": [
+      "Dane są przechowywane tymczasowo, tylko podczas działania aplikacji.",
+      "Dane mogą być łatwo usunięte przez użytkownika.",
+      "Dane przechowywane w bazie danych nie są ulotne i są niezależne od działania aplikacji oraz platformy sprzętowo-programowej.",
+      "Dane są dostępne tylko dla jednego użytkownika jednocześnie."
+    ],
+    "correct": [2],
+    "explanation": "Trwałość danych oznacza, że dane przechowywane w bazie danych nie są ulotne. Okres przechowywania danych jest ograniczony wyłącznie okresem żywotności nośnika danych. [cite_start]'Czas życia' danych, po ich zapisaniu do bazy danych jest niezależny od istnienia i działania bądź niedziałania aplikacji, a także od platformy sprzętowo-programowej[cite: 73, 74, 75, 76]."
+  },
+  {
+    "question": "Który z wymienionych elementów jest częścią procesora zapytań w DBMS?",
+    "answers": [
+      "Moduł zarządzania transakcjami.",
+      "Menedżer pamięci.",
+      "Kompilator zapytań.",
+      "Moduł bezpieczeństwa sieci."
+    ],
+    "correct": [2],
+    "explanation": "Procesor zapytań składa się m.in. z kompilatora zapytań, który tłumaczy zapytanie na postać wewnętrzną[cite: 41]."
+  },
+  {
+    "question": "Co definiuje 'schemat bazy danych'?",
+    "answers": [
+      "Sposób, w jaki dane są wyświetlane użytkownikowi.",
+      "W jaki sposób dane są przechowywane na dysku.",
+      "W jaką powinna być struktura danych oraz w jaki sposób dane są powiązane.",
+      "Zbiór predefiniowanych operacji na danych."
+    ],
+    "correct": [2],
+    "explanation": "Schemat baz danych określa w jaka powinna być struktura danych oraz w jaki sposób dane są powiązane[cite: 9]."
+  },
+  {
+    "question": "Czym są metadane w kontekście baz danych?",
+    "answers": [
+      "Dane przechowywane na nośnikach zewnętrznych.",
+      "Dane, które opisują dane przechowywane w bazie, ich struktury, użytkowników i uprawnienia.",
+      "Ulotne informacje generowane przez aplikacje.",
+      "Informacje o wydajności systemu operacyjnego."
+    ],
+    "correct": [1],
+    "explanation": "Metadane to najprościej mówiąc dane o bazie danych. [cite_start]Dane te opisują m.in.: dane przechowywane w bazie, struktury danych, użytkowników i ich uprawnienia, relacje między obiektami, dane o archiwizacji itp.[cite: 124, 125]."
+  },
+  {
+    "question": "Który z modeli danych jest najczęściej stosowany w nowo budowanych systemach baz danych?",
+    "answers": [
+      "Model hierarchiczny.",
+      "Model obiektowo-relacyjny.",
+      "Model relacyjny.",
+      "Model semistrukturalny."
+    ],
+    "correct": [1,2,3],
+    "explanation": "Obecnie w bazach danych najczęściej stosuje się model relacyjny, obiektowo-relacyjny lub semistrukturalny[cite: 136]."
+  },
+  {
+    "question": "Jaka grupa użytkowników SBD jest odpowiedzialna za przygotowanie systemu do pracy produkcyjnej i zarządzanie użytkownikami?",
+    "answers": [
+      "Analitycy systemowi.",
+      "Programiści aplikacji.",
+      "Użytkownicy końcowi.",
+      "Administratorzy systemów baz danych."
+    ],
+    "correct": [3],
+    "explanation": "Administratorzy systemu bazy danych są odpowiedzialni m.in. za przygotowanie systemu do pracy produkcyjnej, zagwarantowanie ciągłości pracy systemu oraz zarządzanie użytkownikami[cite: 194, 195, 196]."
+  },
+  {
+    "question": "Język SQL jest językiem deklaratywnym. Co to oznacza?",
+    "answers": [
+      "Specyfikuje tylko co chcemy otrzymać, nie specyfikuje sposobu, w jaki ma być zrealizowane zadanie.",
+      "Umożliwia tworzenie graficznych interfejsów użytkownika.",
+      "Wymaga szczegółowego opisu algorytmów wykonania zadań.",
+      "Służy do programowania aplikacji na niskim poziomie."
+    ],
+    "correct": [0],
+    "explanation": "SQL jest językiem deklaratywnym. [cite_start]Oznacza to, że posługując się nim specyfikujemy tylko co chcemy otrzymać, nie specyfikujemy sposobu (algorytmu) w jaki ma być zrealizowane zadanie[cite: 201]."
+  },
+  {
+    "question": "Co jest zadaniem 'Menedżera pamięci' w DBMS?",
+    "answers": [
+      "Tłumaczenie zapytań na postać wewnętrzną.",
+      "Sterowanie umieszczaniem danych na dysku oraz przesyłaniem danych między dyskiem i pamięcią.",
+      "Zapewnianie bezpieczeństwa danych w przypadku awarii sprzętowo-programowej.",
+      "Tworzenie struktury drzewa z zapytania."
+    ],
+    "correct": [1],
+    "explanation": "Menedżer pamięci steruje umieszczaniem danych na dysku oraz przesyłaniem danych między dyskiem i pamięcią[cite: 48]."
+  },
+  {
+    "question": "Które z poniższych stwierdzeń prawidłowo opisują cel modelowania związków encji?",
+    "answers": [
+      "Dostarczenie modelu niezależnego od sposobu przechowywania danych i metod dostępu do nich.",
+      "Ułatwienie komunikacji między projektantami, programistami i użytkownikami dzięki jednoznacznemu i mało technicznemu modelowi.",
+      "Automatyczne generowanie kodu aplikacji bazodanowych.",
+      "Dostarczenie dokładnego modelu potrzeb informacyjnych przedsiębiorstwa, który stanowiłby podstawę do konstruowania nowych lub ulepszonych systemów."
+    ],
+    "correct": [0, 1, 3],
+    "explanation": "Modelowanie związków encji ma na celu dostarczenie dokładnego modelu potrzeb informacyjnych przedsiębiorstwa, który stanowiłby podstawę do konstruowania nowych lub ulepszonych systemów, oraz dostarczenie modelu niezależnego od sposobu przechowywania danych i od metod dostępu do nich, umożliwiającego podejmowanie celowych decyzji, jeśli chodzi o metod implementacyjne i współdziałanie z istniejącymi systemami. [cite: 28, 29] [cite_start]Dodatkowo, jest to metoda pozwalająca uzyskać model, który musi być jednoznaczny, a przy tym mało techniczny, który byłby zrozumiały dla wszystkich, którzy uczestniczą w tworzeniu bazy. [cite: 14]"
+  },
+  {
+    "question": "Jakie elementy zawiera model danych w postaci diagramu związków encji (ERD)?",
+    "answers": [
+      "Diagramy przepływu danych.",
+      "Encje.",
+      "Atrybuty.",
+      "Związki."
+    ],
+    "correct": [1, 2, 3],
+    "explanation": "Model danych w postaci diagramu związków encji zawiera trzy rodzaje elementów: encje, atrybuty oraz związki. [cite: 34, 35, 36, 37]"
+  },
+  {
+    "question": "Co jest prawidłową reprezentacją graficzną encji w diagramie związków encji (ERD)?",
+    "answers": [
+      "Owal z nazwą encji.",
+      "Ramka (prostokąt o zaokrąglonych rogach) z umieszczoną w środku nazwą encji pisaną wielkimi literami w liczbie pojedynczej.",
+      "Linia łącząca dwie encje.",
+      "Kwadrat z atrybutami."
+    ],
+    "correct": [1],
+    "explanation": "Reprezentacją graficzną encji jest ramka (prostokąt o zaokrąglonych rogach) z umieszczoną w środku nazwą encji. [cite_start]Nazwa powinna być pisana w liczbie pojedynczej i napisana wielkimi literami. [cite: 40, 41]"
+  },
+  {
+    "question": "Które z poniższych są regułami dotyczącymi encji?",
+    "answers": [
+      "Wszystkie encje mogą się częściowo pokrywać.",
+      "Każda encja musi być jednoznacznie identyfikowalna.",
+      "Nazwa encji musi dokładnie reprezentować typ lub klasę rzeczy, a nie jakąkolwiek jej instancję.",
+      "Wszystkie encje się wzajemnie wykluczają."
+    ],
+    "correct": [1, 2, 3],
+    "explanation": "Reguły dotyczące encji mówią, że nazwa encji musi dokładnie reprezentować typ lub klasę rzeczy - a nie jakąkolwiek jej instancję[cite: 48]. [cite_start]Wszystkie encje się wzajemnie wykluczają, tzn. iż każdy przedmiot lub rzecz może być reprezentowany tylko przez jedną encję[cite: 51]. Każda encja musi być jednoznacznie identyfikowalna, tzn. [cite_start]że każda instancja (wystąpienie) encji musi być wyraźnie odróżnialna od wszystkich innych instancji tego typu encji[cite: 52]."
+  },
+  {
+    "question": "Które z poniższych stwierdzeń są prawdziwe w odniesieniu do związków w diagramie ERD?",
+    "answers": [
+      "Są zbiorem istotnych powiązań pomiędzy zbiorami encji.",
+      "Reprezentacją graficzną związku jest trójkąt.",
+      "Każdy związek ma przypisaną nazwę, stopień i opcjonalność (opcjonalny/wymagany).",
+      "Mogą być powiązaniem tej samej encji ze sobą (rekurencyjnie)."
+    ],
+    "correct": [0, 2, 3],
+    "explanation": "Związki – to zbiór istotnych powiązań pomiędzy zbiorami encjami[cite: 54]. [cite_start]Każdy związek ma przypisaną nazwę, stopień i opcjonalność[cite: 61, 62, 63, 64, 65]. [cite_start]W szczególnym przypadku związek może być powiązaniem tej samej encji ze sobą[cite: 56]. [cite_start]Reprezentacją graficzną związku jest linia (krzywa) łącząca ze sobą dwie ramki encji lub rekurencyjnie jedną ramkę ze sobą[cite: 59, 60]."
+  },
+  {
+    "question": "Jakie są cechy atrybutu jednowartościowego?",
+    "answers": [
+      "Może przyjmować wiele wartości dla pojedynczego wystąpienia encji.",
+      "Przyjmuje tylko jedną wartość dla każdego wystąpienia encji.",
+      "Jest wyliczany z podobnego atrybutu lub ze zbioru atrybutów.",
+      "Przykładowo, dla każdego wystąpienia encji KINO atrybut kodkina ma pojedynczą wartość."
+    ],
+    "correct": [1, 3],
+    "explanation": "Atrybut jednowartościowy przyjmuje tylko jedną wartość dla każdego wystąpienia encji. [cite: 98] Przykładowo, dla każdego wystąpienia encji KINO atrybut kodkina ma pojedynczą wartość np. [cite_start]SC001 i z tego powodu atrybut kodkina jest jednowartościowy. [cite: 99]"
+  },
+  {
+    "question": "Które z poniższych poprawnie opisują 'kurzą stopkę' (crowsfoot) w diagramach ERD?",
+    "answers": [
+      "Jest to graficzna reprezentacja atrybutu pochodnego.",
+      "Symbolizuje liczebność 'wiele' w związku encji.",
+      "Linia związku dotyka ramki przedstawiającej encję w trzech punktach.",
+      "Jest to stosowane, gdy związek jest opcjonalny."
+    ],
+    "correct": [1, 2],
+    "explanation": "Przy liczebności „wiele linia związku dotyka ramki przedstawiającej encję w trzech punktach. Połączenie to nosi nazwę „kurzej stopki\" (ang. crowsfoot). [cite: 73]"
+  },
+  {
+    "question": "Jaka jest graficzna reprezentacja atrybutu w diagramie związków encji?",
+    "answers": [
+      "Owal umieszczony poza ramką encji.",
+      "Linia łącząca ramkę encji z inną ramką encji.",
+      "Wpisanie jego nazwy w liczbie pojedynczej, małymi literami, w ramkę encji.",
+      "Trójkąt obok nazwy encji."
+    ],
+    "correct": [2],
+    "explanation": "Aby w sposób graficzny przedstawić atrybut w diagramie, należy w ramkę encji wpisać małymi literami jego nazwę w liczbie pojedynczej. [cite: 93]"
+  },
+  {
+    "question": "Które z poniższych stwierdzeń są prawdziwe odnośnie atrybutów pochodnych?",
+    "answers": [
+      "Ich wartość jest bezpośrednio przechowywana w bazie danych.",
+      "Są wyliczane z innych atrybutów, niekoniecznie z tego samego zbioru encji.",
+      "Są zawsze jednowartościowe.",
+      "Przykładem jest 'czas realizacji zamówienia' wyliczony jako różnica daty złożenia i wysyłki."
+    ],
+    "correct": [1, 3],
+    "explanation": "Atrybut pochodny to atrybut reprezentujący wartość, która jest wyliczana z podobnego atrybutu lub ze zbioru atrybutów, niekoniecznie pochodzącego z tego samego zbioru encji. [cite: 103] [cite_start]Przykładowo, czas realizacji zamówienia (liczba dni), jaki upłynął od złożenia zamówienia przez klienta do momentu wysyłki zamówienia może być wyliczony jako różnica tych dat. [cite: 104]"
+  },
+  {
+    "question": "Które z poniższych pojęć są podstawowymi elementami relacyjnej bazy danych?",
+    "answers": [
+      "Tabela",
+      "Pole (atrybut)",
+      "Rekord (krotka)",
+      "Związek (więź)"
+    ],
+    "correct": [0, 1, 2, 3],
+    "explanation": "Relacyjną bazą danych nazywamy bazę danych w postaci tabel połączonych relacjami. Podstawowe pojęcia to: Tabela (encja – relacja - klasa), Pole (atrybut - kolumna), Rekord (krotka - obiekt (instancja klasy) – wiersz) oraz Związek (więź - asocjacja)."
+  },
+  {
+    "question": "Czym jest 'relacja' w kontekście relacyjnych baz danych?",
+    "answers": [
+      "Zbiorem aplikacji do zarządzania danymi.",
+      "Skończonym zbiorem krotek (rekordów).",
+      "Podzbiorem iloczynu kartezjańskiego dwóch wybranych zbiorów reprezentujących dopuszczalne wartości.",
+      "Graficznym przedstawieniem zależności między tabelami."
+    ],
+    "correct": [1, 2],
+    "explanation": "Podstawową strukturą danych jest relacja będąca podzbiorem iloczynu kartezjańskiego dwóch wybranych zbiorów reprezentujących dopuszczalne wartości. Relacja to skończony zbiór krotek (rekordów)."
+  },
+  {
+    "question": "Które z poniższych stwierdzeń prawidłowo opisują 'klucz relacji'?",
+    "answers": [
+      "Klucz relacji to zbiór, którego każdy podzbiór jest zbiorem identyfikującym relacji.",
+      "Klucz relacji to taki zbiór identyfikujący relacji, którego żaden podzbiór nie jest zbiorem identyfikującym relacji.",
+      "Klucz jest kluczem prostym, jeśli zbiór identyfikujący relacji jest zbiorem jednoelementowym.",
+      "Klucz podstawowy to pole, za pomocą którego rekord jest jednoznacznie identyfikowany w tabeli."
+    ],
+    "correct": [1, 2, 3],
+    "explanation": "Klucz relacji to taki zbiór identyfikujący relacji, którego żaden podzbiór nie jest zbiorem identyfikującym relacji. Wyróżnia się klucze proste i złożone. Klucz jest kluczem prostym, jeśli zbiór identyfikujący relacji jest zbiorem jednoelementowym. Aby w bazie możliwe było szybkie wyszukiwanie i łączenie danych z tabel, każdy rekord tabeli powinien zawierać pole za pomocą którego byłby jednoznacznie identyfikowany w bazie. Pole tego typu nazywamy kluczem podstawowym."
+  },
+  {
+    "question": "Zgodnie z postulatami Codd'a, które z poniższych są prawdziwe odnośnie dostępu do danych i wartości NULL?",
+    "answers": [
+      "Każda wartość w bazie danych jest dostępna tylko poprzez nazwę tabeli.",
+      "Każda wartość w bazie danych jest dostępna poprzez podanie nazwy tabeli, atrybutu oraz wartości klucza podstawowego.",
+      "Wartość NULL służy do reprezentacji tylko wartości nieokreślonej.",
+      "Dostępna jest specjalna wartość NULL dla reprezentacji wartości nieokreślonej jak i nieadekwatnej, inna od wszystkich i podlegająca przetwarzaniu."
+    ],
+    "correct": [1, 3],
+    "explanation": "Postulat dostępu mówi, że każda wartość w bazie danych jest dostępna poprzez podanie nazwy tabeli, atrybutu oraz wartości klucza podstawowego[cite: 51]. [cite_start]Postulat dotyczący wartości NULL mówi, że dostępna jest specjalna wartość NULL dla reprezentacji wartości nieokreślonej jak i nieadekwatnej, inna od wszystkich i podlegająca przetwarzaniu[cite: 52]."
+  },
+  {
+    "question": "Które z poniższych to typy więzi (związków) w relacyjnej bazie danych?",
+    "answers": [
+      "Więź jeden-do-jeden.",
+      "Więź jeden-do-wielu.",
+      "Więź wiele-do-wielu.",
+      "Więź typu 'drzewo'."
+    ],
+    "correct": [0, 1, 2],
+    "explanation": "Więzi to powiązania pomiędzy parą tabel (relacji). Istnieją więzi: jeden-do-jeden, jeden-do-wielu oraz wiele-do-wielu."
+  },
+  {
+    "question": "Które z poniższych typów złączeń (join) są wymienione w prezentacji?",
+    "answers": [
+      "Złączenie naturalne.",
+      "Złączenie zewnętrzne typu union.",
+      "Złączenie teta.",
+      "Złączenie krzyżowe."
+    ],
+    "correct": [0, 1, 2],
+    "explanation": "W prezentacji wymieniono następujące typy związków/złączeń: iloczyn kartezjański, złączenie naturalne, złączenie wewnętrzne (inner join), złączenie zewnętrzne lewostronne (left outer join) i prawostronne (right outer join), złączenie zewnętrzne typu union oraz złączenie teta."
+  },
+  {
+    "question": "Co jest charakterystyczne dla złączenia naturalnego?",
+    "answers": [
+      "Polega na połączeniu w pary tych krotek, które mają identyczne wartości dla wszystkich wspólnych atrybutów.",
+      "W rezultacie powstaje relacja, której schemat zawiera atrybuty obu relacji, a wspólna część jest uwzględniana tylko raz.",
+      "Łączy dwie relacje w iloczyn kartezjański i wybiera krotki spełniające wyrażenie warunkowe.",
+      "W relacji wynikowej występują wyłącznie te krotki, które spełniają warunek złączenia."
+    ],
+    "correct": [0, 1],
+    "explanation": "Złączenie naturalne polega na połączeniu w pary tych krotek z relacji R i S, które mają identyczne wartości dla wszystkich wspólnych atrybutów i jest oznaczane RS. W rezultacie powstaje relacja, której schemat zawiera atrybuty relacji R i relacji S, przy czym wspólna część uwzględniana jest tylko raz."
+  },
+  {
+    "question": "W relacji jeden-do-wielu, które stwierdzenia są prawdziwe?",
+    "answers": [
+      "Rekord w tabeli A może mieć wiele dopasowanych do niego rekordów z tabeli B.",
+      "Rekord w tabeli B ma tylko jeden dopasowany rekord w tabeli A.",
+      "Jest to najrzadziej spotykany typ relacji.",
+      "Każdy rekord w tabeli A może mieć tylko jeden dopasowany rekord z tabeli B."
+    ],
+    "correct": [0, 1],
+    "explanation": "W relacji jeden-do-wielu rekord w tabeli A może mieć wiele dopasowanych do niego rekordów z tabeli B, ale rekord w tabeli B ma tylko jeden dopasowany rekord w tabeli A[cite: 80]."
+  },
+  {
+    "question": "Które typy danych numerycznych w MySQL zajmują 4 bajty pamięci?",
+    "answers": [
+      "TINYINT",
+      "INT",
+      "FLOAT",
+      "BIGINT"
+    ],
+    "correct": [1, 2],
+    "explanation": "Typy danych INT i FLOAT zajmują 4 bajty pamięci. TINYINT zajmuje 1 bajt, a BIGINT 8 bajtów."
+  },
+  {
+    "question": "Które z poniższych są typami danych tekstowych w MySQL?",
+    "answers": [
+      "DATE",
+      "VARCHAR",
+      "TEXT",
+      "BOOLEAN"
+    ],
+    "correct": [1, 2],
+    "explanation": "VARCHAR i TEXT są typami danych tekstowych. DATE jest typem danych związanych z datą, a BOOLEAN jest typem danych numerycznych."
+  },
+  {
+    "question": "Które z poniższych są problemami wynikającymi z przechowywania wszystkich danych w jednej, nieznormalizowanej tabeli?",
+    "answers": [
+      "Nadmierne zużycie zasobów przez przechowywanie tych samych informacji wiele razy.",
+      "Problemy z aktualizacją danych, np. konieczność modyfikacji wielu wystąpień tej samej informacji.",
+      "Brak możliwości wykonania podstawowych operacji na danych, gdy kolumny zawierają kolekcje wartości.",
+      "Problem z dodawaniem nowych rekordów bez znajomości wszystkich powiązanych informacji."
+    ],
+    "correct": [0, 1, 2, 3],
+    "explanation": "Nieznormalizowana tabela generuje problemy takie jak: te same informacje przechowywane wiele razy (zajmując niepotrzebnie zasoby), problemy z aktualizacją (konieczność modyfikacji wszystkich wystąpień), kolumny zawierające kolekcje wartości (brak możliwości wykonania podstawowych operacji i nieefektywne przeszukiwanie), usunięcie rekordu (skutkuje utratą informacji, której nie chcielibyśmy tracić) oraz problem z dodawaniem studenta (konieczne określenie informacji, których być może jeszcze nie znamy)."
+  },
+  {
+    "question": "Czym jest 'normalizacja' bazy danych?",
+    "answers": [
+      "Procesem optymalizacji zapytań SQL.",
+      "Procesem organizacji danych w bazie danych, polegającym na tworzeniu tabel i ustanawianiu powiązań w celu eliminacji powtarzających się i niespójnych zależności.",
+      "Metodą zabezpieczania danych przed nieautoryzowanym dostępem.",
+      "Procesem usuwania redundancji (nadmiarowości) danych w bazie."
+    ],
+    "correct": [1, 3],
+    "explanation": "Normalizacja to proces organizacji danych w bazie danych. Polega on na tworzeniu tabel i ustanawianiu pomiędzy nimi powiązań według reguł obowiązujących zarówno przy ochronie danych, jak i uelastycznianiu bazy danych przez eliminowanie powtarzających się i niespójnych zależności. Normalizując bazę danych usuwamy z niej nadmiarowość tzw. redundancje."
+  },
+  {
+    "question": "Co jest głównym wymogiem dla relacji, aby znajdowała się w Pierwszej Postaci Normalnej (1PN)?",
+    "answers": [
+      "Każdy atrybut niekluczowy musi być w pełni funkcyjnie zależny od klucza głównego.",
+      "Żaden atrybut (kolumna) w tabeli nie może być podzielny dalej (wartości atrybutów są atomowe).",
+      "Nie może być powtarzających się grup.",
+      "Żadna informacja w kolumnie, która nie jest kluczem podstawowym, nie może zależeć od niczego innego, jak tylko od klucza podstawowego."
+    ],
+    "correct": [1, 2],
+    "explanation": "Pierwsza postać normalna wymaga, aby żaden atrybut (kolumna) w tabeli nie był podzielny dalej (wartości atrybutów są atomowe), a także, aby nie było powtarzających się grup. Definicja mówi również, że 'Relacja jest w pierwszej postaci normalnej wtedy i tylko wtedy gdy każdy atrybut niekluczowy jest funkcyjnie zależny od klucza głównego'."
+  },
+  {
+    "question": "Co jest celem normalizacji do Drugiej Postaci Normalnej (2PN)?",
+    "answers": [
+      "Eliminowanie powtarzających się grup atrybutów.",
+      "Wykluczenie zależności funkcyjnych od części klucza złożonego.",
+      "Rozdzielenie danych tak, aby każda informacja w wierszu nie zależała tylko od części klucza głównego.",
+      "Eliminowanie zależności przechodnich między danymi."
+    ],
+    "correct": [1, 2],
+    "explanation": "Druga postać normalna dotyczy zależności funkcyjnych od części klucza złożonego, normalizacja do drugiej postaci ma na celu wykluczenie takich zależności. Druga postać normalna mówi, że żadna informacja w wierszu nie może zależeć tylko od części klucza głównego (podstawowego)."
+  },
+  {
+    "question": "Jaki problem rozwiązuje Trzecia Postać Normalna (3PN)?",
+    "answers": [
+      "Problemy związane z nieatomowymi atrybutami.",
+      "Zależności funkcyjne od części klucza złożonego.",
+      "Zależności przechodnie pomiędzy danymi.",
+      "Sytuacje, gdzie informacja w kolumnie (niebędącej kluczem podstawowym) zależy od czegoś innego niż tylko od klucza podstawowego."
+    ],
+    "correct": [2, 3],
+    "explanation": "Trzecia postać normalna ma na celu wykluczenie zależności przechodnich pomiędzy danymi. Mówi, że żadna informacja w kolumnie, która nie jest kluczem podstawowym, nie może zależeć od niczego innego, jak tylko od klucza podstawowego."
+  },
+  {
+    "question": "Które z poniższych stwierdzeń są prawdziwe odnośnie Postaci Normalnej Boyce'a-Codda (BCPN)?",
+    "answers": [
+      "Jest to właściwie suma pierwszej, drugiej i trzeciej postaci normalnej.",
+      "Każdy atrybut relacji musi zależeć funkcjonalnie tylko od jej klucza głównego.",
+      "Jest to najbardziej złożona postać normalna, rzadko stosowana w praktyce.",
+      "Posługując się tą definicją można stwierdzić, czy relacja spełnia warunki relacyjnego modelu danych."
+    ],
+    "correct": [0, 1, 3],
+    "explanation": "Definicja postaci normalnej Boyce'a-Codda stanowi właściwie sumę pierwszej, drugiej i trzeciej postaci normalnej. Relacja jest w postaci normalnej Boyce'a-Codda wtedy i tylko wtedy, kiedy każdy jej atrybut zależy funkcjonalnie tylko od jej klucza głównego. Posługując się wyłącznie ta definicja można stwierdzić, czy relacja spełnia warunki relacyjnego modelu danych."
+  },
+  {
+    "question": "Dlaczego często normalizacja baz danych zatrzymuje się na 3PN lub BCPN, a dalsza normalizacja jest nieopłacalna?",
+    "answers": [
+      "Dalsza normalizacja powoduje zbyt duży wzrost objętości bazy danych.",
+      "Dalsza normalizacja zazwyczaj prowadzi do dużego spadku wydajności, głównie czasu realizacji zapytań.",
+      "Zwiększa się ilość prostych zapytań do bazy danych w ramach uzyskania danych z wielu tabel, co znacznie wpływa na obniżenie prędkości wykonania zapytań.",
+      "Wyższe postaci normalne są zbyt trudne do zrozumienia dla większości projektantów baz danych."
+    ],
+    "correct": [1, 2],
+    "explanation": "Dalsza normalizacja zazwyczaj nie jest nieopłacalna ze względu na duży spadek wydajności tak znormalizowanych baz danych (głównie chodzi o czas realizacji zapytań w przypadku dużych zbiorów danych). Znormalizowanie bazy do postaci 5PN powoduje, że zwiększa się ilość prostych zapytań do bazy danych w ramach uzyskania danych z wielu tabel, co znacznie wpływa no obniżenie prędkości wykonania zapytań."
+  },
+  {
+    "question": "Czwarta Postać Normalna (4PN) służy do:",
+    "answers": [
+      "Eliminacji zależności przechodnich.",
+      "Eliminacji relacji typu (jeden-do-wielu) zachodzących między niezależnymi kolumnami.",
+      "Zapewnienia atomowości atrybutów.",
+      "Podziału tabeli na maksymalną ilość tabel w celu uniknięcia redundancji."
+    ],
+    "correct": [1],
+    "explanation": "Czwarta postać normalna służy do eliminacji relacji miedzy tabelami typu (jeden - do - wielu) zachodzących miedzy niezależnymi kolumnami."
+  },
+  {
+    "question": "Piąta Postać Normalna (5PN) polega na:",
+    "answers": [
+      "Zapewnieniu, że żaden atrybut niekluczowy nie zależy od części klucza złożonego.",
+      "Podziale tabeli źródłowej na maksymalną ilość tabel w celu uniknięcia redundancji.",
+      "Eliminacji wszystkich zależności funkcyjnych.",
+      "Zwiększaniu wydajności bazy danych poprzez redukcję liczby tabel."
+    ],
+    "correct": [1],
+    "explanation": "Piata postać normalna polega na podziale tabeli źródłowej na maksymalna ilość tabel w celu uniknięcia redundancji (nadmiarowości)."
+  },
+   {
+    "question": "Czym jest SQL (Structured Query Language)?",
+    "answers": [
+      "Językiem programowania aplikacji internetowych.",
+      "Międzynarodowym standardem umożliwiającym dostęp i przetwarzanie danych w relacyjnej bazie danych.",
+      "Systemem operacyjnym dla baz danych.",
+      "Językiem do tworzenia grafiki 3D."
+    ],
+    "correct": [1],
+    "explanation": "SQL (ang. Structured Query Language – Strukturalny Język Zapytań) to język umożliwiający dostęp i przetwarzanie danych w relacyjnej bazie danych. Jest międzynarodowym standardem, do którego stosują się wszyscy producenci relacyjnych baz danych."
+  },
+  {
+    "question": "Które z poniższych są dialektami języka SQL wymienionymi w prezentacji?",
+    "answers": [
+      "Java.",
+      "Transact-SQL (T-SQL).",
+      "PL/SQL.",
+      "SQL/PSM."
+    ],
+    "correct": [1, 2, 3],
+    "explanation": "Pomimo prób standaryzacji powstało wiele dialektów, m.in: Transact-SQL (T-SQL), PL/SQL (firmy ORACLE) oraz SQL/PSM (najpopularniejszy silnik relacyjny w serwisach WWW – MySQL)."
+  },
+  {
+    "question": "Do jakich głównych podzbiorów zalicza się zapytania SQL?",
+    "answers": [
+      "SQL DDL (Data Definition Language).",
+      "SQL DML (Data Manipulation Language).",
+      "SQL DCL (Data Control Language).",
+      "SQL DQL (Data Query Language).",
+      "SQL TCL (Transaction Control Language)."
+    ],
+    "correct": [0, 1, 2, 3, 4],
+    "explanation": "Zapytania SQL można zaliczyć do pięciu głównych podzbiorów: SQL DDL (Data Definition Language), SQL DML (Data Manipulation Language), SQL DCL (Data Control Language), SQL DQL (Data Query Language) oraz SQL TCL (Transaction Control Language)."
+  },
+  {
+    "question": "Które polecenia należą do kategorii SQL DDL (Data Definition Language)?",
+    "answers": [
+      "INSERT.",
+      "CREATE.",
+      "DROP.",
+      "ALTER."
+    ],
+    "correct": [1, 2, 3],
+    "explanation": "DDL (Data Definition Language) umożliwia operowanie na strukturach, w których dane są przechowywane. Najważniejsze polecenia tej grupy to: CREATE (np. CREATE TABLE, CREATE DATABASE), DROP (np. DROP TABLE, DROP DATABASE) oraz ALTER (np. ALTER TABLE ADD COLUMN)."
+  },
+  {
+    "question": "Do czego służy polecenie `ALTER TABLE`?",
+    "answers": [
+      "Do dodawania nowych rekordów do tabeli.",
+      "Do usuwania kolumn z tabeli.",
+      "Do zmiany typu danych w kolumnie tabeli.",
+      "Do zmiany nazwy tabeli."
+    ],
+    "correct": [1, 2, 3],
+    "explanation": "`ALTER` służy do zmiany struktury. Przykłady użycia to: `ALTER TABLE miasta DROP COLUMN Powierzchnia;` (usuwa kolumnę), `ALTER TABLE miasta CHANGE name varchar(40);` (zmienia typ pola) oraz `ALTER TABLE miasta RENAME TO City;` (zmienia nazwę tabeli)."
+  },
+  {
+    "question": "Które polecenia należą do kategorii SQL DML (Data Manipulation Language)?",
+    "answers": [
+      "GRANT.",
+      "INSERT.",
+      "UPDATE.",
+      "DELETE."
+    ],
+    "correct": [1, 2, 3],
+    "explanation": "DML (Data Manipulation Language) służy do wykonywania operacji na danych. Najważniejsze polecenia z tego zbioru to: INSERT (umieszczenie danych), UPDATE (zmiana danych) oraz DELETE (usunięcie danych)."
+  },
+  {
+    "question": "Jaka jest funkcja klauzuli `WHERE` w zapytaniu `SELECT`?",
+    "answers": [
+      "Określa, które kolumny mają być wyświetlone.",
+      "Służy do określenia relacji/tabeli, których dotyczy zapytanie.",
+      "Formułuje warunek, który muszą spełniać rekordy, aby zostały wybrane.",
+      "Sortuje wyniki zapytania."
+    ],
+    "correct": [2],
+    "explanation": "W klauzuli `WHERE` formułuje się warunek. Określa on ograniczenia, jakie mają spełniać pola rekordów, aby zostać wybrane w danym zapytaniu."
+  },
+  {
+    "question": "Które z poniższych poleceń należą do SQL DCL (Data Control Language)?",
+    "answers": [
+      "SELECT.",
+      "GRANT.",
+      "REVOKE.",
+      "COMMIT."
+    ],
+    "correct": [1, 2],
+    "explanation": "DCL (Data Control Language) ma zastosowanie do nadawania uprawnień do obiektów bazodanowych. Najważniejsze polecenia w tej grupie to: GRANT (nadawanie uprawnień) oraz REVOKE (odbieranie uprawnień)."
+  },
+  {
+    "question": "Do czego służy klauzula `ORDER BY`?",
+    "answers": [
+      "Do filtrowania danych.",
+      "Do grupowania danych.",
+      "Do sortowania wyników zapytania.",
+      "Posiada specyfikatory ASC (rosnąco) i DESC (malejąco)."
+    ],
+    "correct": [2, 3],
+    "explanation": "Do sortowania wyników służy klauzula ORDER BY występująca na końcu zapytania SELECT. Posiada ona dwa specyfikatory ASC (rosnąco - domyślny) i DESC (malejąco)."
+  },
+  {
+    "question": "Które z poniższych poleceń są elementami SQL TCL (Transaction Control Language)?",
+    "answers": [
+      "CREATE TABLE.",
+      "BEGIN Transaction.",
+      "COMMIT Transaction.",
+      "ROLLBACK Transaction."
+    ],
+    "correct": [1, 2, 3],
+    "explanation": "TCL (Transaction Control Language) to polecenia pozwalające na obsługę transakcji w SQL: BEGIN Transaction (otwarcie transakcji), COMMIT Transaction (potwierdzenie transakcji) oraz ROLLBACK Transaction (wycofanie transakcji w przypadku wystąpienia błędu)."
+  },
+  {
+    "question": "Które z poniższych zasad konstrukcji wyrażeń SQL są prawdziwe?",
+    "answers": [
+      "Nazwy umożliwiają dostęp do obiektów z różnych poziomów za pomocą kropki jako separatora.",
+      "Możliwe jest konstruowanie operacji porównania na wierszach, np. (A1,B1,C1)<(A2,B2,C2).",
+      "Każda instrukcja kończy się średnikiem.",
+      "Stałe tekstowe zapisywane są w nawiasach kwadratowych."
+    ],
+    "correct": [0, 1, 2],
+    "explanation": "Zgodnie z prezentacją, nazwy umożliwiają dostęp do obiektów z różnych poziomów za pomocą wyrażeń ścieżkowych (np. baza_danych.tabela.pole - separatorem poziomów jest kropka)[cite: 313, 314]. [cite_start]Możliwe jest konstruowanie operacji porównania na wierszach[cite: 315]. [cite_start]Każda instrukcja zaczyna się słowem kluczowym, może zawierać modyfikatory i kończy się średnikiem[cite: 316]. Stałe tekstowe zapisywane są w cudzysłowach, np. [cite_start]'Warszawa'[cite: 318]."
+  },
+  {
+    "question": "Jaki jest cel klauzuli `WHERE` w zapytaniu SQL?",
+    "answers": [
+      "Określenie, które kolumny mają być wyświetlone.",
+      "Formułowanie warunku, który muszą spełniać pola rekordów, aby zostać wybrane w danym zapytaniu.",
+      "Sortowanie wyników tabeli wynikowej.",
+      "Określenie tabel, których dotyczy zapytanie."
+    ],
+    "correct": [1],
+    "explanation": "W klauzuli WHERE formułuje się warunek. [cite_start]Określa on ograniczenia, jakie mają spełniać pola rekordów, aby zostać wybrane w danym zapytaniu[cite: 345]."
+  },
+  {
+    "question": "Które z poniższych operatorów relacyjnych są używane w SQL do porównywania wartości?",
+    "answers": [
+      "=",
+      "<> (lub !=)",
+      ">=",
+      "AND"
+    ],
+    "correct": [0, 1, 2],
+    "explanation": "Operatory relacyjne to =, <, >, <=, >=, != (<>) służą do porównywania liczb, dat, napisów[cite: 349, 350]. [cite_start]AND jest operatorem logicznym[cite: 352]."
+  },
+  {
+    "question": "Które z poniższych funkcji tekstowych są dostępne w SQL i do czego służą?",
+    "answers": [
+      "CONCAT(łańcuch1, łańcuch2, ...) – zwraca rezultat w postaci połączonych argumentów.",
+      "LENGTH(łańcuch) – zwraca długość łańcucha w bajtach.",
+      "LOCATE(podłańcuch, łańcuch, położenie) – zwraca położenie pierwszego wystąpienie ciągu znaków podłańcuch w łańcuchu.",
+      "TRIM(łańcuch) – usuwa spacje z początku i końca łańcucha."
+    ],
+    "correct": [0, 1, 2, 3],
+    "explanation": "Prezentacja opisuje wszystkie wymienione funkcje tekstowe: CONCAT (łączy argumenty) [cite: 371][cite_start], LENGTH (zwraca długość łańcucha w bajtach) [cite: 392][cite_start], LOCATE (zwraca położenie podłańcucha) [cite: 402][cite_start], oraz TRIM (usuwa spacje)[cite: 422]."
+  },
+  {
+    "question": "Które z poniższych funkcji obliczających są wymienione w prezentacji?",
+    "answers": [
+      "AVG(x) – zwraca wartość średnią ze zbioru liczb.",
+      "COUNT(x) – zlicza wartości różne od NULL danego zbioru.",
+      "MEDIAN(x) – zwraca wartość mediany (wartość środkową) danego zbioru liczb.",
+      "SUM(x) – zwraca wartość sumy liczb zbioru."
+    ],
+    "correct": [0, 1, 2, 3],
+    "explanation": "Prezentacja wymienia funkcje obliczające: AVG(x), COUNT(x), MEDIAN(x) (dostępna jedynie w bazie Oracle) oraz SUM(x)[cite: 446]."
+  },
+  {
+    "question": "Jaka jest różnica między klauzulami `WHERE` i `HAVING` w operacjach grupowania?",
+    "answers": [
+      "`WHERE` działa po sformowaniu grup, a `HAVING` przed.",
+      "`WHERE` działa przed sformowaniem grup, a `HAVING` po.",
+      "`HAVING` musi odnosić się do kryteriów wykorzystanych przy tworzeniu grup.",
+      "`WHERE` jest używane do filtrowania pojedynczych rekordów, a `HAVING` do filtrowania grup."
+    ],
+    "correct": [1, 2, 3],
+    "explanation": "`WHERE` działa przed sformowaniem grup [cite: 453][cite_start], a `HAVING` po[cite: 454]. [cite_start]Predykat opcji `HAVING` musi więc odnosić się do kryteriów wykorzystanych przy tworzeniu grup[cite: 454]. `WHERE` filtruje wiersze, zanim zostaną pogrupowane, podczas gdy `HAVING` filtruje grupy po ich utworzeniu."
+  },
+  {
+    "question": "Czym charakteryzuje się iloczyn kartezjański w SQL?",
+    "answers": [
+      "Zwraca tylko te rekordy, które spełniają warunek złączenia.",
+      "Zwraca wszystkie kombinacje krotek z łączonych relacji.",
+      "Jest wykonywany, gdy w zapytaniu podano więcej niż jedną tabelę bez jawnego warunku złączenia.",
+      "Bierze pod uwagę rekordy mające tę samą nazwę w obu relacjach."
+    ],
+    "correct": [1, 2],
+    "explanation": "W przypadku podania więcej niż jednej tabeli (bez jawnego warunku złączenia), wykonywana jest operacja iloczynu kartezjańskiego[cite: 323]. [cite_start]Iloczyn kartezjański zwraca wszystkie kombinacje krotek z łączonych relacji[cite: 475]."
+  },
+  {
+    "question": "Które z poniższych są prawdziwe odnośnie zagnieżdżania zapytań w SQL?",
+    "answers": [
+      "Zapytania mogą operować na wynikach innych zapytań.",
+      "Operatory IN oraz ANY pozwalają na przeszukanie pewnego zbioru.",
+      "Różnica między IN a ANY polega na możliwości zastosowania różnych operatorów relacyjnych (zamiast '=') dla ANY.",
+      "Zagnieżdżanie zapytań zawsze spowalnia działanie bazy danych."
+    ],
+    "correct": [0, 1, 2],
+    "explanation": "Zapytania w SQL mogą operować na wynikach innych zapytań, możliwe jest więc tzw. zagnieżdżanie zapytań[cite: 462]. [cite_start]Operatory IN oraz ANY pozwalają na przeszukanie pewnego zbioru[cite: 470]. [cite_start]Różnica pomiędzy nimi polega na możliwości zastosowania różnych operatorów relacyjnych (zamiast '=') dla ANY[cite: 470]."
+  },
+  {
+    "question": "Jakie są cechy połączenia wewnętrznego (INNER JOIN)?",
+    "answers": [
+      "W tabeli wynikowej występują wyłącznie te krotki, które spełniają warunek złączenia.",
+      "Zwraca wszystkie rekordy z wybranej relacji, nawet jeśli nie ma dopasowania w drugiej.",
+      "Tabela wynikowa składa się ze wszystkich kolumn tabel wejściowych.",
+      "Jest to najbardziej powszechny typ połączenia."
+    ],
+    "correct": [0, 2],
+    "explanation": "W wyniku złączenia wewnętrznego (INNER JOIN) otrzymujemy tabelę wynikową, składającą się ze wszystkich kolumn tabel wejściowych[cite: 484]. [cite_start]Tabela wynikowa zawierać będzie tylko takie elementy, dla których warunki złączenia wewnętrznego będą spełnione[cite: 485]."
+  },
+  {
+    "question": "W przypadku połączeń zewnętrznych (OUTER JOIN), które z poniższych stwierdzeń są prawdziwe?",
+    "answers": [
+      "LEFT OUTER JOIN zwraca wszystkie wystąpienia relacji po lewej stronie połączenia.",
+      "RIGHT OUTER JOIN zwraca wszystkie wystąpienia relacji po prawej stronie połączenia.",
+      "FULL OUTER JOIN zwraca wszystkie wystąpienia obu relacji.",
+      "Połączenia zewnętrzne zawsze zwracają tylko dopasowane rekordy."
+    ],
+    "correct": [0, 1, 2],
+    "explanation": "Połączenia zewnętrzne zwracają wszystkie rekordy z wybranej relacji[cite: 504]. [cite_start]LEFT zwraca wszystkie wystąpienia relacji po lewej stronie połączenia [cite: 505][cite_start], RIGHT zwraca wszystkie wystąpienia relacji po prawej stronie połączenia [cite: 505][cite_start], a FULL zwraca wszystkie wystąpienia obu relacji[cite: 506]."
+  },
+  {
+    "question": "Które z poniższych stwierdzeń opisują wyzwania związane z realizacją programów transformujących bazę danych?",
+    "answers": [
+      "Awaryjność środowiska sprzętowo-programowego.",
+      "Współbieżny dostęp do danych.",
+      "Rozproszenie baz danych.",
+      "Zbyt mała ilość danych do przetworzenia."
+    ],
+    "correct": [0, 1, 2],
+    "explanation": "Niebezpieczeństwa związane z realizacją programu transformującego bazę danych obejmują: Awaryjność środowiska sprzętowo-programowego, Współbieżny dostęp do danych oraz Rozproszenie baz danych[cite: 1000, 1001, 1002]."
+  },
+  {
+    "question": "Czym jest 'transakcja' w kontekście baz danych?",
+    "answers": [
+      "Pojedyncza operacja odczytu danych.",
+      "Sekwencja logicznie powiązanych operacji na bazie danych, która przeprowadza bazę danych z jednego stanu spójnego w inny stan spójny.",
+      "Program do tworzenia kopii zapasowych bazy danych.",
+      "Operacja, która zawsze narusza ograniczenia integralnościowe."
+    ],
+    "correct": [1],
+    "explanation": "Transakcja jest sekwencją logicznie powiązanych operacji na bazie danych, która przeprowadza bazę danych z jednego stanu spójnego w inny stan spójny[cite: 1020]."
+  },
+  {
+    "question": "Które z poniższych poleceń SQL są związane z zarządzaniem transakcjami?",
+    "answers": [
+      "SELECT.",
+      "COMMIT.",
+      "ROLLBACK.",
+      "SAVEPOINT."
+    ],
+    "correct": [1, 2, 3],
+    "explanation": "W systemach baz danych realizujących standard SQL polecenia dotyczące transakcji to: BEGIN, BEGIN WORK, START TRANSACTION – rozpoczęcie transakcji; COMMIT – zatwierdzenie zmian; ROLLBACK – odrzucenie zmian; SAVEPOINT nazwa – zdefiniowanie punktu pośredniego; RELEASE SAVEPOINT nazwa – skasowanie punktu pośredniego; [cite_start]ROLLBACK TO SAVEPOINT nazwa – wycofanie transakcji do stanu zapamiętanego w podanym punkcie pośrednim[cite: 1034, 1035, 1036, 1037, 1038, 1039]."
+  },
+  {
+    "question": "Jakie są podstawowe własności transakcji, znane jako zasada ACID?",
+    "answers": [
+      "Atomowość (Atomicity).",
+      "Spójność (Consistency).",
+      "Szybkość (Speed).",
+      "Izolacja (Isolation).",
+      "Trwałość (Durability)."
+    ],
+    "correct": [0, 1, 3, 4],
+    "explanation": "Własności transakcji to Atomowość (Atomicity), Spójność (Consistency), Izolacja (Isolation) i Trwałość (Durability)[cite: 1041, 1046, 1050, 1055]."
+  },
+  {
+    "question": "Co oznacza własność 'Atomowość' (Atomicity) transakcji?",
+    "answers": [
+      "Transakcje są od siebie logicznie odseparowane.",
+      "Wyniki zatwierdzonych transakcji nie mogą zostać utracone.",
+      "Zbiór operacji wchodzących w skład transakcji jest niepodzielny: albo zostaną wykonane wszystkie operacje transakcji albo żadna.",
+      "Transakcja przeprowadza bazę danych z jednego stanu spójnego do innego stanu spójnego."
+    ],
+    "correct": [2],
+    "explanation": "Atomowość (A) oznacza, że zbiór operacji wchodzących w skład transakcji jest niepodzielny: albo zostaną wykonane wszystkie operacje transakcji albo żadna (niepodzielność)[cite: 1043]."
+  },
+  {
+    "question": "Które z poniższych typów nieprawidłowych odczytów (anomalii) są związane z poziomami izolacji transakcji?",
+    "answers": [
+      "Brudny odczyt (Dirty read).",
+      "Odczyt bez powtórzeń (Non-repeatable read).",
+      "Odczyt widmo (Phantom).",
+      "Szybki odczyt (Fast read)."
+    ],
+    "correct": [0, 1, 2],
+    "explanation": "W celu zdefiniowania poziomów izolacji transakcji określono 3 rodzaje nieprawidłowych odczytów: Brudny odczyt (Dirty read), Odczyt bez powtórzeń (Non-repeatable read) oraz Odczyt widmo (Phantom)[cite: 1095, 1096, 1107, 1109]."
+  },
+  {
+    "question": "Który poziom izolacji transakcji jest domyślny w PostgreSQL i co oznacza?",
+    "answers": [
+      "SERIALIZABLE, co oznacza, że transakcja widzi stan bazy danych tak, jak gdyby była wykonywana w sposób sekwencyjny.",
+      "READ COMMITED, co oznacza, że transakcja odczytuje tylko obiekty, których zmiany zostały zatwierdzone.",
+      "READ UNCOMMITED, co oznacza, że transakcja odczytuje obiekty w dowolnej chwili, nawet te niezakończone.",
+      "REPEATABLE READS, co oznacza, że żadna wartość odczytana lub zmieniona przez T nie może być zmieniona przez inną transakcję dopóki T nie skończy się."
+    ],
+    "correct": [1],
+    "explanation": "PostgreSQL domyślnie pracuje w trybie automatycznego zatwierdzania transakcji. [cite_start]Domyślnym poziomem izolacji w PostgreSQL jest READ COMMITED, co oznacza, że transakcja odczytuje tylko obiekty, których zmiany zostały zatwierdzone[cite: 1086, 1127, 1128]."
+  },
+  {
+    "question": "Jakie są metody radzenia sobie z zakleszczeniami w bazach danych?",
+    "answers": [
+      "Zapobieganie.",
+      "Wykrywanie.",
+      "Ustalenie limitu oczekiwania na blokadę (timeout).",
+      "Zwiększanie liczby transakcji w cyklu."
+    ],
+    "correct": [0, 1, 2],
+    "explanation": "Są trzy sposoby radzenia sobie z zakleszczeniami: zapobieganie, wykrywanie oraz ustalenie limitu oczekiwania na blokadę (timeout)[cite: 1191, 1192, 1193, 1194, 1195]."
+  },
+  {
+    "question": "W protokole ścisłego blokowania dwufazowego (Strict 2PL), co dzieje się z blokadami trzymanymi przez transakcję?",
+    "answers": [
+      "Są zwalniane stopniowo w trakcie działania transakcji.",
+      "Są zwalniane jednocześnie, w chwili gdy transakcja kończy się (wycofaniem lub zatwierdzeniem).",
+      "Są utrzymywane w nieskończoność.",
+      "Są zwalniane tylko w przypadku awarii systemu."
+    ],
+    "correct": [1],
+    "explanation": "Wszystkie blokady trzymane przez transakcję są zwalniane jednocześnie, w chwili gdy transakcja kończy się (wycofaniem lub zatwierdzeniem)[cite: 1164]."
+  },
+  {
+    "question": "Co jest warunkiem poprawnego wykonania transakcji rozproszonej?",
+    "answers": [
+      "Musi być realizowana tylko na jednym serwerze.",
+      "Musi być zatwierdzona na wszystkich serwerach, na których ulokowane są modyfikowane dane.",
+      "Nie może obejmować modyfikacji danych.",
+      "Wymaga ręcznego zarządzania blokadami przez użytkownika."
+    ],
+    "correct": [1],
+    "explanation": "Warunkiem poprawnego wykonania transakcji rozproszonej jest jej zatwierdzenie na wszystkich serwerach[cite: 1222]."
+  }
+
+],
+
+
+
 
 
   "angielski": [
@@ -1708,115 +1646,6 @@
     "explanation":""
     }
     
-  ],
-
-
-  "negocjacje i etykieta w biznesie":[
-
-    {
-    "question":"Jakie są reguły aktywnego słuchania?",
-    "answers":["słuchanie z empatią","słuchanie zorientowane na działanie","słuchanie zorientowanie na interes mówiącego","Parafrazowanie"],
-    "correct":[0, 1, 2],
-    "explanation":""
-    },
-    {
-    "question":"Komponenty aktywnego słuchania",
-    "answers":["Wypowiedzi otwierające","Parafrazowanie","Precyzowanie / zadawanie pytań","odnoszenie się do emocji"],
-    "correct":0,
-    "explanation":"Oraz dowartościowywanie i podsumowanie"
-    },
-    {
-    "question":"Dlaczego warto zajmowac się konfliktami?",
-    "answers":["Np. pracownik może się nauczyć, jak ułożyć sobie dobre stosunki z kolegami, menedżerem, innymi osobami","Przełożony może zacząć dostrzegać zbliżające się konflikty","Przełożony może uzyskać większą współpracę ze strony pracowników","Pracownik może ugrać coś dla siebie"],
-    "correct":[0, 1, 2],
-    "explanation":"Pracownik może się nauczyć, jak ułożyć sobie dobre stosunki z: kolegami, menedżerem, innymi osobami. • Przełożony może zacząć: dostrzegać zbliżające się konflikty, nauczyć się produktywnych reakcji, uzyskać większą współpracę ze strony pracowników, pomóc pracownikom w rozwiązywaniu sporów, zahamować rozprzestrzenianie się konfliktu w innych częściach przedsiębiorstwa."
-    },
-    {
-    "question":"Czym jest konflikt?",
-    "answers":["Konflikt to spór przynajmniej dwóch współzależnych stron, które dają mu wyraz. Owe strony uznają, że ich cele są niezgodne, a zasoby ograniczone, oraz stwierdzają, że wzajemnie przeszkadzają sobie w realizacji swoich celów.","Polega na ignorowaniu różnic i zawsze jest negatywny","Należy się go bać i nie wchodzić w konflikt nigdy","Jest tylko kłótnią lub sprzeczką"],
-    "correct":0,
-    "explanation":""
-    },
-    {
-    "question":"Czym jest konflikt destruktywny?",
-    "answers":["Konflikty oscylują od epizodu do epizodu w nieustannie rozwijającym się wzorze interakcji między głównymi stronami. Posunięcia i interpretacje dokonywane przez jedną stronę wpływają na posunięcia i interpretacje dokonywane przez pozostałych. Najlepszą ilustracją zazębiania się owych działań jest konflikt o charakterze destruktywnym.","Krytykowanie->Defensywność->Zamykanie się w sobie->Pogarda","Żadne z powyższych"],
-    "correct":[0, 1],
-    "explanation":""
-    },
-    {
-    "question":"Które z wymienionych konfliktów koła Moore'a należą do konfliktów relacji?",
-    "answers":["błędne spostrzeganie","brak informacji","stereotypy","silne emocje"],
-    "correct":[0, 2, 3],
-    "explanation":"KONFLIKT RELACJI: błędne spostrzeganie, zła komunikacja, silne emocje, stereotypy, negatywne/odwetowe działania"
-    },
-    {
-    "question":"Które z wymienionych konfliktów koła Moore'a należą do konfliktu danych?",
-    "answers":["brak informacji","różne procedury zbierania danych","nierówna kontrola zasobów","nierówny rozklad sił"],
-    "correct":[0, 1],
-    "explanation":"KONFLIKT DANYCH: brak informacji, błędne zrozumienie danych, różne interpretacje danych, różne procedury zbierania danych"
-    },
-    {
-    "question":"Które z wymienionych konfliktów koła Moore'a należą do konfliktu interesów",
-    "answers":["interesy rzeczowe np pieniądze, czas, podział pracy","interesy proceduralne np sposób prowadzenia rozmowy","interesy psychologiczne (poczucie własnej wartości, godności, szacunku, zaufania"],
-    "correct":[0, 1, 2],
-    "explanation":""
-    },
-    {
-    "question":"Które z wymienionych konfliktów koła Moore'a należą do konfliktu strukturalnego?",
-    "answers":["nierówna kontrola zasobów","wartości dnia codziennego","nierówny rozkład sił","negatywne działania"],
-    "correct":[0, 2],
-    "explanation":"KONFLIKT STRUKTURALNY: nierówna kontrola zasobów, nierówny rozkla sił, rozmieszczenie przestrzenne, ograniczenia czasowe, nadmiar zadań, różne role spoleczne"
-    },
-    {
-    "question":"Które z wymienionych konfliktów koła Moore'a należą do konfliktu wartości?",
-    "answers":["różnice religii, ideologii, tradycji","błędne spostrzeganie","wartości związane z własnym ja(tożsamością osoby)","wartości dnia codziennego(zwyczaje, konwenanse)"],
-    "correct":[0, 2, 3],
-    "explanation":""
-    },
-    {
-    "question":"Sytle konfliktu mogą być:",
-    "answers":["konfrontacyjny","unikający","atakujący","perswazyjny"],
-    "correct":[0, 3],
-    "explanation":"Konfrontacyjny, Perswazyjny, Introspektywny, Reaktywny"
-    },
-    {
-    "question":"Style rozwiązywania konfliktów to:",
-    "answers":["Uleganie","Kompromis","Współpraca","Rywalizacja"],
-    "correct":[0,1,2,3],
-    "explanation":"Oraz unikanie"
-    },
-    {
-    "question":"Negocjacji nie należy traktować ani jako formy współpracy, ani tym bardziej jako bezpośredniego starcia.",
-    "answers":["Prawda","Fałsz"],
-    "correct":0,
-    "explanation":""
-    },
-    {
-    "question":"Uważane są one za połączenie kooperacji, czyli nastawienia na współdziałanie z asertywnością, która najogólniej rozumiana jest jako umiejętność stanowczego mówienia nie",
-    "answers":["Prawda","Fałsz"],
-    "correct":0,
-    "explanation":""
-    },
-    {
-    "question":"Sama świadomość naszych potrzeb może uchronić nas przed manipulacją",
-    "answers":["Prawda","Fałsz"],
-    "correct":0,
-    "explanation":""
-    },
-    {
-    "question":"Czym jest BATNA",
-    "answers":["BATNA – analiza alternatyw (The Best Alternative to a Negotiated Agreement)","Najlepsza Alternatywa dla Negocjowanego Porozumienia","BATNA wzmacnia twoją siłę jako negocjatora"],
-    "correct":[0,1,2],
-    "explanation":""
-    },
-    {
-    "question":"Style negocjacji to:",
-    "answers":["dostosowanie się","dominacja","brak negocjacji","żadne z powyższych"],
-    "correct":[0,1],
-    "explanation":"kompromis, sominacja, dostosowanie się, unikanie, negocjacje integratywne"
-    }
-
-
   ],
 
   "fiszki_bazy_danych":[
