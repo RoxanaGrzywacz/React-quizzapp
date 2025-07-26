@@ -1,0 +1,8 @@
+/* --- Stopka --- */
+.footer {
+    background-color: var(--color-primary-blue);
+    padding: 1rem;
+    text-align: center;
+    font-size: 0.9rem;
+    color: var(--color-text-light);
+}

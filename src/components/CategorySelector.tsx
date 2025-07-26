@@ -1,4 +1,5 @@
 import React from 'react';
+import styles from './CategorySelector.module.css';
 
 interface CategorySelectorProps {
   categories: string[];
@@ -7,7 +8,7 @@ interface CategorySelectorProps {
 
 const CategorySelector: React.FC<CategorySelectorProps> = ({ categories, onSelectCategory }) => {
   return (
-    <div className="category-selector">
+    <div className={styles.container}>
       <h2>Wybierz kategorię</h2>
       {categories.map(category => (
         <button key={category} onClick={() => onSelectCategory(category)}>

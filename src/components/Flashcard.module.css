@@ -1,0 +1,55 @@
+/* --- Fiszki --- */
+.flashcard {
+  width: 500px;
+  height: 250px;
+  perspective: 1000px;
+  background: transparent;
+  cursor: pointer;
+}
+
+.flashcardInner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+}
+
+.flashcardFace {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  border-radius: 15px; 
+  color: var(--color-text-light);
+  font-size: 1.0rem;
+  text-align: center;
+  background: var(--gradient-background);
+  border: none; 
+}
+
+.flashcardFace::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 15px; 
+  padding: 2px; 
+  background: var(--gradient-border); 
+  -webkit-mask: 
+    linear-gradient(#fff 0 0) content-box, 
+    linear-gradient(#fff 0 0); 
+  -webkit-mask-composite: xor;
+     mask: 
+    linear-gradient(#fff 0 0) content-box, 
+    linear-gradient(#fff 0 0);
+  mask-composite: exclude;
+  pointer-events: none;
+}
+
+.flashcardBack {
+  transform: rotateY(180deg);
+}

@@ -1,0 +1,154 @@
+/* === STYLE BAZOWE (MOBILNE) === */
+
+.header {
+    display: flex;
+    justify-content: space-between; /* Rozsuwa logo i prawą sekcję */
+    align-items: center;
+    padding: 1rem;
+    background-color: var(--color-primary-dark);
+    color: var(--color-text-light);
+}
+
+.logo img {
+    height: 7rem; 
+    width: auto;
+    cursor: pointer;
+}
+
+.headerRight {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.userActions {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.userActions a {
+    color: var(--color-text-light);
+    text-decoration: none;
+    font-weight: 600;
+    padding: 5px;
+    font-size: 0.9rem;
+}
+
+.userActions a:hover {
+    background-color: rgba(3, 77, 204, 0.47);
+    border-radius: 5px;
+}
+
+.userActions span {
+    color: var(--color-text-light);
+    margin: 0 5px;
+}
+
+.mainNav {
+    position: relative;
+}
+
+.navbarToggle {
+    display: block;
+    font-size: 2rem;
+    cursor: pointer;
+    background: none;
+    border: none;
+    outline: none;
+    color: var(--color-text-light);
+    padding: 0;
+}
+.navbarToggle::before {
+    display: none;
+}
+
+.navbarLinks {
+    display: none; /* Domyślnie ukryte */
+    flex-direction: column;
+    list-style: none;
+    margin: 0;
+    padding: 1rem;
+    text-align: center;
+    position: absolute;
+    top: 100%;
+    right: 0; /* Wyrównujemy do prawej krawędzi rodzica (.mainNav) */
+    background: var(--gradient-background);
+    min-width: 200px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    opacity: 0;
+    transform: translateY(-10px);
+    pointer-events: none;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    z-index: 10;
+}
+
+.navbarLinks.open {
+    display: flex;
+    opacity: 1;
+    transform: translateY(0);
+    pointer-events: auto;
+}
+
+.navbarLinks li {
+    padding: 10px;
+    cursor: pointer;
+}
+
+.navbarLinks li:hover {
+    background-color: rgba(3, 77, 204, 0.47); /* Użyłem rgba dla przezroczystości */
+    border-radius: 5px;
+}
+
+/* === STYLE DLA WIĘKSZYCH EKRANÓW === */
+@media (min-width: 1100px) {
+    .header {
+        padding: 1rem 2rem;
+        
+    }
+
+    .logo img {
+        height: 200px;
+    }
+
+    .headerRight {
+        display: contents;
+    }
+
+    .userActions {
+        margin-left:auto; 
+        margin-bottom: 0;
+        
+    }
+
+    .userActions a:hover {
+        background-color: var(--color-text-light);
+        border-radius: 5px;
+    }
+
+    .userActions a {
+        color: var(--color-text-medium);
+    }
+
+    .navbarToggle {
+        display: none;
+    }
+
+    .navbarLinks {
+        display: flex;
+        flex-direction: row;
+        position: static;
+        background: none;
+        box-shadow: none;
+        padding: 0;
+        opacity: 1;
+        transform: none;
+        pointer-events: auto;
+        gap: 40px;
+        font-weight: bold;
+        font-size: large;
+        margin-left: 2rem;
+        
+    }
+}

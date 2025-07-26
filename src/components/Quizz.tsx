@@ -1,6 +1,5 @@
-// src/components/Quiz.tsx
-
 import { useState } from 'react';
+import styles from './Quizz.module.css';
 import { motion, AnimatePresence } from 'framer-motion';
 import Results from './Results';
 import type { Question } from '../types';
@@ -40,7 +39,7 @@ const Quiz = ({ questions, onReturnHome }: QuizProps) => {
   };
 
   const checkMultipleChoiceAnswer = () => {
-  // === NOWA LOGIKA - POCZĄTEK ===
+  
   if (selectedAnswers.length === 0) {
     const userWantsToSkip = window.confirm(
       "Nie wybrałeś żadnej odpowiedzi. Czy chcesz przejść do następnego pytania?"
@@ -51,13 +50,11 @@ const Quiz = ({ questions, onReturnHome }: QuizProps) => {
       handleNextQuestion();
     }
     
-    // Niezależnie od wyboru, przerywamy dalsze wykonywanie tej funkcji
     return; 
   }
-  // === NOWA LOGIKA - KONIEC ===
+  
 
     // Sprawdzanie poprawności nie zalicza punktu, jeśli odpowiedź jest częściowa.
-    // To jest już zaimplementowane poprawnie.
     const correctAnswers = currentQuestion.correct as number[];
     const isPerfectMatch =
       selectedAnswers.length === correctAnswers.length &&
@@ -102,24 +99,23 @@ const Quiz = ({ questions, onReturnHome }: QuizProps) => {
   return (
     
     <AnimatePresence mode="wait">
-      {/* Cały kontener quizu opakowujemy w motion.div */}
-      {/* Dajemy mu unikalny klucz, aby Framer Motion wiedział, kiedy element się zmienia */}
+  
       <motion.div
         key={currentQuestionIndex}
-        initial={{ opacity: 0, y: 20 }} // Stan początkowy (niewidoczny, lekko poniżej)
-        animate={{ opacity: 1, y: 0 }} // Stan końcowy (widoczny, na swojej pozycji)
-        exit={{ opacity: 0, y: -20 }} // Stan wyjścia (zanika, lekko w górę)
-        transition={{ duration: 0.3 }} // Czas trwania animacji
+        initial={{ opacity: 0, y: 20 }}
+        animate={{ opacity: 1, y: 0 }}
+        exit={{ opacity: 0, y: -20 }}
+        transition={{ duration: 0.3 }}
       >
-      <p id="progress">Pytanie {currentQuestionIndex + 1} z {questions.length}</p>
-      <div id="quiz-container">
-        <p>{currentQuestion.question}</p>
+      <p className={styles.progress}>Pytanie {currentQuestionIndex + 1} z {questions.length}</p>
+      <div className={styles.quizContainer}>
+        <p className={styles.questionText}>{currentQuestion.question}</p>
         
         {isMultipleChoice ? (
-          <div className="checkbox-container">
+          <div className={styles.checkboxContainer}>
             {currentQuestion.answers.map((answer, index) => {
-              // === POCZĄTEK NOWEJ LOGIKI WIZUALNEJ ===
-              let labelClassName = 'checkbox-label'; // Domyślna klasa
+              
+              let labelClassName = styles.checkboxLabel; // Domyślna klasa
               
               if (showExplanation) {
                 const correctAnswers = currentQuestion.correct as number[];
@@ -127,21 +123,22 @@ const Quiz = ({ questions, onReturnHome }: QuizProps) => {
                 const wasSelected = selectedAnswers.includes(index);
 
                 if (isCorrectAnswer && wasSelected) {
-                  // Poprawna i zaznaczona -> zielony
-                  labelClassName += ' correct';
+                  
+                  labelClassName += ` ${styles.correctLabel}`;
                 } else if (isCorrectAnswer && !wasSelected) {
-                  // Poprawna, ale pominięta -> pomarańczowy
-                  labelClassName += ' missed';
+                  
+                  labelClassName += ` ${styles.missedLabel}`;
                 } else if (!isCorrectAnswer && wasSelected) {
-                  // Błędna i zaznaczona -> czerwony
-                  labelClassName += ' incorrect';
+                  
+                  labelClassName += ` ${styles.incorrectLabel}`;
                 }
               }
-              // === KONIEC NOWEJ LOGIKI WIZUALNEJ ===
+              
 
               return (
                 <label key={index} className={labelClassName}>
                   <input
+                    className={styles.hiddenInput}
                     type="checkbox"
                     name="answer"
                     value={index}
@@ -149,23 +146,23 @@ const Quiz = ({ questions, onReturnHome }: QuizProps) => {
                     onChange={() => handleMultipleAnswerToggle(index)}
                     disabled={showExplanation}
                   />
-                  <span className="checkbox-custom"></span>
+                  <span className={styles.checkboxCustom}></span>
                   {answer}
                 </label>
               );
             })}
           </div>
         ) : (
-          // Logika dla pytań jednokrotnego wyboru (bez zmian)
+          // Logika dla pytań jednokrotnego wyboru
           <div>
             {currentQuestion.answers.map((answer, index) => {
               let className = '';
               if (showExplanation) {
                 const correct = currentQuestion.correct as number;
                 if (index === correct) {
-                  className = 'correct';
+                  className = styles.correctButton;
                 } else if (selectedAnswers.includes(index)) {
-                  className = 'incorrect';
+                  className = styles.incorrectButton;
                 }
               }
               return (
@@ -184,13 +181,13 @@ const Quiz = ({ questions, onReturnHome }: QuizProps) => {
 
         {showExplanation && (
           <>
-            <p className="explanation">{currentQuestion.explanation}</p>
-            <button className="next_button" onClick={handleNextQuestion}>Dalej</button>
+            <p className={styles.explanation}>{currentQuestion.explanation}</p>
+            <button className={styles.nextButton} onClick={handleNextQuestion}>Dalej</button>
           </>
         )}
 
         {isMultipleChoice && !showExplanation && (
-          <button className="next_button" onClick={checkMultipleChoiceAnswer}>
+          <button className={styles.nextButton} onClick={checkMultipleChoiceAnswer}>
             Sprawdź odpowiedź
           </button>
         )}

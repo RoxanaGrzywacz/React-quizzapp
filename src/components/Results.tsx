@@ -1,4 +1,5 @@
 import React from 'react';
+import styles from './Results.module.css'
 
 interface ResultsProps {
   score: number;
@@ -9,7 +10,7 @@ interface ResultsProps {
 
 const Results: React.FC<ResultsProps> = ({ score, totalQuestions, onRestart, onReturnHome }) => {
   return (
-    <div className="results-container">
+    <div className={styles.container}>
       <h2>Quiz zakończony!</h2>
       <p>Twój wynik: {score} z {totalQuestions}</p>
       <button onClick={onRestart} className="next_button">Zacznij od nowa</button>

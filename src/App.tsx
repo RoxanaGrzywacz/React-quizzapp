@@ -1,4 +1,6 @@
 import  { useState, useEffect } from 'react';
+import Header from './layout/Header';
+import Footer from './layout/Footer';
 import CategorySelector from './components/CategorySelector';
 import Quizz from './components/Quizz';
 import FlashcardViewer from './components/FlashcardViewer';
@@ -6,13 +8,13 @@ import type{ QuizData, Question, Flashcard } from './types';
 
 // Funkcja pomocnicza do sprawdzania typu danych w kategorii
 const isFlashcardArray = (data: (Question | Flashcard)[]): data is Flashcard[] => {
-  // Jeśli pierwszy element ma pole 'term', zakładamy, że to fiszki
   return data.length > 0 && 'term' in data[0];
 };
 
 function App() {
   const [quizData, setQuizData] = useState<QuizData | null>(null);
   const [selectedCategory, setSelectedCategory] = useState<string | null>(null);
+  const [isMenuOpen, setMenuOpen] = useState(false);  
 
   useEffect(() => {
     fetch('/questions.json')
@@ -54,15 +56,15 @@ function App() {
 
   return (
     <>
-      <header>
-        <h3>Nice and Simple Quizz app for studying</h3>
-      </header>
+      
+      <Header isMenuOpen={isMenuOpen} onToggleMenu={() => setMenuOpen(!isMenuOpen)} />
 
       <main>
         {renderContent()}
       </main>
+      
+      <Footer />
 
-      <footer>© Roxana Grzywacz 2025</footer>
     </>
   );
 }
