@@ -19,25 +19,23 @@ https://react-quizzapp-seven.vercel.app/
 </table>
 
 
-## ✨ Cel Projektu
+## Cel Projektu
 
 Ta aplikacja została stworzona z myślą o nauce do sesji. Zawiera zestawy pytań z dziedzin, do których potrzebujemy się uczyć w danej chwili i jest udostępniona jako pomoc naukowa **dla mnie i moich koleżanek**.
 
 Na chwilę obecną pytania testowe dodaję sama ręcznie w pliku JSON i importuję do apki.
 
-Tak będzie wyglądał kokpit po zalogowaniu do aplikacji GJ Quizz, do której zrobiłam wstępnie formularze logowania, rejestracji i placeholdery QR do AppleStore i GooglePlay (link do repo: https://github.com/RoxanaGrzywacz/GJQuizz)
-
 ---
 
-## 🚀 Główne Funkcjonalności
+##  Główne Funkcjonalności
 
 * **Wybór kategorii tematycznych** z ekranu głównego.
 * Obsługa pytań **jednokrotnego wyboru** (przyciski typu radio).
 * Obsługa pytań **wielokrotnego wyboru** (przyciski typu checkbox).
 * **Natychmiastowa informacja zwrotna** po udzieleniu odpowiedzi:
-    * ✅ Poprawnie zaznaczone odpowiedzi.
-    * ❌ Błędnie zaznaczone odpowiedzi.
-    * 💡 Poprawne odpowiedzi, które zostały pominięte.
+    * Poprawnie zaznaczone odpowiedzi.
+    * Błędnie zaznaczone odpowiedzi.
+    * Poprawne odpowiedzi, które zostały pominięte.
 * **Szczegółowe wyjaśnienia** do każdego pytania, pojawiające się po udzieleniu odpowiedzi.
 * **Płynne animacje** przejść między pytaniami, zrealizowane przy użyciu `Framer Motion`.
 * Licznik postępów w quizie.
