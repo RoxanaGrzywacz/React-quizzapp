@@ -1,25 +1,25 @@
 {
   "statystyka": [
     {
-      "question": "W pewnej firmie logistycznej wylosowano 25 pracowników i zbadano ich pod względem stażu pracy (w latach) oraz miesięcznej liczby obsłużonych zleceń. Ustalono, że 12 pracowników obsługuje miesięcznie 80 zleceń. Połowa badanych realizuje nie więcej niż 95 zleceń miesięcznie. Ponadto 11 pracowników posiada staż pracy równy 5 lat, a 10 pracowników pracuje w firmie co najmniej 5 lat. Współczynnik zmienności liczby obsłużonych zleceń wynosi 22%, natomiast współczynnik zmienności stażu pracy wynosi 14%. -- Wartość 80 zleceń jest",
+      "question": "W pewnej firmie logistycznej wylosowano 25 pracowników i zbadano ich pod względem stażu pracy (w latach) oraz miesięcznej liczby obsłużonych zleceń. Ustalono, że 12 pracowników obsługuje miesięcznie 80 zleceń. Połowa badanych realizuje nie więcej niż 95 zleceń miesięcznie. Ponadto 11 pracowników posiada staż pracy równy 5 lat, a 10 pracowników pracuje w firmie co najmniej 5 lat. Współczynnik zmienności liczby obsłużonych zleceń wynosi 22%, natomiast współczynnik zmienności stażu pracy wynosi 14%. --> Wartość 80 zleceń jest",
       "answers": ["medianą", "kwartylem pierwszym", "dominantą", "średnią"],
       "correct": 1,
       "explanation": "Skoro 12 pracowników obsługuje nie więcej niż 80 zleceń, a badano 48 osób, to 12 stanowi 25% zbiorowości. Oznacza to, że 80 jest pierwszym kwartylem (Q1)."
     },
     {
-      "question": "Staż pracy równy 5 lat jest wartością",
+      "question": "W pewnej firmie logistycznej wylosowano 25 pracowników i zbadano ich pod względem stażu pracy (w latach) oraz miesięcznej liczby obsłużonych zleceń. Ustalono, że 12 pracowników obsługuje miesięcznie 80 zleceń. Połowa badanych realizuje nie więcej niż 95 zleceń miesięcznie. Ponadto 11 pracowników posiada staż pracy równy 5 lat, a 10 pracowników pracuje w firmie co najmniej 5 lat. Współczynnik zmienności liczby obsłużonych zleceń wynosi 22%, natomiast współczynnik zmienności stażu pracy wynosi 14%. --> Staż pracy równy 5 lat jest wartością",
       "answers": ["dominanty", "mediany", "średniej", "kwartyla górnego"],
       "correct": 1,
       "explanation": "11 osób ma dokładnie 5 lat stażu, a 10 osób co najmniej 5 lat. Oznacza to, że dokładnie połowa obserwacji znajduje się poniżej lub równo 5 lat, więc 5 lat jest medianą."
     },
     {
-      "question": "Liczba obsłużonych zleceń i staż pracy są mierzone na skali",
+      "question": "W pewnej firmie logistycznej wylosowano 25 pracowników i zbadano ich pod względem stażu pracy (w latach) oraz miesięcznej liczby obsłużonych zleceń. Ustalono, że 12 pracowników obsługuje miesięcznie 80 zleceń. Połowa badanych realizuje nie więcej niż 95 zleceń miesięcznie. Ponadto 11 pracowników posiada staż pracy równy 5 lat, a 10 pracowników pracuje w firmie co najmniej 5 lat. Współczynnik zmienności liczby obsłużonych zleceń wynosi 22%, natomiast współczynnik zmienności stażu pracy wynosi 14%. --> Liczba obsłużonych zleceń i staż pracy są mierzone na skali",
       "answers": ["porządkowej", "ilorazowej", "nominalnej", "przedziałowej"],
       "correct": 1,
       "explanation": "Obie cechy mają naturalne zero i można dla nich wykonywać porównania ilorazowe, dlatego są mierzone na skali ilorazowej."
     },
     {
-      "question": "Badani pracownicy są",
+      "question": "W pewnej firmie logistycznej wylosowano 25 pracowników i zbadano ich pod względem stażu pracy (w latach) oraz miesięcznej liczby obsłużonych zleceń. Ustalono, że 12 pracowników obsługuje miesięcznie 80 zleceń. Połowa badanych realizuje nie więcej niż 95 zleceń miesięcznie. Ponadto 11 pracowników posiada staż pracy równy 5 lat, a 10 pracowników pracuje w firmie co najmniej 5 lat. Współczynnik zmienności liczby obsłużonych zleceń wynosi 22%, natomiast współczynnik zmienności stażu pracy wynosi 14%. --> Badani pracownicy są",
       "answers": [
         "bardziej zróżnicowani pod względem liczby zleceń niż stażu pracy",
         "jednakowo zróżnicowani",
@@ -27,70 +27,70 @@
         "nie można tego określić"
       ],
       "correct": 0,
-      "explanation": "Współczynnik zmienności liczby zleceń wynosi 22%, a stażu pracy 14%. Większy współczynnik zmienności oznacza większe zróżnicowanie."
+      "explanation": "W pewnej firmie logistycznej wylosowano 25 pracowników i zbadano ich pod względem stażu pracy (w latach) oraz miesięcznej liczby obsłużonych zleceń. Ustalono, że 12 pracowników obsługuje miesięcznie 80 zleceń. Połowa badanych realizuje nie więcej niż 95 zleceń miesięcznie. Ponadto 11 pracowników posiada staż pracy równy 5 lat, a 10 pracowników pracuje w firmie co najmniej 5 lat. Współczynnik zmienności liczby obsłużonych zleceń wynosi 22%, natomiast współczynnik zmienności stażu pracy wynosi 14%. --> Współczynnik zmienności liczby zleceń wynosi 22%, a stażu pracy 14%. Większy współczynnik zmienności oznacza większe zróżnicowanie."
     },
     {
-      "question": "Do badania zależności pomiędzy liczbą zleceń a stażem pracy można wykorzystać",
+      "question": "W pewnej firmie logistycznej wylosowano 25 pracowników i zbadano ich pod względem stażu pracy (w latach) oraz miesięcznej liczby obsłużonych zleceń. Ustalono, że 12 pracowników obsługuje miesięcznie 80 zleceń. Połowa badanych realizuje nie więcej niż 95 zleceń miesięcznie. Ponadto 11 pracowników posiada staż pracy równy 5 lat, a 10 pracowników pracuje w firmie co najmniej 5 lat. Współczynnik zmienności liczby obsłużonych zleceń wynosi 22%, natomiast współczynnik zmienności stażu pracy wynosi 14%. --> Do badania zależności pomiędzy liczbą zleceń a stażem pracy można wykorzystać",
       "answers": ["dominantę", "współczynnik korelacji", "medianę", "indeks indywidualny"],
       "correct": 1,
       "explanation": "Do badania zależności pomiędzy dwiema cechami ilościowymi stosuje się współczynnik korelacji."
     },
     {
-      "question": "Typowa miesięczna liczba obsłużonych zleceń wynosi",
+      "question": "W pewnej firmie logistycznej wylosowano 25 pracowników i zbadano ich pod względem stażu pracy (w latach) oraz miesięcznej liczby obsłużonych zleceń. Ustalono, że 12 pracowników obsługuje miesięcznie 80 zleceń. Połowa badanych realizuje nie więcej niż 95 zleceń miesięcznie. Ponadto 11 pracowników posiada staż pracy równy 5 lat, a 10 pracowników pracuje w firmie co najmniej 5 lat. Współczynnik zmienności liczby obsłużonych zleceń wynosi 22%, natomiast współczynnik zmienności stażu pracy wynosi 14%. --> Typowa miesięczna liczba obsłużonych zleceń wynosi",
       "answers": ["95", "trudno powiedzieć", "22", "80"],
       "correct": 0,
       "explanation": "Połowa badanych realizuje nie więcej niż 95 zleceń miesięcznie, więc 95 jest medianą, czyli wartością typową."
     },
     {
-      "question": "Jednostką statystyczną jest",
+      "question": "W pewnej firmie logistycznej wylosowano 25 pracowników i zbadano ich pod względem stażu pracy (w latach) oraz miesięcznej liczby obsłużonych zleceń. Ustalono, że 12 pracowników obsługuje miesięcznie 80 zleceń. Połowa badanych realizuje nie więcej niż 95 zleceń miesięcznie. Ponadto 11 pracowników posiada staż pracy równy 5 lat, a 10 pracowników pracuje w firmie co najmniej 5 lat. Współczynnik zmienności liczby obsłużonych zleceń wynosi 22%, natomiast współczynnik zmienności stażu pracy wynosi 14%. --> Jednostką statystyczną jest",
       "answers": ["firma logistyczna", "zlecenie", "pracownik", "rok pracy"],
       "correct": 2,
       "explanation": "Badaniu podlegali pracownicy, więc jednostką statystyczną jest pojedynczy pracownik."
     },
     {
-      "question": "Wartość 95 zleceń jest",
+      "question": "W pewnej firmie logistycznej wylosowano 25 pracowników i zbadano ich pod względem stażu pracy (w latach) oraz miesięcznej liczby obsłużonych zleceń. Ustalono, że 12 pracowników obsługuje miesięcznie 80 zleceń. Połowa badanych realizuje nie więcej niż 95 zleceń miesięcznie. Ponadto 11 pracowników posiada staż pracy równy 5 lat, a 10 pracowników pracuje w firmie co najmniej 5 lat. Współczynnik zmienności liczby obsłużonych zleceń wynosi 22%, natomiast współczynnik zmienności stażu pracy wynosi 14%. --> Wartość 95 zleceń jest",
       "answers": ["dominantą", "średnią", "medianą", "kwartylem trzecim"],
       "correct": 2,
       "explanation": "Z treści wynika, że połowa pracowników wykonuje nie więcej niż 95 zleceń, co jest definicją mediany."
     },
     {
-      "question": "Badanie przeprowadzono na",
+      "question": "W pewnej firmie logistycznej wylosowano 25 pracowników i zbadano ich pod względem stażu pracy (w latach) oraz miesięcznej liczby obsłużonych zleceń. Ustalono, że 12 pracowników obsługuje miesięcznie 80 zleceń. Połowa badanych realizuje nie więcej niż 95 zleceń miesięcznie. Ponadto 11 pracowników posiada staż pracy równy 5 lat, a 10 pracowników pracuje w firmie co najmniej 5 lat. Współczynnik zmienności liczby obsłużonych zleceń wynosi 22%, natomiast współczynnik zmienności stażu pracy wynosi 14%. --> Badanie przeprowadzono na",
       "answers": ["próbie statystycznej", "populacji pełnej", "szeregu czasowym", "populacji generalnej"],
       "correct": 1,
       "explanation": "Zbadano wszystkich pracowników firmy, więc przeprowadzono badanie pełne (spis pełny)."
     },
     {
-      "question": "Współczynnik zmienności informuje o",
+      "question": "W pewnej firmie logistycznej wylosowano 25 pracowników i zbadano ich pod względem stażu pracy (w latach) oraz miesięcznej liczby obsłużonych zleceń. Ustalono, że 12 pracowników obsługuje miesięcznie 80 zleceń. Połowa badanych realizuje nie więcej niż 95 zleceń miesięcznie. Ponadto 11 pracowników posiada staż pracy równy 5 lat, a 10 pracowników pracuje w firmie co najmniej 5 lat. Współczynnik zmienności liczby obsłużonych zleceń wynosi 22%, natomiast współczynnik zmienności stażu pracy wynosi 14%. --> Współczynnik zmienności informuje o",
       "answers": ["asymetrii", "względnym zróżnicowaniu", "korelacji", "wartości typowej"],
       "correct": 1,
       "explanation": "Współczynnik zmienności określa względne zróżnicowanie cechy względem jej średniej."
     },
     {
-      "question": "Największy wzrost produkcji względem roku poprzedniego nastąpił w roku",
+      "question": "Indeksy łańcuchowe produkcji przedsiębiorstwa w latach 2019–2024 wynosiły odpowiednio: 102, 97, 100, 108, 94, 105. ---> Największy wzrost produkcji względem roku poprzedniego nastąpił w roku",
       "answers": ["2022", "2020", "2021", "2023"],
       "correct": 0,
       "explanation": "Największy indeks łańcuchowy wynosi 108 i dotyczy roku 2022, co oznacza największy wzrost względem roku poprzedniego."
     },
     {
-      "question": "Produkcja nie zmieniła się względem roku poprzedniego w roku",
+      "question": "Indeksy łańcuchowe produkcji przedsiębiorstwa w latach 2019–2024 wynosiły odpowiednio: 102, 97, 100, 108, 94, 105. ---> Produkcja nie zmieniła się względem roku poprzedniego w roku",
       "answers": ["2024", "2020", "2021", "2022"],
       "correct": 2,
       "explanation": "Indeks równy 100 oznacza brak zmiany. W danych wartość 100 przypada na rok 2021."
     },
     {
-      "question": "Indeks równy 94 oznacza, że produkcja",
+      "question": "Indeksy łańcuchowe produkcji przedsiębiorstwa w latach 2019–2024 wynosiły odpowiednio: 102, 97, 100, 108, 94, 105. ---> Indeks równy 94 oznacza, że produkcja",
       "answers": ["wzrosła o 94%", "spadła o 6%", "spadła o 94%", "wzrosła o 6%"],
       "correct": 1,
       "explanation": "Indeks 94 oznacza, że poziom stanowi 94% poprzedniego roku, czyli nastąpił spadek o 6%."
     },
     {
-      "question": "Indeks równy 108 oznacza, że produkcja",
+      "question": "Indeksy łańcuchowe produkcji przedsiębiorstwa w latach 2019–2024 wynosiły odpowiednio: 102, 97, 100, 108, 94, 105. ---> Indeks równy 108 oznacza, że produkcja",
       "answers": ["spadła o 8%", "nie zmieniła się", "wzrosła o 108%", "wzrosła o 8%"],
       "correct": 3,
       "explanation": "Indeks 108 oznacza poziom równy 108% poprzedniego roku, czyli wzrost o 8%."
     },
     {
-      "question": "Indeks mniejszy od 100 oznacza",
+      "question": "Indeksy łańcuchowe produkcji przedsiębiorstwa w latach 2019–2024 wynosiły odpowiednio: 102, 97, 100, 108, 94, 105. ---> Indeks mniejszy od 100 oznacza",
       "answers": ["brak zmian", "wzrost zjawiska", "spadek zjawiska", "nie można określić"],
       "correct": 2,
       "explanation": "Jeżeli indeks jest mniejszy od 100, oznacza to spadek badanego zjawiska."
@@ -137,6 +137,163 @@
     }
   ],
 
+  "statystyka 2": [
+    {
+      "question": "W pewnej sieci handlowej wylosowano 21 sprzedawców i zbadano ich pod względem stażu pracy (w latach) oraz miesięcznej wartości sprzedaży (w tys. zł).Na podstawie zebranych danych ustalono, że 11 sprzedawców osiągnęło sprzedaż na poziomie 120 tys. zł miesięcznie. Połowa badanych uzyskuje sprzedaż nie większą niż 135 tys. zł miesięcznie. Ponadto 10 sprzedawców posiada staż pracy wynoszący 6 lat. Ustalono również, że 9 sprzedawców pracuje w firmie co najmniej 6 lat. Współczynnik zmienności wartości sprzedaży wynosi 24%, natomiast współczynnik zmienności stażu pracy wynosi 15%. ---> 120 tys. zł jest wartością",
+      "answers": ["średniej", "mediany", "modalnej", "kwartylu dolnego"],
+      "correct": 2,
+      "explanation": "12 sprzedawców osiąga sprzedaż równą 120 tys. zł, więc jest to wartość występująca najczęściej, czyli dominanta (moda)."
+    },
+    {
+      "question": "W pewnej sieci handlowej wylosowano 21 sprzedawców i zbadano ich pod względem stażu pracy (w latach) oraz miesięcznej wartości sprzedaży (w tys. zł).Na podstawie zebranych danych ustalono, że 11 sprzedawców osiągnęło sprzedaż na poziomie 120 tys. zł miesięcznie. Połowa badanych uzyskuje sprzedaż nie większą niż 135 tys. zł miesięcznie. Ponadto 10 sprzedawców posiada staż pracy wynoszący 6 lat. Ustalono również, że 9 sprzedawców pracuje w firmie co najmniej 6 lat. Współczynnik zmienności wartości sprzedaży wynosi 24%, natomiast współczynnik zmienności stażu pracy wynosi 15%. ---> 6 lat jest wartością",
+      "answers": ["średniej", "kwartyla górnego", "modalnej", "mediany"],
+      "correct": 3,
+      "explanation": "Z treści wynika, że 9 sprzedawców pracuje co najmniej 6 lat, co pozwala stwierdzić, że 6 lat jest medianą."
+    },
+    {
+      "question": "W pewnej sieci handlowej wylosowano 21 sprzedawców i zbadano ich pod względem stażu pracy (w latach) oraz miesięcznej wartości sprzedaży (w tys. zł).Na podstawie zebranych danych ustalono, że 11 sprzedawców osiągnęło sprzedaż na poziomie 120 tys. zł miesięcznie. Połowa badanych uzyskuje sprzedaż nie większą niż 135 tys. zł miesięcznie. Ponadto 10 sprzedawców posiada staż pracy wynoszący 6 lat. Ustalono również, że 9 sprzedawców pracuje w firmie co najmniej 6 lat. Współczynnik zmienności wartości sprzedaży wynosi 24%, natomiast współczynnik zmienności stażu pracy wynosi 15%. ---> Wartość sprzedaży oraz staż pracy są mierzone na skali",
+      "answers": ["nominalnej", "porządkowej", "przedziałowej", "ilorazowej"],
+      "correct": 3,
+      "explanation": "Obie cechy są mierzone na skali ilorazowej, ponieważ mają naturalne zero i można porównywać ich ilorazy."
+    },
+    {
+      "question": "W pewnej sieci handlowej wylosowano 21 sprzedawców i zbadano ich pod względem stażu pracy (w latach) oraz miesięcznej wartości sprzedaży (w tys. zł).Na podstawie zebranych danych ustalono, że 11 sprzedawców osiągnęło sprzedaż na poziomie 120 tys. zł miesięcznie. Połowa badanych uzyskuje sprzedaż nie większą niż 135 tys. zł miesięcznie. Ponadto 10 sprzedawców posiada staż pracy wynoszący 6 lat. Ustalono również, że 9 sprzedawców pracuje w firmie co najmniej 6 lat. Współczynnik zmienności wartości sprzedaży wynosi 24%, natomiast współczynnik zmienności stażu pracy wynosi 15%. ---> Badani sprzedawcy są",
+      "answers": [
+        "bardziej zróżnicowani pod względem stażu pracy niż sprzedaży",
+        "bardziej zróżnicowani pod względem sprzedaży niż stażu pracy",
+        "jednakowo zróżnicowani pod względem obu cech",
+        "nie można tego określić"
+      ],
+      "correct": 1,
+      "explanation": "Współczynnik zmienności sprzedaży jest większy niż współczynnik zmienności stażu pracy (15%), więc sprzedaż jest bardziej zróżnicowana."
+    },
+    {
+      "question": "W pewnej sieci handlowej wylosowano 21 sprzedawców i zbadano ich pod względem stażu pracy (w latach) oraz miesięcznej wartości sprzedaży (w tys. zł).Na podstawie zebranych danych ustalono, że 11 sprzedawców osiągnęło sprzedaż na poziomie 120 tys. zł miesięcznie. Połowa badanych uzyskuje sprzedaż nie większą niż 135 tys. zł miesięcznie. Ponadto 10 sprzedawców posiada staż pracy wynoszący 6 lat. Ustalono również, że 9 sprzedawców pracuje w firmie co najmniej 6 lat. Współczynnik zmienności wartości sprzedaży wynosi 24%, natomiast współczynnik zmienności stażu pracy wynosi 15%. ---> Do zbadania zależności pomiędzy wartością sprzedaży i stażem pracy można wykorzystać",
+      "answers": ["współczynnik korelacji", "medianę", "indeks indywidualny", "dominantę"],
+      "correct": 0,
+      "explanation": "Do badania zależności między dwiema cechami ilościowymi stosuje się współczynnik korelacji."
+    },
+    {
+      "question": "W pewnej sieci handlowej wylosowano 21 sprzedawców i zbadano ich pod względem stażu pracy (w latach) oraz miesięcznej wartości sprzedaży (w tys. zł).Na podstawie zebranych danych ustalono, że 11 sprzedawców osiągnęło sprzedaż na poziomie 120 tys. zł miesięcznie. Połowa badanych uzyskuje sprzedaż nie większą niż 135 tys. zł miesięcznie. Ponadto 10 sprzedawców posiada staż pracy wynoszący 6 lat. Ustalono również, że 9 sprzedawców pracuje w firmie co najmniej 6 lat. Współczynnik zmienności wartości sprzedaży wynosi 24%, natomiast współczynnik zmienności stażu pracy wynosi 15%. ---> Typowa miesięczna wartość sprzedaży wynosi",
+      "answers": ["135 tys. zł", "120 tys. zł", "24 tys. zł", "trudno powiedzieć"],
+      "correct": 1,
+      "explanation": "Typową wartością jest dominanta, a z treści wynika, że najczęściej występuje wartość 120 tys. zł."
+    },
+    {
+      "question": "W pewnej sieci handlowej wylosowano 21 sprzedawców i zbadano ich pod względem stażu pracy (w latach) oraz miesięcznej wartości sprzedaży (w tys. zł).Na podstawie zebranych danych ustalono, że 11 sprzedawców osiągnęło sprzedaż na poziomie 120 tys. zł miesięcznie. Połowa badanych uzyskuje sprzedaż nie większą niż 135 tys. zł miesięcznie. Ponadto 10 sprzedawców posiada staż pracy wynoszący 6 lat. Ustalono również, że 9 sprzedawców pracuje w firmie co najmniej 6 lat. Współczynnik zmienności wartości sprzedaży wynosi 24%, natomiast współczynnik zmienności stażu pracy wynosi 15%. ---> Jednostką statystyczną jest",
+      "answers": ["tysiąc złotych", "wartość sprzedaży", "sprzedawca", "sieć handlowa"],
+      "correct": 2,
+      "explanation": "Badaniu podlegali sprzedawcy, więc jednostką statystyczną jest pojedynczy sprzedawca."
+    },
+    {
+      "question": "W pewnej sieci handlowej wylosowano 21 sprzedawców i zbadano ich pod względem stażu pracy (w latach) oraz miesięcznej wartości sprzedaży (w tys. zł).Na podstawie zebranych danych ustalono, że 11 sprzedawców osiągnęło sprzedaż na poziomie 120 tys. zł miesięcznie. Połowa badanych uzyskuje sprzedaż nie większą niż 135 tys. zł miesięcznie. Ponadto 10 sprzedawców posiada staż pracy wynoszący 6 lat. Ustalono również, że 9 sprzedawców pracuje w firmie co najmniej 6 lat. Współczynnik zmienności wartości sprzedaży wynosi 24%, natomiast współczynnik zmienności stażu pracy wynosi 15%. ---> Wartość 135 tys. zł jest wartością",
+      "answers": ["średnią", "kwartylem pierwszym", "medianą", "dominantą"],
+      "correct": 2,
+      "explanation": "Połowa sprzedawców osiąga sprzedaż nie większą niż 135 tys. zł, więc jest to mediana."
+    },
+    {
+      "question": "W pewnej sieci handlowej wylosowano 21 sprzedawców i zbadano ich pod względem stażu pracy (w latach) oraz miesięcznej wartości sprzedaży (w tys. zł).Na podstawie zebranych danych ustalono, że 11 sprzedawców osiągnęło sprzedaż na poziomie 120 tys. zł miesięcznie. Połowa badanych uzyskuje sprzedaż nie większą niż 135 tys. zł miesięcznie. Ponadto 10 sprzedawców posiada staż pracy wynoszący 6 lat. Ustalono również, że 9 sprzedawców pracuje w firmie co najmniej 6 lat. Współczynnik zmienności wartości sprzedaży wynosi 24%, natomiast współczynnik zmienności stażu pracy wynosi 15%. ---> Badanie przeprowadzono na",
+      "answers": ["populacji generalnej", "próbie statystycznej", "szeregu czasowym", "populacji pełnej"],
+      "correct": 1,
+      "explanation": "Badaniem objęto wylosowanych sprzedawców, a nie całą populację, więc była to próba statystyczna."
+    },
+    {
+      "question": "W pewnej sieci handlowej wylosowano 21 sprzedawców i zbadano ich pod względem stażu pracy (w latach) oraz miesięcznej wartości sprzedaży (w tys. zł).Na podstawie zebranych danych ustalono, że 11 sprzedawców osiągnęło sprzedaż na poziomie 120 tys. zł miesięcznie. Połowa badanych uzyskuje sprzedaż nie większą niż 135 tys. zł miesięcznie. Ponadto 10 sprzedawców posiada staż pracy wynoszący 6 lat. Ustalono również, że 9 sprzedawców pracuje w firmie co najmniej 6 lat. Współczynnik zmienności wartości sprzedaży wynosi 24%, natomiast współczynnik zmienności stażu pracy wynosi 15%. ---> Współczynnik zmienności informuje o",
+      "answers": [
+        "kierunku korelacji",
+        "asymetrii rozkładu",
+        "względnym zróżnicowaniu cechy",
+        "wartości typowej"
+      ],
+      "correct": 2,
+      "explanation": "Współczynnik zmienności opisuje względne zróżnicowanie badanej cechy."
+    },
+    {
+      "question": "Indeksy łańcuchowe sprzedaży przedsiębiorstwa w latach 2018–2023 wynosiły odpowiednio: 105, 98, 100, 110, 95, 103. ---> Największy wzrost sprzedaży względem roku poprzedniego nastąpił w roku",
+      "answers": ["2019", "2020", "2021", "2022"],
+      "correct": 3,
+      "explanation": "Największy indeks łańcuchowy wynosi 110 i przypada na rok 2022."
+    },
+    {
+      "question": "Indeksy łańcuchowe sprzedaży przedsiębiorstwa w latach 2018–2023 wynosiły odpowiednio: 105, 98, 100, 110, 95, 103. ---> Sprzedaż nie zmieniła się względem roku poprzedniego w roku",
+      "answers": ["2019", "2020", "2021", "2022"],
+      "correct": 2,
+      "explanation": "Indeks równy 100 oznacza brak zmiany. W danych wartość 100 występuje dla roku 2021."
+    },
+    {
+      "question": "Indeksy łańcuchowe sprzedaży przedsiębiorstwa w latach 2018–2023 wynosiły odpowiednio: 105, 98, 100, 110, 95, 103. ---> Indeks równy 95 oznacza, że sprzedaż",
+      "answers": ["wzrosła o 95%", "spadła o 95%", "wzrosła o 5%", "spadła o 5%"],
+      "correct": 3,
+      "explanation": "Indeks 95 oznacza, że sprzedaż stanowi 95% wartości z poprzedniego roku, czyli spadła o 5%."
+    },
+    {
+      "question": "Indeksy łańcuchowe sprzedaży przedsiębiorstwa w latach 2018–2023 wynosiły odpowiednio: 105, 98, 100, 110, 95, 103. ---> Indeks równy 110 oznacza, że sprzedaż",
+      "answers": ["wzrosła o 10%", "wzrosła o 110%", "spadła o 10%", "nie zmieniła się"],
+      "correct": 0,
+      "explanation": "Indeks 110 oznacza wzrost do 110% poprzedniej wartości, czyli wzrost o 10%."
+    },
+    {
+      "question": "Indeksy łańcuchowe sprzedaży przedsiębiorstwa w latach 2018–2023 wynosiły odpowiednio: 105, 98, 100, 110, 95, 103. ---> Indeks większy od 100 oznacza",
+      "answers": [
+        "spadek badanego zjawiska",
+        "brak zmian",
+        "wzrost badanego zjawiska",
+        "nie można określić"
+      ],
+      "correct": 2,
+      "explanation": "Indeks powyżej 100 zawsze oznacza wzrost badanego zjawiska."
+    },
+    {
+      "question": "Jeżeli średnia arytmetyczna jest większa od mediany, to asymetria jest",
+      "answers": ["prawostronna", "lewostronna", "zerowa", "doskonała"],
+      "correct": 0,
+      "explanation": "W asymetrii prawostronnej średnia jest większa od mediany."
+    },
+    {
+      "question": "Rozkład symetryczny charakteryzuje się tym, że",
+      "answers": [
+        "średnia jest większa od mediany",
+        "mediana jest większa od dominanty",
+        "średnia, mediana i dominanta są sobie równe",
+        "brak dominanty"
+      ],
+      "correct": 2,
+      "explanation": "W rozkładzie symetrycznym średnia, mediana i dominanta mają tę samą wartość."
+    },
+    {
+      "question": "Miarą zmienności jest",
+      "answers": [
+        "średnia arytmetyczna",
+        "kwartyl górny",
+        "odchylenie standardowe",
+        "mediana"
+      ],
+      "correct": 2,
+      "explanation": "Odchylenie standardowe jest podstawową miarą zmienności."
+    },
+    {
+      "question": "Współczynnik korelacji Pearsona przyjmuje wartości",
+      "answers": [
+        "od 0 do 1",
+        "od -1 do 1",
+        "od 0 do 100",
+        "dowolne liczby rzeczywiste"
+      ],
+      "correct": 1,
+      "explanation": "Współczynnik korelacji Pearsona zawsze przyjmuje wartości z przedziału od -1 do 1."
+    },
+    {
+      "question": "Korelacja dodatnia oznacza, że",
+      "answers": [
+        "wzrostowi jednej cechy towarzyszy spadek drugiej",
+        "cechy są niezależne",
+        "wzrostowi jednej cechy towarzyszy wzrost drugiej",
+        "cechy są dodatnie"
+      ],
+      "correct": 2,
+      "explanation": "Korelacja dodatnia oznacza, że wraz ze wzrostem jednej cechy rośnie również druga."
+    }
+  ],
 
   "fiszki_bazy_danych":[
 
