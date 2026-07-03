@@ -1,677 +1,141 @@
 {
-  "algorytmy": [
+  "statystyka": [
     {
-      "question": "Rekurencja jest w niektórych sytuacjach naturalnym sposobem budowy algorytmu.",
-      "answers": ["Prawda", "Fałsz"],
-      "correct": 0,
-      "explanation": "Rekurencja to technika programowania, w której funkcja wywołuje samą siebie. Jest szczególnie użyteczna do rozwiązywania problemów o strukturze fraktalnej, co czyni ją naturalnym i eleganckim podejściem w takich przypadkach."
-    },
-    {
-      "question": "Sortowanie przez wybieranie jest bardzo szybkim algorytmem.",
-      "answers": ["Prawda", "Fałsz"],
+      "question": "W pewnej firmie logistycznej wylosowano 25 pracowników i zbadano ich pod względem stażu pracy (w latach) oraz miesięcznej liczby obsłużonych zleceń. Ustalono, że 12 pracowników obsługuje miesięcznie 80 zleceń. Połowa badanych realizuje nie więcej niż 95 zleceń miesięcznie. Ponadto 11 pracowników posiada staż pracy równy 5 lat, a 10 pracowników pracuje w firmie co najmniej 5 lat. Współczynnik zmienności liczby obsłużonych zleceń wynosi 22%, natomiast współczynnik zmienności stażu pracy wynosi 14%. -- Wartość 80 zleceń jest",
+      "answers": ["medianą", "kwartylem pierwszym", "dominantą", "średnią"],
       "correct": 1,
-      "explanation": "Sortowanie przez wybieranie nie jest szybkim algorytmem. Należy do prostych metod sortowania o złożoności czasowej O(n²), co czyni go nieefektywnym dla dużych zbiorów danych. Algorytm ten w każdej iteracji znajduje najmniejszy element w nieposortowanej części i zamienia go z pierwszym elementem tej części."
+      "explanation": "Skoro 12 pracowników obsługuje nie więcej niż 80 zleceń, a badano 48 osób, to 12 stanowi 25% zbiorowości. Oznacza to, że 80 jest pierwszym kwartylem (Q1)."
     },
     {
-      "question": "Największe standardowe liczby całkowite w C++ mają 18 cyfr.",
-      "answers": ["Prawda", "Fałsz"],
+      "question": "Staż pracy równy 5 lat jest wartością",
+      "answers": ["dominanty", "mediany", "średniej", "kwartyla górnego"],
       "correct": 1,
-      "explanation": "Największe standardowe liczby całkowite w C++ (typ `unsigned long long`) mogą przechowywać wartości do około 1.8 x 10¹⁹, co daje 19-20 cyfr. Standard nie narzuca dokładnej liczby cyfr, ale gwarantuje minimalny zakres, który jest zazwyczaj większy niż 18 cyfr."
+      "explanation": "11 osób ma dokładnie 5 lat stażu, a 10 osób co najmniej 5 lat. Oznacza to, że dokładnie połowa obserwacji znajduje się poniżej lub równo 5 lat, więc 5 lat jest medianą."
     },
     {
-      "question": "Jeśli program implementujący dany algorytm nie zatrzymuje się, to prawdopodobnie jest to błąd programisty.",
-      "answers": ["Prawda", "Fałsz"],
-      "correct": 0,
-      "explanation": "Gdy program wpada w nieskończoną pętlę lub ulega zawieszeniu, najczęściej wskazuje to na błąd w jego logice. Obowiązkiem programisty jest zapewnienie, że algorytm zakończy swoje działanie dla każdego dopuszczalnego zestawu danych wejściowych."
-    },
-    {
-      "question": "Wydajność algorytmów sortowania porównuje się za pomocą testów wykorzystujących generatory liczb pseudolosowych.",
-      "answers": ["Prawda", "Fałsz"],
-      "correct": 0,
-      "explanation": "Tak, testy wydajnościowe często używają danych generowanych pseudolosowo, aby symulować typowe przypadki użycia. Oprócz tego, używa się też danych o specyficznych właściwościach (np. już posortowanych, posortowanych odwrotnie), aby sprawdzić, jak algorytm radzi sobie w przypadkach skrajnych."
-    },
-    {
-      "question": "Dla danych losowych algorytm QuickSort (sortowanie szybkie) zwykle okazuje się najszybszy.",
-      "answers": ["Prawda", "Fałsz"],
-      "correct": 0,
-      "explanation": "QuickSort, ze względu na swoją średnią złożoność czasową O(n log n) i niskie stałe czynniki, jest w praktyce jednym z najszybszych algorytmów sortowania opartych na porównaniach dla dużych, nieuporządkowanych zbiorów danych."
-    },
-    {
-      "question": "Jeśli w trakcie działania programu liczba typu `int` przekroczy swój zakres, zostanie wyświetlony komunikat o błędzie.",
-      "answers": ["Prawda", "Fałsz"],
+      "question": "Liczba obsłużonych zleceń i staż pracy są mierzone na skali",
+      "answers": ["porządkowej", "ilorazowej", "nominalnej", "przedziałowej"],
       "correct": 1,
-      "explanation": "W językach takich jak C++ czy Java, przekroczenie zakresu typu `int` (tzw. 'integer overflow') nie powoduje wyświetlenia błędu. Zazwyczaj liczba 'zawija się', czyli zaczyna liczyć od minimalnej wartości dla danego typu, co prowadzi do nieoczekiwanych i błędnych wyników."
+      "explanation": "Obie cechy mają naturalne zero i można dla nich wykonywać porównania ilorazowe, dlatego są mierzone na skali ilorazowej."
     },
     {
-      "question": "Ograniczeniem rekurencji jest wielkość pamięci stosu systemowego.",
-      "answers": ["Prawda", "Fałsz"],
+      "question": "Badani pracownicy są",
+      "answers": [
+        "bardziej zróżnicowani pod względem liczby zleceń niż stażu pracy",
+        "jednakowo zróżnicowani",
+        "bardziej zróżnicowani pod względem stażu pracy niż liczby zleceń",
+        "nie można tego określić"
+      ],
       "correct": 0,
-      "explanation": "To prawda. Każde rekurencyjne wywołanie funkcji odkłada na stosie jej kontekst (zmienne lokalne, adres powrotu). Zbyt głęboka rekurencja może prowadzić do przepełnienia stosu (stack overflow) i awarii programu."
+      "explanation": "Współczynnik zmienności liczby zleceń wynosi 22%, a stażu pracy 14%. Większy współczynnik zmienności oznacza większe zróżnicowanie."
     },
     {
-      "question": "W większości języków programowania `string` jest tablicą znaków.",
-      "answers": ["Prawda", "Fałsz"],
-      "correct": 0,
-      "explanation": "Tak, fundamentalnie `string` (ciąg znaków) jest implementowany jako sekwencja lub tablica znaków. Wiele języków programowania pozwala na dostęp do poszczególnych znaków w stringu za pomocą indeksu, podobnie jak w tablicy."
-    },
-    {
-      "question": "Tablica, jako struktura danych, ma tyle zalet, że jest najczęściej używanym sposobem przechowywania danych.",
-      "answers": ["Prawda", "Fałsz"],
-      "correct": 0,
-      "explanation": "Tablica jest jedną z najbardziej fundamentalnych i często używanych struktur danych dzięki prostocie i szybkiemu dostępowi do elementów przez indeks (złożoność O(1)). Jest podstawą dla wielu bardziej złożonych struktur."
-    },
-    {
-      "question": "Dokładność obliczeń dla liczby typu `double` to 6 cyfr znaczących.",
-      "answers": ["Prawda", "Fałsz"],
+      "question": "Do badania zależności pomiędzy liczbą zleceń a stażem pracy można wykorzystać",
+      "answers": ["dominantę", "współczynnik korelacji", "medianę", "indeks indywidualny"],
       "correct": 1,
-      "explanation": "Liczba typu `double` (podwójnej precyzji) ma dokładność rzędu 15–17 cyfr znaczących. Typ `float` (pojedynczej precyzji) ma precyzję około 6–7 cyfr."
+      "explanation": "Do badania zależności pomiędzy dwiema cechami ilościowymi stosuje się współczynnik korelacji."
     },
     {
-      "question": "Algorytm sortowania przez kopcowanie ma złożoność czasową O(n²).",
-      "answers": ["Prawda", "Fałsz"],
+      "question": "Typowa miesięczna liczba obsłużonych zleceń wynosi",
+      "answers": ["95", "trudno powiedzieć", "22", "80"],
+      "correct": 0,
+      "explanation": "Połowa badanych realizuje nie więcej niż 95 zleceń miesięcznie, więc 95 jest medianą, czyli wartością typową."
+    },
+    {
+      "question": "Jednostką statystyczną jest",
+      "answers": ["firma logistyczna", "zlecenie", "pracownik", "rok pracy"],
+      "correct": 2,
+      "explanation": "Badaniu podlegali pracownicy, więc jednostką statystyczną jest pojedynczy pracownik."
+    },
+    {
+      "question": "Wartość 95 zleceń jest",
+      "answers": ["dominantą", "średnią", "medianą", "kwartylem trzecim"],
+      "correct": 2,
+      "explanation": "Z treści wynika, że połowa pracowników wykonuje nie więcej niż 95 zleceń, co jest definicją mediany."
+    },
+    {
+      "question": "Badanie przeprowadzono na",
+      "answers": ["próbie statystycznej", "populacji pełnej", "szeregu czasowym", "populacji generalnej"],
       "correct": 1,
-      "explanation": "Sortowanie przez kopcowanie (Heapsort) ma złożoność czasową O(n log n) zarówno w przypadku średnim, jak i najgorszym, co czyni go znacznie wydajniejszym niż algorytmy o złożoności O(n²)."
+      "explanation": "Zbadano wszystkich pracowników firmy, więc przeprowadzono badanie pełne (spis pełny)."
     },
     {
-      "question": "W notacji Big O, O(n²) + O(n log n) upraszcza się do O(n²).",
-      "answers": ["Prawda", "Fałsz"],
-      "correct": 0, 
-      "explanation": "W analizie złożoności obliczeniowej zachowujemy tylko składnik, który rośnie najszybciej. Ponieważ n² rośnie znacznie szybciej niż n*log(n), dominuje on całe wyrażenie. Dlatego to stwierdzenie jest prawdziwe."
-    },
-    {
-      "question": "Stos jest typem listy.",
-      "answers": ["Prawda", "Fałsz"],
-      "correct": 0,
-      "explanation": "Stos jest abstrakcyjnym typem danych, który można zaimplementować przy użyciu listy (lub tablicy). Działa on zgodnie z zasadą LIFO (Last-In, First-Out), co oznacza, że jest to lista z ograniczonymi operacjami."
-    },
-    {
-      "question": "Sortowanie przez zliczanie wymaga utworzenia dodatkowej tablicy do zapisania posortowanych danych.",
-      "answers": ["Prawda", "Fałsz"],
-      "correct": 0,
-      "explanation": "Tak, sortowanie przez zliczanie jest algorytmem, który nie sortuje 'w miejscu'. Wymaga on co najmniej jednej dodatkowej tablicy (tablicy zliczeń) do przechowywania liczby wystąpień poszczególnych elementów, a często też osobnej tablicy wynikowej."
-    },
-    {
-      "question": "Algorytm sortowania przez scalanie może być użyty, gdy dane nie mieszczą się w pamięci operacyjnej.",
-      "answers": ["Prawda", "Fałsz"],
-      "correct": 0,
-      "explanation": "Tak, algorytm sortowania przez scalanie (Merge Sort) jest podstawą dla tzw. sortowania zewnętrznego. Dane można podzielić na bloki mieszczące się w pamięci, posortować je, a następnie scalać w większe, posortowane bloki na dysku."
-    },
-    {
-      "question": "Do sortowania danych tekstowych dobrym wyborem będzie algorytm sortowania kubełkowego.",
-      "answers": ["Prawda", "Fałsz"],
-      "correct": 0,
-      "explanation": "Tak, sortowanie kubełkowe (Bucket Sort) może być bardzo efektywne dla danych tekstowych, jeśli można je równomiernie rozłożyć na 'kubełki', np. na podstawie pierwszej litery słowa. Jest to szczególnie przydatne, gdy dane mają znany, ograniczony rozkład."
-    },
-    {
-      "question": "Sortowanie stabilne zachowuje względną kolejność równych sobie elementów.",
-      "answers": ["Prawda", "Fałsz"],
-      "correct": 0,
-      "explanation": "To jest definicja sortowania stabilnego. Jeśli dwa elementy mają tę samą wartość (klucz sortowania), to po posortowaniu pojawią się w tej samej kolejności, w jakiej były w zbiorze wejściowym."
-    },
-    {
-      "question": "Tablica jest strukturą danych rozproszoną w pamięci komputera.",
-      "answers": ["Prawda", "Fałsz"],
+      "question": "Współczynnik zmienności informuje o",
+      "answers": ["asymetrii", "względnym zróżnicowaniu", "korelacji", "wartości typowej"],
       "correct": 1,
-      "explanation": "Wręcz przeciwnie, tablica jest strukturą danych, której elementy są przechowywane w ciągłym bloku pamięci, jeden obok drugiego. Strukturami rozproszonymi są np. listy wiązane czy drzewa."
+      "explanation": "Współczynnik zmienności określa względne zróżnicowanie cechy względem jej średniej."
     },
     {
-      "question": "Dwa algorytmy o tej samej złożoności O(n²) będą miały identyczny czas działania.",
-      "answers": ["Prawda", "Fałsz"],
-      "correct": 1,
-      "explanation": "Notacja Big O opisuje tempo wzrostu czasu działania w zależności od rozmiaru danych, ignorując stałe czynniki. Dwa algorytmy o złożoności O(n²) mogą mieć różne stałe i w praktyce ich czasy działania będą się różnić, choć oba będą rosły kwadratowo."
-    },
-    {
-      "question": "Istnieje algorytm sortowania o liniowej złożoności, ale wymaga on spełnienia dodatkowych warunków.",
-      "answers": ["Prawda", "Fałsz"],
+      "question": "Największy wzrost produkcji względem roku poprzedniego nastąpił w roku",
+      "answers": ["2022", "2020", "2021", "2023"],
       "correct": 0,
-      "explanation": "Tak, przykładami są sortowanie przez zliczanie (Counting Sort) lub sortowanie pozycyjne (Radix Sort). Działają one w czasie liniowym O(n), ale zakładają pewne właściwości danych, np. że są to liczby całkowite z ograniczonego zakresu."
+      "explanation": "Największy indeks łańcuchowy wynosi 108 i dotyczy roku 2022, co oznacza największy wzrost względem roku poprzedniego."
     },
     {
-      "question": "Przyjmuje się, że program jest poprawny, jeśli przechodzi wszystkie zaplanowane testy.",
-      "answers": ["Prawda", "Fałsz"],
+      "question": "Produkcja nie zmieniła się względem roku poprzedniego w roku",
+      "answers": ["2024", "2020", "2021", "2022"],
+      "correct": 2,
+      "explanation": "Indeks równy 100 oznacza brak zmiany. W danych wartość 100 przypada na rok 2021."
+    },
+    {
+      "question": "Indeks równy 94 oznacza, że produkcja",
+      "answers": ["wzrosła o 94%", "spadła o 6%", "spadła o 94%", "wzrosła o 6%"],
       "correct": 1,
-      "explanation": "Przejście zaplanowanych testów jedynie zwiększa pewność, że program działa poprawnie, ale nie daje 100% gwarancji. Testy mogą nie pokrywać wszystkich przypadków brzegowych i nietypowych scenariuszy."
+      "explanation": "Indeks 94 oznacza, że poziom stanowi 94% poprzedniego roku, czyli nastąpił spadek o 6%."
     },
     {
-      "question": "Obliczenie n-tego wyrazu ciągu Fibonacciego metodą rekurencyjną ma złożoność O(n²).",
-      "answers": ["Prawda", "Fałsz"],
+      "question": "Indeks równy 108 oznacza, że produkcja",
+      "answers": ["spadła o 8%", "nie zmieniła się", "wzrosła o 108%", "wzrosła o 8%"],
+      "correct": 3,
+      "explanation": "Indeks 108 oznacza poziom równy 108% poprzedniego roku, czyli wzrost o 8%."
+    },
+    {
+      "question": "Indeks mniejszy od 100 oznacza",
+      "answers": ["brak zmian", "wzrost zjawiska", "spadek zjawiska", "nie można określić"],
+      "correct": 2,
+      "explanation": "Jeżeli indeks jest mniejszy od 100, oznacza to spadek badanego zjawiska."
+    },
+    {
+      "question": "Jeżeli mediana jest większa od średniej arytmetycznej, to asymetria jest",
+      "answers": ["prawostronna", "lewostronna", "zerowa", "losowa"],
       "correct": 1,
-      "explanation": "Naiwna implementacja rekurencyjna ma złożoność wykładniczą, około O(2ⁿ), a nie kwadratową. Wynika to z faktu, że wiele wartości jest obliczanych wielokrotnie. Złożoność kwadratową można osiągnąć np. metodą iteracyjną."
-    },
-    {
-      "question": "Lista jest abstrakcyjnym modelem struktury danych i może być implementowana na różne sposoby.",
-      "answers": ["Prawda", "Fałsz"],
-      "correct": 0,
-      "explanation": "Dokładnie tak. Lista jako typ abstrakcyjny definiuje operacje (np. dodaj, usuń, znajdź), a jej konkretna implementacja może być oparta na tablicy (ArrayList) lub na wskaźnikach (LinkedList)."
-    },
-    {
-      "question": "Kolejka nie jest listą.",
-      "answers": ["Prawda", "Fałsz"],
-      "correct": 0,
-      "explanation": "Kolejka, podobnie jak stos, jest abstrakcyjnym typem danych, który można zaimplementować za pomocą listy. Działa ona zgodnie z zasadą FIFO (First-In, First-Out). Jest to więc wyspecjalizowana forma listy z ograniczonymi operacjami."
-    },
-    {
-      "question": "Najszybszy algorytm sortowania oparty na porównaniach ma złożoność O(n log n).",
-      "answers": ["Prawda", "Fałsz"],
-      "correct": 0, 
-      "explanation": "Tak, udowodniono, że żaden algorytm sortowania oparty na porównaniach nie może mieć w najgorszym przypadku złożoności lepszej niż O(n log n). Algorytmy takie jak Merge Sort czy Heapsort osiągają ten limit."
-    },
-    {
-      "question": "Jeśli algorytm ma złożoność O(n²), to gdy 'n' wzrośnie dwukrotnie, czas działania również wzrośnie dwukrotnie.",
-      "answers": ["Prawda", "Fałsz"],
-      "correct": 1,
-      "explanation": "Jeśli 'n' wzrośnie dwukrotnie, czas działania algorytmu o złożoności O(n²) wzrośnie czterokrotnie (2² = 4). Zależność jest kwadratowa, a nie liniowa."
-    },
-    {
-      "question": "Problem stopu, czyli rozstrzygnięcie, czy dowolny program zatrzyma się dla dowolnych danych, jest nierozstrzygalny.",
-      "answers": ["Prawda", "Fałsz"],
-      "correct": 0, 
-      "explanation": "To prawda. Alan Turing udowodnił w 1936 roku, że nie istnieje uniwersalny algorytm, który byłby w stanie rozstrzygnąć dla każdego możliwego programu i jego danych wejściowych, czy ten program zakończy swoje działanie."
-    },
-    {
-      "question": "Jeśli jeden algorytm ma złożoność O(n²), a inny O(n log n), to dla małych 'n' ten pierwszy może być szybszy.",
-      "answers": ["Prawda", "Fałsz"],
-      "correct": 0, 
-      "explanation": "To prawda. Algorytm o złożoności O(n²) może mieć mniejszy stały czynnik, co sprawia, że dla małych zbiorów danych (małych 'n') może działać szybciej niż algorytm O(n log n), którego narzut na bardziej skomplikowaną logikę jest większy."
-    },
-    {
-      "question": "Algorytm sortowania przez kopcowania ma złożoność O(n^2) ",
-      "answers": ["Prawda", "Fałsz"],
-      "correct": 1, 
-      "explanation": "Algorytm sortowania przez koksowanie hip sort ma złożoność O(n log n)."
-    },
-    {
-      "question": "Aby określić graf trzeba podać zbiory i funkcję",
-      "answers": ["Prawda", "Fałsz"],
-      "correct": 0, 
-      "explanation": "Aby określić graf należy podać zbiory wierzchołków i krawędzi oraz funkcję, która określa relację między wierzchołkami."
-    },
-    {
-      "question": "Algorytm bisekcji służy do znajdowania maksimum funkcji",
-      "answers": ["Prawda", "Fałsz"],
-      "correct": 1, 
-      "explanation": "Algorytm bisekcji służy do znajdowania pierwiastka równania lub miejsca zerowego funkcji"
-    },
-    {
-      "question": "Algorytm iteracyjny wymaga podania warunków zatrzymania",
-      "answers": ["Prawda", "Fałsz"],
-      "correct": 0, 
-      "explanation": "Algorytm numerycznej iteracji wymaga podania warunków zatrzymania, takich jak dokładność obliczenia lub maksymalna liczba iteracji."
-    },
-    {
-      "question": "Algorytm iteracyjny zwykle daje rozwiązanie przybliżone",
-      "answers": ["Prawda", "Fałsz"],
-      "correct": 0, 
-      "explanation": "Algorytm integracyjny daje rozwiązanie przybliżone, a nie dokładne. Imprecyjność wynika z faktu, że algorytm dzieli całkę na małe fragmenty, a następnie sumuje je, co jest tylko aproksymacją prawdziwej wartości."
-    },
-    {
-      "question": "Algorytm iteracyjny często generuje nieskończony ciąg wyrazów",
-      "answers": ["Prawda", "Fałsz"],
-      "correct": 0, 
-      "explanation": ""
-    },
-    {
-      "question": "Algorytm iteracyjny nigdy nie daje rozwiązania dokładnego ",
-      "answers": ["Prawda", "Fałsz"],
-      "correct": 1, 
-      "explanation": "Kluczem w tym zadaniu jest słowo “nigdy”, algorytm bisekcji podaje dokładne rozwiazanie na przykład"
-    },
-    {
-      "question": "Algorytm Luhna obecnie nie jest stosowany, gdyż zakładam mnożenie przez 2, co prowadzi do braku sygnalizacji niektórych błędów",
-      "answers": ["Prawda", "Fałsz"],
-      "correct": 1, 
-      "explanation": "Algorytm Luhna nadal jest często stosowany, szczególnie w branży finansowej do weryfikacji poprawności numerów kart kredytowych. Chociaż jest to prawda, że algorytm Luhna może nie wykryć wszystkich błędów."
-    },
-    {
-      "question": "Algorytm Luhna szuka w grafie krawędzi o najmniejszej przypisanej wartości ",
-      "answers": ["Prawda", "Fałsz"],
-      "correct": 1, 
-      "explanation": "Algorytm Luhna nie jest algorytmem wyszukiwania w grafie. Jest to algorytm weryfikacji sumy kontrolnej stosowany do sprawdzania poprawności numerów kart kredytowych"
-    },
-    {
-      "question": "Algorytmy iteracyjne opisują problemy ekonometryczne ",
-      "answers": ["Prawda", "Fałsz"],
-      "correct": 0, 
-      "explanation": "Tak, algorytmy iteracyjne mogą być stosowane do rozwiązywania problemów ekonometrycznych. Algorytmy iteracyjne mogą być wykorzystywane do prognozowania cen akcji lub innych wskaźników technicznych, do analizy wpływu wahania kursu walut na wyniki finansowe firmy lub do modelowania wpływu zmiany prawa podatkowego na płace pracowników."
-    },
-    {
-      "question": "Algorytm Dijkstry służy do znajdowania najkrótszej ścieżki z pojedynczego źródła w grafie o nieujemnych wagach krawędzi",
-      "answers": ["Prawda", "Fałsz"],
-      "correct": 0, 
-      "explanation": ""
-    },
-    {
-      "question": "Algorytm Luhna służy do sprawdzenia poprawności wpisania numeru, jest on używany m.in. do walidacji numerów kart kredytowych, ciągów liczbowych itd",
-      "answers": ["Prawda", "Fałsz"],
-      "correct": 0, 
-      "explanation": ""
-    },
-    {
-      "question": "Algorytm Euklidesa służy do obliczania NWD(największego wspólnego dzielnika) dwóch liczb całkowitych ",
-      "answers": ["Prawda", "Fałsz"],
-      "correct": 0, 
-      "explanation": ""
-    },
-    {
-      "question": "Algorytm Euklidesa służy do znajdowania liczb pierwszych",
-      "answers": ["Prawda", "Fałsz"],
-      "correct": 1, 
-      "explanation": ""
-    },
-    {
-      "question": "Cyfra kontrolna w powszechnie stosowanych numerach wykorzystuje dzielenie modulo ",
-      "answers": ["Prawda", "Fałsz"],
-      "correct": 0, 
-      "explanation": ""
-    },
-    {
-      "question": "Cyfry kontrolne potrafią znaleźć wszystkie błędy jakie może popełnić człowiek przy wprowadzaniu danych ",
-      "answers": ["Prawda", "Fałsz"],
-      "correct": 1, 
-      "explanation": ""
-    },
-    {
-      "question": "Czy kiedy mnożysz dwa wektory to wynik jest zawsze na tej samej płaszczyźnie ",
-      "answers": ["Prawda", "Fałsz"],
-      "correct": 1, 
-      "explanation": ""
-    },
-    {
-      "question": "Cyfry kontrolne stosowane są jedynie, gdy człowiek wprowadza ręcznie dane i nie ma potrzeby ich stosowania, gdy robią to urządzenia ",
-      "answers": ["Prawda", "Fałsz"],
-      "correct": 1, 
-      "explanation": "Cyfry kontrolne są stosowane zarówno przy ręcznym wprowadzaniu danych, jak i przy automatycznym wprowadzaniu danych przez urządzenia"
-    },
-    {
-      "question": "Czy mnożenie dwóch wektorów jest prostą operacją matematyczną ",
-      "answers": ["Prawda", "Fałsz"],
-      "correct": 1, 
-      "explanation": ""
-    },
-    {
-      "question": "Cykl Eulera to ścieżka przechodząca dokładnie 1 raz przez każdą krawędź grafu",
-      "answers": ["Prawda", "Fałsz"],
-      "correct": 0, 
-      "explanation": ""
-    },
-    {
-      "question": "Cykl Eulera to droga, w której wszystkie krawędzie występują dokładnie raz",
-      "answers": ["Prawda", "Fałsz"],
-      "correct": 0, 
-      "explanation": "Cykl Eulera to droga w grafie, w której wszystkie krawędzie występują dokładnie raz. Aby istniał cykl Eulera, graf musi być Eulerowski, co oznacza, że w każdym wierzchołku stopień jest parzysty."
-    },
-    {
-      "question": "Cykl Hamiltona to ścieżka przechodząca dokładnie raz przez każdy wierzchołek grafu ",
-      "answers": ["Prawda", "Fałsz"],
-      "correct": 0, 
-      "explanation": "Cykl Hamiltona to ścieżka w grafie, która przechodzi dokładnie raz przez każdy wierzchołek grafu i powraca do początkowego wierzchołka. To jest, cykl Hamiltona jest ścieżką, która tworzy pełen okrąg po grafie"
-    },
-    {
-      "question": "Cykl Lebnica w grafie to droga łącząca wszystkie wierzchołki i przechodząca przez każdy dokładnie raz ",
-      "answers": ["Prawda", "Fałsz"],
-      "correct": 1, 
-      "explanation": "Nie ma pojęcia cyklu Lebnika w grafie. W terminologii grafów istnieją pojęcia takie jak cykl Eulera i cykl Hamiltona, ale nie ma pojęcia cyklu Lebnica."
-    },
-    {
-      "question": "Cykl Pareto to ścieżka, do której należą wszystkie krawędzie grafu ",
-      "answers": ["Prawda", "Fałsz"],
-      "correct": 1, 
-      "explanation": "Cykl Pareto nie jest ścieżką w grafie. Cykl Pareto to koncepcja dotycząca ekonomii i zarządzania, która odnosi się do sytuacji, w której nie jest możliwe poprawienie jednego kryterium bez pogorszenia innego. W tej koncepcji nie ma pojęcia ścieżki w grafie."
-    },
-    {
-      "question": "Często stosowanym sposobem modelowania grafu jest tablica, której elementami są listy wierzchołków ",
-      "answers": ["Prawda", "Fałsz"],
-      "correct": 0, 
-      "explanation": "Często stosowanym sposobem modelowania grafu jest tablica sąsiedztwa, w której każdy wierzchołek jest reprezentowany przez indeks w tablicy, a elementami tablicy są listy sąsiednich wierzchołków"
-    },
-    {
-      "question": "Drzewo binarne może być Zamodelowane jako tablica jednowymiarowa",
-      "answers": ["Prawda", "Fałsz"],
-      "correct": 0, 
-      "explanation": "drzewo dwumianowe można zamodelować jako tablicę jednowymiarową. Ta technika nazywa się reprezentacją tablicową drzewa i polega na tym, że każdy węzeł drzewa jest przypisany do konkretnego indeksu w tablicy."
-    },
-    {
-      "question": "Do szyfrowania dwuskładnikowego używa się szyfru niesymetrycznego z kluczem prywatnym i publicznym (RSA) ",
-      "answers": ["Prawda", "Fałsz"],
-      "correct": 0, 
-      "explanation": ""
-    },
-    {
-      "question": "Droga to to samo co ścieżka ",
-      "answers": ["Prawda", "Fałsz"],
-      "correct": 1, 
-      "explanation": "Fałsz(wedlug profesora Szepskiego)/ Prawda wedlug google"
-    },
-    {
-      "question": "Euklides wymyślił pierwszy algorytm ",
-      "answers": ["Prawda", "Fałsz"],
-      "correct": 0, 
-      "explanation": ""
-    },
-    {
-      "question": "Graf możemy przeszukiwać wzdłuż i wszerz ",
-      "answers": ["Prawda", "Fałsz"],
-      "correct": 0, 
-      "explanation": ""
-    },
-    {
-      "question": "Grafem pełnym nazywamy graf, w którym każde dwa wierzchołki są ze sobą połączone krawędzią ",
-      "answers": ["Prawda", "Fałsz"],
-      "correct": 0, 
-      "explanation": ""
-    },
-    {
-      "question": "Istnieje graf, który jest drzewem i ma cykl ",
-      "answers": ["Prawda", "Fałsz"],
-      "correct": 1, 
-      "explanation": "Graf, który jest drzewem, nie może mieć cyklu. W drzewie nie istnieją żadne powtarzające się ścieżki, co oznacza, że nie można powrócić do żadnego wierzchołka po jego już odwiedzeniu."
-    },
-    {
-      "question": "Istnieją algorytmy iteracyjne znajdujące miejsca zerowe funkcji ",
-      "answers": ["Prawda", "Fałsz"],
-      "correct": 0, 
-      "explanation": "Algorytm bisekcji"
-    },
-    {
-      "question": "Istota algorytmów szyfrowania z kluczem publicznym i prywatnym. Oparta jest na dużym czasie obliczeń potrzebnych do złamania klucza prywatnego",
-      "answers": ["Prawda", "Fałsz"],
-      "correct": 0, 
-      "explanation": ""
-    },
-    {
-      "question": "Jeśli graf ma 12 wierzchołków i 11 krawędzi, to jest drzewem ",
-      "answers": ["Prawda", "Fałsz"],
-      "correct": 1, 
-      "explanation": "Graf z 12 wierzchołkami i 11 krawędziami nie jest drzewem. W drzewie każdy wierzchołek ma dokładnie jednego rodzica, oprócz korzenia, który nie ma rodzica. Tym samym, drzewo o n wierzchołkach ma n-1 krawędzie. Graf z 12 wierzchołkami i 11 krawędziami ma więcej krawędzi niż jest to konieczne, aby być drzewem, co oznacza, że istnieje co najmniej jeden cykl w grafie."
-    },
-    {
-      "question": "Jeżeli graf ma 12 wierzchołków i 10 krawędzi, to jest grafem spójnym ",
-      "answers": ["Prawda", "Fałsz"],
-      "correct": 1, 
-      "explanation": ""
-    },
-    {
-      "question": "Jednym z podstawowych algorytmów szukania punktu jest algorytm przeszukiwania przestrzeni ",
-      "answers": ["Prawda", "Fałsz"],
-      "correct": 0, 
-      "explanation": ""
-    },
-    {
-      "question": "Jeżeli graf ma 13 wierzchołków i 12 krawędzi, i jest spójny, to jest drzewem ",
-      "answers": ["Prawda", "Fałsz"],
-      "correct": 0, 
-      "explanation": "Niekoniecznie. Graf, który jest spójny i ma 13 wierzchołków i 12 krawędzi, może być drzewem, ale może też nim nie być"
-    },
-    {
-      "question": "Najlepszy sposób przeszukiwania grafu to przeszukiwanie wszerz",
-      "answers": ["Prawda", "Fałsz"],
-      "correct": 1, 
-      "explanation": "Przeszukiwanie wszerz (BFS, Breadth First Search) jest dobre do znajdowania najkrótszej ścieżki między dwoma wierzchołkami, ale może nie być najlepsze do rozwiązywania innych problemów"
-    },
-    {
-      "question": "Przeszukiwanie grafów w głąb jest lepsze niż wszerz ",
-      "answers": ["Prawda", "Fałsz"],
-      "correct": 1, 
-      "explanation": "To zależy od kontekstu i celu przeszukiwania. Każdy z tych algorytmów jest lepszy w różnych sytuacjach"
-    },
-    {
-      "question": "Rząd grafu to liczba wierzchołków w grafie ",
-      "answers": ["Prawda", "Fałsz"],
-      "correct": 0, 
-      "explanation": ""
-    },
-    {
-      "question": "Rozmiar grafu to liczba krawędzi w grafie ",
-      "answers": ["Prawda", "Fałsz"],
-      "correct": 0, 
-      "explanation": ""
-    },
-    {
-      "question": "Stopień wierzchołka jest zawsze parzysty ",
-      "answers": ["Prawda", "Fałsz"],
-      "correct": 1, 
-      "explanation": "W zależności od typu grafu i liczby krawędzi łączących dany wierzchołek, stopień wierzchołka może być parzysty lub nieparzysty."
-    },
-    {
-      "question": "Sito Eratostenesa służy do obliczenia NWD(największego wspólnego dzielnika) ",
-      "answers": ["Prawda", "Fałsz"],
-      "correct": 1, 
-      "explanation": "Sito Eratostenesa nie służy do obliczania NWD (największego wspólnego dzielnika). Sito Eratostenesa to algorytm służący do znajdowania wszystkich liczb pierwszych mniejszych lub równych danej liczbie. Natomiast NWD oblicza się za pomocą algorytmu Euklidesa"
-    },
-    {
-      "question": "Szyfr niesymetryczny z kluczem prywatnym i publicznym jest podstawą podpisu elektronicznego ",
-      "answers": ["Prawda", "Fałsz"],
-      "correct": 0, 
-      "explanation": ""
-    },
-    {
-      "question": "Sito Eratostenesa jest algorytmem, który szybko znajduje wszystkie liczby pierwsze z przedziału ",
-      "answers": ["Prawda", "Fałsz"],
-      "correct": 0, 
-      "explanation": ""
-    },
-    {
-      "question": "W grafie skierowanym krawędź jest określona przez parę wierzchołków ",
-      "answers": ["Prawda", "Fałsz"],
-      "correct": 0, 
-      "explanation": ""
-    },
-    {
-      "question": "W grafie suma wszystkich wierzchołków jest zawsze parzysta ",
-      "answers": ["Prawda", "Fałsz"],
-      "correct": 1, 
-      "explanation": "Suma wierzchołków grafu nie jest zawsze parzysta. To zależy od liczby wierzchołków i krawędzi w grafie."
-    },
-    {
-      "question": "W grafie wierzchołki mają zawsze przypisane wartości ",
-      "answers": ["Prawda", "Fałsz"],
-      "correct": 1, 
-      "explanation": ""
-    },
-    {
-      "question": "W pamięci komputera graf może być opisany jako tablica dwuwymiarowa, wiążąca wierzchołki i krawędzie ",
-      "answers": ["Prawda", "Fałsz"],
-      "correct": 0, 
-      "explanation": "Graf może być opisany jako tablica dwuwymiarowa, wiążąca wierzchołki i krawędzie. Jest to jedna z form reprezentacji grafów, zwaną macierzą incydencji."
-    },
-    {
-      "question": "W wielu algorytmach geometrycznych wykorzystywany jest iloczyn wektorów na podstawie którego określa się wzajemne położenie punktów na płaszczyźnie ",
-      "answers": ["Prawda", "Fałsz"],
-      "correct": 0, 
-      "explanation": "W wielu algorytmach geometrycznych wykorzystywany jest iloczyn wektorów, aby określić wzajemne położenie punktów na płaszczyźnie. Iloczyn ten jest często używany do obliczania takich wartości jak kąty między wektorami, detekcja kolizji między obiektami i wiele innych."
-    },
-    {
-      "question": "Wyznaczanie punktów tworzących wypukłą otoczkę zbioru punktów na płaszczyźnie pozwala wyeliminować punkty leżące wewnątrz wielokąta ",
-      "answers": ["Prawda", "Fałsz"],
-      "correct": 0, 
-      "explanation": "Tak, wyznaczanie punktów tworzących wypukłą otoczkę zbioru punktów na płaszczyźnie pozwala wyeliminować punkty leżące wewnątrz wielokąta. Wypukła otoczka jest zdefiniowana jako najmniejszy wypukły wielokąt zawierający wszystkie punkty z danego zbioru."
-    },
-    {
-      "question": "Zbiór wierzchołków i zbiór krawędzi z określeniem, które wierzchołki łączy dana krawędź definiuje graf",
-      "answers": ["Prawda", "Fałsz"],
-      "correct": 0, 
-      "explanation": ""
-    },
-    {
-      "question": "Sortowanie w miejscu oznacza, że",
-      "answers": ["Sortowanie jest dokonywane na komputerze klasy PC", "Dane do posortowania są zapisane w tablicy w pamięci komputera","zadanie sortowania nie jest dokładnie określone i programista musi dopisać","sortowanie odbywa się lokalnie w miejscu pracy programisty"],
-      "correct": 1, 
-      "explanation": ""
-    },
-    {
-      "question": "Jeśli algorytm sortowania jest stabilny, oznacza to że",
-      "answers": ["Czas sortowania nie zależy od typu sortowanych elementów", "Czas sortowania nie zależy jak są uporządkowane elementy przed sortowaniem","Jeśli elementy a i b są równe i przed sortowaniem element a znajdował się przed b to po sortowaniu ich kolejność nie zmienia się","Innymi słowy, stabilne sortowanie nie zmienia wzajemnej kolejności równych elementów"],
-      "correct": 2, 
-      "explanation": "Innymi słowy, stabilne sortowanie nie zmienia wzajemnej kolejności równych elementów"
-    },
-    {
-      "question": "Mnożenie dwóch liczb n cyfrowych metodą pisemną (tzn. tak jak uczono w szkole) jest",
-      "answers": ["O(n^2)", "O(n^3)","O(n)","O(n lg n)"],
-      "correct": 0, 
-      "explanation": ""
-    },
-    {
-      "question": "Ciąg Fibonacciego występuje w matematyce często w wielu różnych problemach. Obliczenie wartości w… pomocą różnych algorytmów",
-      "answers": ["Obliczenie wartości nawet kilku pierwszych wyrazów ciągu Fibonacciego wymaga użycia specjalnych typów zmiennych", "Obliczenie wartości elementów ciągu Fibonacciego metodą iteracyjną jest szybkie","Nie ma różnicy jaki algorytm zastosujemy, obliczenie nawet dużych (czyli dalekich) wyrazów nie nastręcza trudności","Obliczenie wartości elementów ciągu Fibonacciego metodą rekurencyjną jest najłatwiejsze i szybkie"],
-      "correct": 1, 
-      "explanation": ""
-    },
-    {
-      "question": "Zapis liczby 238 456 000 000 w notacji naukowej (tzn. potęgowej z symbolem e) będzie miał postać",
-      "answers": ["236456e+6", "2,36456e+11","0,236456e+12","Każdy powyższy sposób jest poprawny, a sposób wyświetlenia zależy od kompilatora"],
-      "correct": 1, 
-      "explanation": ""
-    },
-    {
-      "question": "Algorytmy sortowanie często używają dwóch funkcji: funkcji porównujących elementy a[i] oraz a[j] i funkcji zmieniającej miejscami te elementy w tablicy",
-      "answers": ["Algorytmy które nie porównują elementów, często dają złe wyniki sortowania", "Takie algorytmy sortowania są najszybsze","Wszystkie algorytm sortowania, porównują elementy i je przestawiają","Takie algorytmy mają złożoność obliczeniową co najmniej O(n lg n) , szybszy algorytm musi zrezygnować z porównań między elementami"],
-      "correct": 3, 
-      "explanation": "szybszy algorytm musi zrezygnować z porównań między elementami i wykorzystywać inne techniki, takie jak zliczanie wystąpień (sortowanie kubełkowe, radix sort), które działają tylko dla określonych typów danych (np. liczb całkowitych z ograniczonego zakresu)."
-    },
-    {
-      "question": "Wieże Hanoi to problem, którego rozwiązanie wymaga",
-      "answers": ["O(n^2) działań", "O(2^n) działań","O(n!) działań","O(n lg(n)) działań"],
-      "correct": 1, 
-      "explanation": ""
-    },
-    {
-      "question": "W posortowanym ciągu n elementowym znajdziemy element o określonym kluczu maksymalnie w:",
-      "answers": ["n krokach", "n^2 krokach","lg n krokach","n/2 krokach"],
-      "correct": 0, 
-      "explanation": ""
-    },
-    {
-      "question": "Włosy na głowie rosną z prędkością około (w przybliżeniu):",
-      "answers": ["0.1389 e+4km/h", "0.00001389 km/h","1389 e-8 km/h","1.4 e-8 km/h"],
-      "correct": 3, 
-      "explanation": ""
-    },
-    {
-      "question": "Czym różni się kolejka od stosu?",
-      "answers": ["Kolejnością usuwania elementów z listy", "Kolejka jest strukturą powiązaną a stos tablicą","Kolejka jest strukturą ogólniejszą niż stos","Niczym, są to takie same implementacje listy"],
-      "correct": 0, 
-      "explanation": ""
-    },
-    {
-      "question": "Najbardziej precyzyjnym sposobem algorytmu jest",
-      "answers": ["Graficzne przedstawienie algorytmu", "Opowiedzenie ze szczegółami jak działa algorytm","Pseudokod","Kod programu w języku programowania"],
-      "correct": 3, 
-      "explanation": ""
-    },
-    {
-      "question": "Jeśli mamy do dyspozycji dwa algorytmy: pierwszy o złożoności O(n lg n) i drugi o złożoności O(n2) to:",
-      "answers": ["Dla dostatecznie dużych wartości n lepszy jest algorytm pierwszy, ale dla małych wartości n tak być nie musi, trzeba wtedy przeanalizować stałe ukryte w notacji asymptotycznej oraz przetestować oba algorytmy w praktyce", "lgorytm o wyższej złożoności może działać szybciej dla małych danych, jeśli ma prostszą strukturę lub mniejszy narzut czasowy","Różnica między nimi jest niewielka i nie ma znaczenia, który algorytm zastosujemy","Pierwszy algorytm jest lepszy i należy go zawsze stosować"],
-      "correct": 0, 
-      "explanation": "Algorytm o wyższej złożoności może działać szybciej dla małych danych, jeśli ma prostszą strukturę lub mniejszy narzut czasowy."
-    },
-    {
-      "question": "Algorytmy sortowania sortują tylko tablice liczb całkowitych lub rzeczywistych",
-      "answers": ["Nie, bo mogą sortować także liczby zespolone", "Tak, bo tylko liczby można ze sobą porównywać","Nie, mogą sortować tablice, których elementami są rekordy","Tak-bo w tablicy można przechowywać jedynie liczbowe typy proste"],
-      "correct": 2, 
-      "explanation": ""
-    },
-     {
-      "question": "Algorytm można przedstawić graficznie w postaci schematu blokowego lub diagramu czynności UML",
-      "answers": ["Schemat blokowy i diagram czynności UML, nie mają ze sobą nic wspólnego", "Diagram czynności UML jest ogólniejszy, powstał dlatego, że niektórych algorytmów nie da się przedstawić jako schemat blokowy.","Schemat blokowy jest ogólniejszy niż diagram czynności UML","Nie ma znaczenia, który diagram wybierzemy, zawsze będą one do siebie podobne"],
-      "correct": 2, 
-      "explanation": ""
-    },
-      {
-      "question": "Schemat Honera służy do",
-      "answers": ["Dzielenia wielomianów", "Obliczania wartości funkcji Silnia","Obliczania wartości dowolnej funkcji w punkcie x=0","Obliczania wartości wielomianu"],
-      "correct": 3, 
-      "explanation": ""
-    },
-      {
-      "question": "Przykładami algorytmów sortowania o złożoności O(n2) są",
-      "answers": ["Sortowanie przez wybieranie i sortowanie przez proste wstawianie", "Sortowanie kubełkowe i sortowanie przez zliczanie","Sortowanie przez kopcowanie i sortowanie przez łączenie","sortowanie przez proste wstawiania i sortowanie szybki"],
-      "correct": 0, 
-      "explanation": ""
-    },
-      {
-      "question": "Algorytm szybkiego sortowania, QuickSort, jest zawsze szybszy niż inne algorytmy sortowania elementów",
-      "answers": ["Nie, opinia, że jest to szybki algorytm nie znajduje potwierdzenia w eksperymentach", "Algorytm QuickSort ma złożoność O(n lg n) i bardzo podobny czas działania do innych algorytmów o takiej złożoności w przypadku danych losowych, jednak w najgorszym przypadku jego złożoność spada do O(n²), dlatego ważny jest odpowiedni wybór pivota.","Często, ale znane są przyklady, że inne algorytmy są szybsze","Tak"],
-      "correct": 1, 
-      "explanation": ""
-    },
-    {
-      "question": "Liczby pierwsze są ważne ponieważ",
-      "answers": ["Jako pierwsze są przed innymi liczbami", "Tak było kiedyś, ale w czasach komputerowych straciły na znaczeniu","Były pierwsze w historii i od nich zaczęła się matematyka i informatyka","Są używane w niektórych, bardzo ważnych algorytmach"],
-      "correct": 3, 
-      "explanation": ""
-    },
-
-    {
-      "question": "Czas rozwiązania problemu jest ważny, dlatego:",
-      "answers":["wszystkie znane algorytmy maja krótki czas wykonania","współczesne komputery są tak szybkie, że czas rozwiązania problemu...","zawsze zależy nam aby złozoność obliczeniowa algorytmu była jak najmniejsza","zwykle dążymy do tego aby złożoność była jak najmniejsza, ale istnieją ... największy"],
-      "correct":[2,3],
-      "explanation": ""
-    }
-
-  ],
-
-
-
-
-
-
-  "makroekonomia": [
-     {
-      "question": "Wartość dodaną oblicza się przez odjęcie od wartości dóbr wyprodukowanych w przedsiębiorstwie sumy kosztów rzeczowych czynników wytwórczych zużytych do produkcji tych dóbr.",
-      "answers": ["Prawda", "Fałsz"],
-      "correct": 0, 
-      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
-    },
-    {
-      "question": "Jeżeli kupujesz używany rower, zostaje to uwzględnione w PKB.",
-      "answers": ["Prawda", "Fałsz"],
-      "correct": 1, 
-      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
-    },
-    {
-      "question": "Do PKB nie wlicza się przelewów finansowych pomiędzy filiami korporacji międzynarodowej.",
-      "answers": ["Prawda", "Fałsz"],
-      "correct": 0, 
-      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
-    },
-    {
-      "question": "Wydatki firmy X na długopisy, meble i olej napędowy należą do wydatków konsumpcyjnych.",
-      "answers": ["Prawda", "Fałsz"],
-      "correct": 1, 
-      "explanation": "M. Bałut, M. Pelikan-Krupińska, J. Świerczyńska, Podstawy makroekonomii. Ćwiczenia, Kraków 2007"
+      "explanation": "W rozkładzie lewostronnie skośnym średnia jest mniejsza od mediany."
+    },
+    {
+      "question": "Miarą zmienności jest",
+      "answers": ["kwartyl dolny", "moda", "odchylenie standardowe", "mediana"],
+      "correct": 2,
+      "explanation": "Odchylenie standardowe jest klasyczną miarą zmienności danych."
+    },
+    {
+      "question": "W rozkładzie symetrycznym",
+      "answers": [
+        "średnia jest większa od mediany",
+        "dominanta jest zawsze mniejsza od mediany",
+        "średnia, mediana i dominanta są sobie równe",
+        "nie występuje dominanta"
+      ],
+      "correct": 2,
+      "explanation": "Dla idealnie symetrycznego rozkładu średnia, mediana i dominanta pokrywają się."
+    },
+    {
+      "question": "Współczynnik korelacji Pearsona przyjmuje wartości",
+      "answers": ["od 0 do 100", "od 0 do 1", "dowolne liczby rzeczywiste", "od -1 do 1"],
+      "correct": 3,
+      "explanation": "Współczynnik korelacji Pearsona zawsze mieści się w przedziale od -1 do 1."
+    },
+    {
+      "question": "Korelacja ujemna oznacza, że",
+      "answers": [
+        "wzrostowi jednej cechy towarzyszy wzrost drugiej",
+        "cechy są niezależne",
+        "wzrostowi jednej cechy towarzyszy spadek drugiej",
+        "cechy mają wartości dodatnie"
+      ],
+      "correct": 2,
+      "explanation": "Korelacja ujemna oznacza odwrotny kierunek zmian – gdy jedna cecha rośnie, druga maleje."
     }
   ],
-
-
-
-
-
-  "bazy danych": [
-    {
-      "question": "Za autoryzację dostępu do bazy danych odpowiada",
-      "answers": ["tabela users w bazie danych", "System Zarządzania Bazą danych","system operacyjny serwera","aplikacja kliencka"],
-      "correct": [1],
-      "explanation": "System Zarządzania Bazą Danych (SZBD/DBMS), taki jak np. MySQL, PostgreSQL czy Oracle, jest oprogramowaniem, które ma wbudowane mechanizmy do uwierzytelniania (sprawdzania, kim jest użytkownik) i autoryzacji (sprawdzania, co dany użytkownik może robić). To on, po otrzymaniu zapytania, weryfikuje uprawnienia użytkownika i decyduje, czy zezwolić na dostęp do danych, czy go zablokować. ---Tabela users w bazie danych przechowuje jedynie informacje o użytkownikach i ich uprawnieniach. SZBD korzysta z tej tabeli, ale to on jest aktywnym systemem, który egzekwuje te reguły.---System operacyjny serwera kontroluje dostęp do samego serwera i plików, ale nie zarządza uprawnieniami wewnątrz bazy danych.---Aplikacja kliencka jest tylko pośrednikiem; wysyła żądania do bazy danych, ale ostateczną decyzję o autoryzacji podejmuje SZBD."
-    },
-    {
-      "question": "Postać normalna, w której wymaga się tylko aby żaden atrybut w tabeli nie był podzielny dalej to:",
-      "answers": ["druga postać normalna", "postać normalna Beyoce'a-Codda","trzecia postać normalna","pierwsza postać normalna"],
-      "correct": [3],
-      "explanation": "Pierwsza postać normalna (1NF) to podstawowy poziom normalizacji bazy danych. Jej jedynym wymogiem jest to, aby wszystkie atrybuty (wartości w kolumnach) były atomowe, czyli niepodzielne. Oznacza to, że pojedyncza komórka w tabeli nie może zawierać wielokrotnych wartości (np. listy czy zbioru)."
-    },
-  {
-    "question": "Co to jest baza danych?",
-    "answers": [
-      "Zbiór narzędzi do zarządzania aplikacjami.",
-      "Zbiór informacji opisujący wybrany fragment rzeczywistości.",
-      "System operacyjny do przechowywania plików.",
-      "Program do tworzenia dokumentów tekstowych."
-    ],
-    "correct": [1],
-    "explanation": "Baza danych to zbiór informacji opisujący wybrany fragment rzeczywistości. Np. dla sklepu: dane dotyczące klientów, towarów, faktur; dla banku: dane klientów, ich rachunków, operacji na rachunkach[cite: 6]."
-  }
-
-],
 
 
   "fiszki_bazy_danych":[
